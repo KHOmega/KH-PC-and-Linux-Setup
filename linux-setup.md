@@ -35,7 +35,7 @@ In this section, we will be setting up Heroic Games Launcher. This is where we w
 - In this section, we will be setting up the base game, OpenKH, and then Re:Fined under one prefix.
  - A prefix is where WINE has all it's files setup, and is similar to a `C:\` drive on a regular Windows computer. This is where data such as your save data will be located in.
 
-- Step 1: Click `KINGDOM HEARTS 1.5+2.5 HD ReMix` and then click the settings icon.
+- Step 1: Step 1: Click `KINGDOM HEARTS 1.5+2.5 HD ReMix`, proceed to download it, and once it is done, click the settings icon.
 
 ![image](https://github.com/KHOmega/KH-SteamDeck-Setup/assets/93887977/784f663c-3527-4935-9cb8-1e203a2acae0)
 - Step 2: Scroll down and then click `WINETRICKS`.
