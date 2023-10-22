@@ -60,7 +60,7 @@ In this section, we will be downloading the necessary patches to properly run Re
 
 ![image](https://cdn.discordapp.com/attachments/1145843947571249152/1155913161036283965/image.png?ex=653fe285&is=652d6d85&hm=0df65e98672cc34ecefe4d07b656682f8f3034baf905d81425f5c3e6ce0c1166)
 
-- Step 2: You will see `Kingdom Hearts II - Re:Fined v4.00` added into your mods list. Tick the little box so a checkmark appears in it.
+- Step 2: You will see `Kingdom Hearts II - Re:Fined` added into your mods list. Tick the little box so a checkmark appears in it.
 
 - If you *did* install OpenKH Panacea, click `Mod Loader` ->  `Build Only`
    - If you have OpenKH set to run the game via EGS, select `Build and Run`. The game will load after it patches. 
