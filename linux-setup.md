@@ -92,8 +92,7 @@ In this section, we will be setting up OpenKH's Mods Manager to patch the necess
    - OpenKH Panacea allows you to load your mods without modifying the game files.
 - Step 5: - On the next screen, it will ask you to `Launch via Epic Games`. Don't check this and click `Next >`.
 
-- Step 6:
-- Make sure `KH2-25GB` is checked, and then click `Extract game data`. This may take roughly fifteen minutes.
+- Step 6: Make sure `KH2-25GB` is checked, and then click `Extract game data`. This may take roughly fifteen or more minutes.
    - If you encounter any errors extracting the game files, please either try again, or re-download your game!
 
 - Step 7: After extraction, click `Next >` and then click `Finish`
