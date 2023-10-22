@@ -113,7 +113,7 @@ In this section, we will be downloading the necessary patches to properly run Re
 
 ![image](https://github.com/KHOmega/KH-SteamDeck-Setup/assets/93887977/6bff2f4e-a66a-40d4-a1e3-4ddfe3432597)
 
-- Step 2: You will see `Kingdom Hearts II - Re:Fined v4.00` added into your mods list. Tick the little box so a checkmark appears in it.
+- Step 2: You will see `Kingdom Hearts II - Re:Fined` added into your mods list. Tick the little box so a checkmark appears in it.
 
 - Click `Mod Loader` ->  `Build Only`
 
