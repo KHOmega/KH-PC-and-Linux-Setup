@@ -49,7 +49,7 @@ In this section, we will be setting up Heroic Games Launcher. This is where we w
    - If you get a window asking about winetricks developments, just select either `Yes` or `No`.
 - Click `Install a Windows DLL or component` and then click `OK`.
 - Scroll down and look for `dotnet48`. Check it and then click `OK`
-   - You will get various dialog boxes popping up, either wait for them to close on their own or click `OK` on them. WINE is currently installing ` MS .NET 4.0` and `MS .NET 4.8` onto your Wineprefix, which is necessary to get Re:Fined and OpenKH to work.
+   - You will get various dialog boxes popping up, either wait for them to close on their own or click `OK` on them. WINE is currently installing `MS .NET 4.0` and `MS .NET 4.8` onto your Wineprefix, which is necessary to get Re:Fined and OpenKH to work.
 - When this is done installing, you will be brought back to this window.
 
 ![image](https://github.com/KHOmega/KH-SteamDeck-Setup/assets/93887977/fb6649bc-d089-4255-a9d6-38e9d8c15e21)
