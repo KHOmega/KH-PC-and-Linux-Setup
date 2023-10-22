@@ -79,7 +79,7 @@ In this section, we will be setting up OpenKH's Mods Manager to patch the necess
    - eg: `/home/deck/Documents/OpenKH`
 
 - In Heroic Games Launcher, select `Library`. and then select `ADD GAME`.
-   - Under `Game/App Title`, name it `OpenKH`, and under WinePrefix, click the little folder icon and select the Wineprefix that was created for Kingdom Hearts. [eg. `/home/deck/Games/Heroic/Prefixes/KINGDOM HEARTS HD 1.52.5 ReMIX`]
+   - Under `Game/App Title`, name it `OpenKH`, and under WinePrefix, click the little folder icon and select the Wineprefix that was created for Kingdom Hearts. [eg. `/home/deck/Games/Heroic/default/Prefixes/KINGDOM HEARTS HD 1.52.5 ReMIX`]
    - Under `Select Executable`, Go into your `openkh` folder and look for a program named `OpenKh.Tools.ModsManager.exe`, click it and then press `Choose`, and then click `Finish`.
 
 - Step 2: Click the green play button on OpenKH, and OpenKH will load up.
