@@ -7,3 +7,5 @@ Guide on how to setup Kingdom Hearts 1.5+2.5 HD ReMix on Windows, Steam Deck, an
 
 # For Steam Deck / Linux Users:
 - Click [here](https://github.com/KHOmega/KH-SteamDeck-Setup/blob/main/linux-setup.md) for installation steps on how to install Re:Fined on your Steam Deck / Linux.
+
+Thank you to [SandeMC](https://github.com/SandeMC) for original PR on the main KH Re:Fined page for converting the original Discord tutorial to Github format
