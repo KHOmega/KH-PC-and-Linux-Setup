@@ -11,7 +11,7 @@ To get started you need to download the following:
    - Steam Deck - Download from the Discover Store
    - Linux - Download from your preferred repository
 
-- [**Kingdom Hearts II Final Mix Re:Fined**](https://github.com/TopazTK/KH-ReFined/releases)
+- [**Kingdom Hearts II Final Mix Re:Fined**](https://github.com/KH-ReFreshed/KH-ReFreshed/releases/tag/Latest)
    - Download Re:Fined from the latest build. 
 
 - [**OpenKH**](https://github.com/OpenKH/OpenKh/releases)
