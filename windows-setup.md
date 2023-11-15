@@ -46,7 +46,7 @@ In this section, we will be setting up OpenKH's Mods Manager to patch the necess
 
 When you are done, you should be at this screen!
 
-![image](https://cdn.discordapp.com/attachments/1145843947571249152/1155913076319719577/image.png?ex=653fe271&is=652d6d71&hm=953a6d30bad30633bd4911fa1983364f45c61f4baf0f18e9a88e8dfd5e9ef07e&)
+![image](https://github.com/KHOmega/KH-ReFined-Setup/assets/93887977/c471709e-d92a-48cb-ac68-4f94d6ee9ec4)
 
 ## Downloading and Patching in Re:Fined v4.xx's files using OpenKH:
 
