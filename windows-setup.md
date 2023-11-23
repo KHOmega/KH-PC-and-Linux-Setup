@@ -28,7 +28,7 @@ In this section, we will be setting up OpenKH's Mods Manager to patch the necess
    - You are going to click `Next >`, select `PC Release via Epic Game Store`, and then you are going to click the little folder icon to select the location of your game.
    - If you do not know where you have `KINGDOM HEARTS HD 1.5+2.5 ReMIX` installed, open up Epic Games Store, go into your library, right click `KINGDOM HEARTS HD 1.5+2.5 ReMIX`, click `Manage`, and then click the folder icon next to `Installation`. This will bring you to where it is downloaded.
 
-- Step 4: Click `Next >` and choose whether you want to install OpenKH Panacea. For this tutorial, we ***will*** be installing and using Panacea.
+- Step 4: Click `Next >` and choose whether you want to install OpenKH Panacea. For this tutorial, we ***will*** be installing and using Panacea, so please select `Install Panacea for Windows`.
    - OpenKH Panacea allows you to load your mods without modifying the game files.
 
  Note:
@@ -62,8 +62,7 @@ In this section, we will be downloading the necessary patches to properly run Re
 
 - Step 2: You will see `Kingdom Hearts II - Re:Fined` added into your mods list. Tick the little box so a checkmark appears in it.
 
-- If you *did* install OpenKH Panacea, click `Mod Loader` ->  `Build Only`
-   - If you have OpenKH set to run the game via EGS, select `Build and Run`. The game will load after it patches. 
+- Click  `Mod Loader` ->  `Build Only`
    - The mod **will** persist after you close the game, so you don't have to re-open OpenKH.
 
 - If you *did not* install OpenKH Panacea, click `Patching` -> `Build and Patch`
