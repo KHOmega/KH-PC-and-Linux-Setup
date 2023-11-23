@@ -1,20 +1,32 @@
-# Kingdom Hearts Re:Fined Setup for Windows and Linux
+# Kingdom Hearts Setup for Linux and Steam Deck
 
-A guide on how to setup Kingdom Hearts 1.5+2.5 HD ReMix on Windows, Steam Deck, and other Linux Distros.
+A guide on how to setup Kingdom Hearts on Linux and Steam Deck.
 
-This will also effectively help new users setup Kingdom Hearts 1.5+2.5 on their Steam Deck / Linux distros without Re:Fined as well. 
+# For Steam Deck / Linux Users
+- Click [here](https://github.com/KHOmega/KH-Linux-Setup/blob/main/linux-setup-vanilla.md) on how to setup and install Kingdom Hearts 1.5/2.5 HD ReMix.
 
-# For Windows Users:
-- Click [here](https://github.com/KHOmega/KH-SteamDeck-Setup/blob/main/windows-setup.md) for installation steps on how to install ***Re:Fined*** on Windows.
+- ~~Click here on how to setup and install Kingdom Hearts 2.8 Final Chapter Prologue.~~
+    - ***[To Be Added!]***
 
-# For Steam Deck / Linux Users:
-- Click [here](https://github.com/KHOmega/KH-SteamDeck-Setup/blob/main/linux-setup.md) for installation steps on how to install ***Re:Fined*** on your Steam Deck / Linux.
+- ~~Click here on how to setup and install Kingdom Hearts III.~~
+    - ***[To Be Added!]***
 
-# For Steam Deck / Linux Users (Vanilla)
-- Click [here](https://github.com/KHOmega/KH-ReFined-Setup/blob/main/linux-setup-vanilla.md) for how to install Kingdom Hearts 1.5/2.5 HD ReMix ***without*** any mods.
+- ~~Click here on how to setup and install Kingdom Hearts Melody of Memory.~~
+  - ***[To Be Added!]***
 
+----
+
+# Modifications:
+
+## For Windows Users:
+- Click [here](https://github.com/KHOmega/KH-Linux-Setup/blob/main/windows-setup.md) for installation steps on how to install ***Re:Fined*** on Windows.
+
+### For Steam Deck / Linux Users:
+- Click [here](https://github.com/KHOmega/KH-Linux-Setup/blob/main/linux-setup.md) for installation steps on how to install ***Re:Fined*** on your Steam Deck / Linux.
 
 # Misc. / Credits
+
+----
 
 Thank you to [TopazTK](https://github.com/TopazTK) for letting this be the official guide on how to install Re:Fined on PCs
 
