@@ -88,8 +88,9 @@ In this section, we will be setting up OpenKH's Mods Manager to patch the necess
 - Step 3: A window will pop up saying "Welcome to OpenKH Mods Manager"
    - You are going to click `Next >`, select `PC Release via Epic Game Store`, and then you are going to click the little folder icon to select the location of your game.
 
-- Step 4: Click `Next >` and choose wether you want to install OpenKH Panacea. For this tutorial, we ***will*** be installing and using Panacea.
+- Step 4: Step 4: Click `Next >` and choose `Install Panacea for Linux`. We will be using Panacea for this tutorial.
    - OpenKH Panacea allows you to load your mods without modifying the game files.
+
 - Step 5: - On the next screen, it will ask you to `Launch via Epic Games`. Don't check this and click `Next >`.
 
 - Step 6: Make sure `KH2-25GB` is checked, and then click `Extract game data`. This may take roughly fifteen or more minutes.
@@ -133,8 +134,6 @@ In this section, we will be placing our new Re:Fined v4.00 installation files in
    - If you get a box asking you if you would like to overwrite any data, select `Yes`
 
 - Step 4: Rename `EPIC` to `EPIC.bak`
-
-- Step 5: Rename `DGBHELP.dll` to `VERSION.DLL`
 
 This is what your game installation folder should now look like:
 
