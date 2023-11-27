@@ -38,7 +38,7 @@ In this section, we will be setting up Heroic Games Launcher. This is where we w
 - Step 1: Step 1: Click `KINGDOM HEARTS 1.5+2.5 HD ReMix`, proceed to download it, and once it is done, click the settings icon.
 
 ![image](https://github.com/KHOmega/KH-SteamDeck-Setup/assets/93887977/784f663c-3527-4935-9cb8-1e203a2acae0)
-- Step 2: Scroll down and then click `WINETRICKS`.
+- Step 2: Scroll down and then click `WINETRICKS`, and then click `Open WineTricks GUI`[.]
 
 ![image](https://github.com/KHOmega/KH-SteamDeck-Setup/assets/93887977/8025ed8a-1b81-4c12-8d2d-1a4ff6a7c6c4)
 - A new window will open stating a prefix is being generated, and then you will end up in this window.
