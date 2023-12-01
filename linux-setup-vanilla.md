@@ -37,7 +37,7 @@ In this section, we will be setting up Heroic Games Launcher. This is where we w
 
 ![image](https://github.com/KHOmega/KH-ReFined-Setup/assets/93887977/6d3edda3-937c-47b3-91f5-5e6037585a60)
 
-- Step 2: Scroll down and then click `WINETRICKS`.
+- Step 2: Scroll down and then click `WINETRICKS`, and then click `Open WineTricks GUI`.
 
 ![image](https://github.com/KHOmega/KH-SteamDeck-Setup/assets/93887977/8025ed8a-1b81-4c12-8d2d-1a4ff6a7c6c4)
 
