@@ -74,9 +74,16 @@ And there you go! Kingdom Hearts 1.5/2.5 HD ReMix has been sucessfully installed
 - Click the three dots on the top right, and then click `Add to Steam`
  - If your game does not show up, it is because you have multiple profiles on your Steam installation! The only fix I have found so far is to only have one profile on Steam.
 
-# Misc.
+# Notes.
 
-Now that you have Kingdom Hearts 1.5/2.5 HD ReMix installed on your Steam Deck / Linux distro, why not check out a couple of mods, such as TopazTK's [Re:Fined](https://github.com/KH-ReFined/KH-ReFined)?
+
+Because we renamed the EPIC folder, the game won't read the FMV files, which is why we get a black screen during certain cutscenes. You can click skip scene here, but the ending FMV won't be able to be skipped due to vanilla behavior.
+
+If you install Re:Fined/Re:Freshed, you can skip the ending FMV to make a clear file.
+
+Re:Fined/Re:Freshed also provides other quality of life changes, which you can look into installing below:
+
+https://github.com/KH-ReFreshed
 
 ### Links: 
 
