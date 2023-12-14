@@ -30,18 +30,18 @@ A guide on how to setup Kingdom Hearts on Linux and Steam Deck.
 ## Critical Mix (Kingdom Hearts)
 
 ### For Windows Users:
-- Click [here]() for installation steps on how to install ***Critical Mix*** on Windows.
+- TBA
 
 ### For Steam Deck / Linux Users:
-- Click [here]() for installation steps on how to install ***Critical Mix*** on your Steam Deck / Linux.
+- TBA
 
 ## GoA Randomizer (Kingdom Hearts II)
 
 ### For Windows Users:
-- Click [here]() for installation steps on how to install ***GoA Randomizer*** on Windows.
+- TBA
 
 ### For Steam Deck / Linux Users:
-- Click [here]() for installation steps on how to install ***GoA Randomizer*** on your Steam Deck / Linux.
+- TBA
 
 ----
 
