@@ -51,7 +51,7 @@ In this section, we will be setting up Heroic Games Launcher. This is where we w
 - Click `Install a Windows DLL or component` and then click `OK`.
 - Scroll down and look for `dotnet48`. Check it and then click `OK`
    - You will get various dialog boxes popping up, either wait for them to close on their own or click `OK` on them. WINE is currently installing `MS .NET 4.0` and `MS .NET 4.8` onto your Wineprefix.
-- When it is done isntalling, you will be brought back to your Wineprefix window. Go ahead and click `Cancel` until you are back to the Heroic Games Launcher window.
+- When it is done installing, you will be brought back to your Wineprefix window. Go ahead and click `Cancel` until you are back to the Heroic Games Launcher window.
 
 ![image](https://github.com/KHOmega/KH-SteamDeck-Setup/assets/93887977/fb6649bc-d089-4255-a9d6-38e9d8c15e21)
 
