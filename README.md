@@ -12,7 +12,7 @@ A guide on how to setup Kingdom Hearts on Linux and Steam Deck.
     - **Update - [12/3/23]:** Confirmed working via personal tests on Heroic using a legit copy, guide will be written up soon based off [this video](https://www.youtube.com/watch?v=8K3QkvKC0UU) by The DarKris
 
 - ~~Click here on how to setup and install Kingdom Hearts Melody of Memory.~~
-  - **Update - [12/3/23]:** Try using the same prefix created for 1.5/2.5 for 2.8 while a guide is written up.
+  - **Update - [1/6/23]:** You can use a new prefix and the latest non-LoL WINE-GE without having to install any other programs to the prefix.
 
 ----
 
