@@ -31,22 +31,19 @@ In this section, we will be setting up OpenKH's Mods Manager to patch the necess
 - Step 4: Click `Next >` and choose whether you want to install OpenKH Panacea. For this tutorial, we ***will*** be installing and using Panacea, so please select `Install Panacea for Windows`.
    - OpenKH Panacea allows you to load your mods without modifying the game files.
 
- Note:
-- If you install Panacea and then later plan to install LuaBackend and you get a `DBGHELP.dll` with it - rename it to `LuaBackend.dll` before dropping it into the folder, as `DBGHELP.dll` is already used by Panacea.
+- Step 5: OpenKH will ask if you want to install *Lua Backend*. This is *not* necessary for Re:Fined, so feel free to click `Next >` if you do not wish to install it.
 
-- Step 5: - On the next screen, you may choose to `Launch via Epic Games`. If you would like to, check this and then click `Next >`.
+- Step 6: On the next screen, you may choose to `Launch via Epic Games`. If you would like to, check this and then click `Next >`.
 
-- Step 6:
-
-- Make sure `KH2-25GB` is checked, and then click `Extract game data`. This may take roughly fifteen minutes.
+- Step 7: Make sure `KH2-25GB` is checked, and then click `Extract game data`. This may take roughly fifteen minutes.
    - If you have already used OpenKH in the past, I recommend doing this step again with a completely fresh install of the game, that way any extracted data is guaranteed to not be accidently modified by a pre-existing modification.
    - If you encounter any errors extracting the game files, please either try again, or re-download your game!
 
-- Step 7: After extraction, click `Next >` and then click `Finish`
+- Step 8: After extraction, click `Next >` and then click `Finish`
 
 When you are done, you should be at this screen!
 
-![image](https://github.com/KHOmega/KH-ReFined-Setup/assets/93887977/c471709e-d92a-48cb-ac68-4f94d6ee9ec4)
+![image](https://github.com/KHOmega/KH-Linux-Setup/assets/93887977/35210466-2789-4fc6-9a31-6e0026d8b763)
 
 ## Downloading and Patching in Re:Fined v4.xx's files using OpenKH:
 
@@ -58,7 +55,7 @@ In this section, we will be downloading the necessary patches to properly run Re
    - *Note*: If you download additional add-ons, please make sure to place `KH2-MAIN` ***below*** the additional add-ons! 
    - *Note*: `KH-ReFreshed/KH2-MultiAudio` takes a ***very long time*** to download and install, as it is a rather large repository! If it looks like the program is unresponsive, it is simply because it is downloading the files.
 
-![image](https://cdn.discordapp.com/attachments/1145843947571249152/1155913161036283965/image.png?ex=653fe285&is=652d6d85&hm=0df65e98672cc34ecefe4d07b656682f8f3034baf905d81425f5c3e6ce0c1166)
+![image](https://github.com/KHOmega/KH-Linux-Setup/assets/93887977/5214422f-a1b2-4197-b73e-7eaa9f8ff394)
 
 - Step 2: You will see `Kingdom Hearts II - Re:Fined` added into your mods list. Tick the little box so a checkmark appears in it.
 
@@ -106,14 +103,11 @@ And there you go! Re:Fined v4.xx has been successfully installed!
 ![image](https://github.com/KHOmega/KH-SteamDeck-Setup/assets/93887977/d7fddfbe-7ff4-4eae-9581-bed9b0dca2a7)
 ![image](https://github.com/KHOmega/KH-SteamDeck-Setup/assets/93887977/5607719a-127d-476a-8418-0e816b6e9642)
 
-Note:
-- If you plan to manually install LuaBackend and you get a `DBGHELP.dll` with it - rename it to `LuaBackend.dll` before dropping it into the folder, as `DBGHELP.dll` is already used by Panacea.
-
 ## Updating Re:Fined v4.xx:
 
 Updating is not a trivial task and does not take long to perform. 
 
-- Step 1: Check if the updated version contains a note like this:
+- Step 1: Check if the updated .exe version contains a note like this:
 
 ![image](https://github.com/KHOmega/KH-SteamDeck-Setup/assets/93887977/2704921c-14c5-47a2-bb69-062f1a6624b3)
 
