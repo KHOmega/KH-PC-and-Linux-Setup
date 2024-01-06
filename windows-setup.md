@@ -31,7 +31,7 @@ In this section, we will be setting up OpenKH's Mods Manager to patch the necess
 - Step 4: Click `Next >` and choose whether you want to install OpenKH Panacea. For this tutorial, we ***will*** be installing and using Panacea, so please select `Install Panacea for Windows`.
    - OpenKH Panacea allows you to load your mods without modifying the game files.
 
-- Step 5: OpenKH will ask if you want to install *Lua Backend*. This is *not* necessary for Re:Fined, so feel free to click `Next >` if you do not wish to install it.
+- Step 5: OpenKH will ask if you want to install `Lua Backend`. This is *not* necessary for Re:Fined, so feel free to click `Next >` if you do not wish to install it.
 
 - Step 6: On the next screen, you may choose to `Launch via Epic Games`. If you would like to, check this and then click `Next >`.
 
