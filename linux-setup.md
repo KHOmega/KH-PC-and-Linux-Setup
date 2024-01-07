@@ -17,7 +17,7 @@ To get started you need to download the following:
 - [**OpenKH**](https://github.com/OpenKH/OpenKh/releases)
    - Download `openkh.zip` from the latest build.
 
-- [**.NET 6.0 Desktop Runtime (v6.0.24)**](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-6.0.24-windows-x64-installer?cid=getdotnetcore)
+- [**.NET 6.0 Desktop Runtime (v6.0.25)**](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-6.0.25-windows-x64-installer?cid=getdotnetcore)
 
 # Heroic Games Launcher Initial Setup:
 
@@ -27,34 +27,37 @@ In this section, we will be setting up Heroic Games Launcher. This is where we w
 - Step 1: Launch `Heroic Games Launcher` and click `Log in` on the top left, and then click `Epic Games Login` and proceed to login into your Epic Games Store Account.
 
 - Step 2: After you are logged in, click `Wine Manager` on the left, select `WINE-GE`, and then click the refresh button which will then refresh the window with different Wine versions.
-   - From here, download the latest numbered Wine-GE version.
+   - From here, download the latest ***non-LoL*** numbered Wine-GE version
+   - `WINE-GE-Proton8-25` is the latest supported version as of this writing
 
-![image](https://github.com/KHOmega/KH-SteamDeck-Setup/assets/93887977/a7739545-a0c8-45c9-b8df-0abd54180ed5)
+![image](https://github.com/KHOmega/KH-Linux-Setup/assets/93887977/1790ac9b-e161-49b7-8829-a1abef93134d)
+
 # Setting up your KINGDOM HEARTS 1.5+2.5 HD ReMIX, OpenKH, and Re:Fined WINE Prefix.
 
 - In this section, we will be setting up the base game, OpenKH, and then Re:Fined under one prefix.
  - A prefix is where WINE has all it's files setup, and is similar to a `C:\` drive on a regular Windows computer. This is where data such as your save data will be located in.
 
-- Step 1: Step 1: Click `KINGDOM HEARTS 1.5+2.5 HD ReMix`, proceed to download it, and once it is done, click the settings icon.
+- Step 1: Click `KINGDOM HEARTS 1.5+2.5 HD ReMix`, proceed to download it, and once it is done, click the settings icon.
 
 ![image](https://github.com/KHOmega/KH-SteamDeck-Setup/assets/93887977/784f663c-3527-4935-9cb8-1e203a2acae0)
-- Step 2: Scroll down and then click `WINETRICKS`, and then click `Open WineTricks GUI`[.]
+
+- Step 2: Scroll down and then click `WINETRICKS`.
 
 ![image](https://github.com/KHOmega/KH-SteamDeck-Setup/assets/93887977/8025ed8a-1b81-4c12-8d2d-1a4ff6a7c6c4)
-- A new window will open stating a prefix is being generated, and then you will end up in this window.
 
-![image](https://github.com/KHOmega/KH-SteamDeck-Setup/assets/93887977/3d5fea7b-a3f2-4387-b378-a2eb61d24ee2)
-- From here, do the following:
- - Click `Select the default wineprefix` and then click `OK`
+- A new window will open that will look like this:
+
+![image](https://github.com/KHOmega/KH-Linux-Setup/assets/93887977/941f9674-04da-4cc6-a079-9a3844271e87)
+
+- Click where it says `Search fonts or components`, type in `dotnet48`, and click `Install`
    - If you get a window asking about winetricks developments, just select either `Yes` or `No`.
-- Click `Install a Windows DLL or component` and then click `OK`.
-- Scroll down and look for `dotnet48`. Check it and then click `OK`
-   - You will get various dialog boxes popping up, either wait for them to close on their own or click `OK` on them. WINE is currently installing `MS .NET 4.0` and `MS .NET 4.8` onto your Wineprefix, which is necessary to get Re:Fined and OpenKH to work.
-- When this is done installing, you will be brought back to this window.
 
-![image](https://github.com/KHOmega/KH-SteamDeck-Setup/assets/93887977/fb6649bc-d089-4255-a9d6-38e9d8c15e21)
+![image](https://github.com/KHOmega/KH-Linux-Setup/assets/93887977/c5e21ee4-53c8-4ce6-8ca1-77ff926e319b)
+
+- When this is done installing, proceed to exit out of the Winetricks window by click the `X` button above the `OPEN WINETRICKS GUI` button.
+
 - Step 3: From this window, select `Run winecfg`, and then click `OK`
- - A new window (`Wine configuration`) will open.
+    - A new window (`Wine configuration`) will open.
 
 Step 4: From this window, you must do the following:
 
@@ -67,8 +70,9 @@ Step 4: From this window, you must do the following:
 
 After this, you will be brought back to your Wineprefix window. Go ahead and click `Cancel` until you are back to the Heroic Games Launcher window.
 
-- Step 5: Click `RUN EXE ON PREFIX`, and locate your `windowsdesktop-runtime-6.0.24-win-x64.exe` file you downloaded earlier, and select it. After a couple seconds, this window will open, and go ahead and go through the installer.
-
+- Step 5: Click `RUN EXE ON PREFIX`, and locate your `windowsdesktop-runtime-6.0.25-win-x64.exe` file you downloaded earlier, and select it. After a couple seconds, this window will open, and go ahead and go through the installer.
+    - Note: The image below shows an older version of .NET 6 being installed. Please make sure to install the latest .NET 6!
+      
 ![image](https://github.com/KHOmega/KH-SteamDeck-Setup/assets/93887977/7d04eda5-66aa-4322-8683-bddcdca33874)
 
 # Setting up OpenKH:
@@ -85,42 +89,50 @@ In this section, we will be setting up OpenKH's Mods Manager to patch the necess
 - Step 2: Click the green play button on OpenKH, and OpenKH will load up.
    - If you get an error message saying `rundll32.exe - This program could not be started.`, click `No` and continue.
 
-- Step 3: A window will pop up saying "Welcome to OpenKH Mods Manager"
-   - You are going to click `Next >`, select `PC Release via Epic Game Store`, and then you are going to click the little folder icon to select the location of your game.
+- Step 3: A window will pop up saying "Welcome to OpenKH Mods Manager".
+- As of this writing, the current versions of OpenKH contains a bug where using the Dark Mode UI will prevent users from seeing if certain options are checked during setup. We will disable Dark Mode and revert to Light Mode UI to continue on with the tutorial.
+    - Click `Cancel`
+    - Click `Settings` and ***uncheck*** `Dark Mode`
+    - Click `Run Wizard`
+  
+- Step 4: On the `Welcome to OpenKH Mods Manager` screen, click `Next >`, then under `Game edition`, select `PC Release via Epic Game Store`, and then you are going to click the little folder icon to select the location of your game.
+    - Where your game installation is located varies. Please note where you installed your game when doing this part of the tutorial.
 
-- Step 4: Step 4: Click `Next >` and choose `Install Panacea for Linux`. We will be using Panacea for this tutorial.
+- Step 5: Click `Next >` and choose `Install Panacea for Linux`. We will be using Panacea for this tutorial.
    - OpenKH Panacea allows you to load your mods without modifying the game files.
 
-- Step 5: - On the next screen, it will ask you to `Launch via Epic Games`. Don't check this and click `Next >`.
+- Step 6: OpenKH will ask if you want to install `Lua Backend`. This is *not* necessary for Re:Fined, so feel free to click `Next >` if you do not wish to install it.
 
-- Step 6: Make sure `KH2-25GB` is checked, and then click `Extract game data`. This may take roughly fifteen or more minutes.
+- Step 7: - On the next screen, it will ask you to `Launch via Epic Games`. As we are loading with Heroic and not EGS, skip this by clicking `Next >`.
+
+- Step 8: Make sure `KH2-25GB` is checked, and then click `Extract game data`. This may take roughly fifteen or more minutes.
    - If you encounter any errors extracting the game files, please either try again, or re-download your game!
 
-- Step 7: After extraction, click `Next >` and then click `Finish`
+- Step 9: After extraction, click `Next >` and then click `Finish`
 
 When you are done, you should be at this screen!
 
-![image](https://github.com/KHOmega/KH-SteamDeck-Setup/assets/93887977/da02f3b1-a2aa-4947-9967-3dcbb64597fc)
+![image](https://github.com/KHOmega/KH-Linux-Setup/assets/93887977/3c0d26c6-1ef5-4f3e-ba84-9e29a8e0291a)
 
 # Downloading and Patching in Re:Fined v4.00's files using OpenKH:
 
 In this section, we will be downloading the necessary patches to properly run Re:Fined v4.00.
 
 - Step 1: In OpenKH, select the `Mods` button on the top, and then select `Install a new mod`.
-   - Under `Add a new mod from GitHub`, we will be pasting in `KH-ReFreshed/KH2-MAIN`, as seen in the screenshot below, and then will click `Install`.
-   - *Optional*: Feel free to also add `KH-ReFreshed/KH2-MultiAudio`, `KH-ReFreshed/KH2-VanillaOST`, and `KH-ReFreshed/KH2-VanillaEnemy` as well for extra Re:Fined v4.00 features!
+   - Under `Add a new mod from GitHub`, we will be pasting in `KH-ReFined/KH2-MAIN`, as seen in the screenshot below, and then will click `Install`.
+   - *Optional*: Feel free to also add `KH-ReFined/KH2-MultiAudio`, `KH-ReFined/KH2-VanillaOST`, and `KH-ReFined/KH2-VanillaEnemy` as well for extra Re:Fined v4.00 features!
    - *Note*: If you download additional add-ons, please make sure to place `KH2-MAIN` ***below*** the additional add-ons! 
-   - *Note*: `KH-ReFreshed/KH2-MultiAudio` takes a ***very long time*** to download and install, as it is a rather large repository! If it looks like the program is unresponsive, it is simply because it is downloading the files.
+   - *Note*: `KH-ReFined/KH2-MultiAudio` takes a ***very long time*** to download and install, as it is a rather large repository! If it looks like the program is unresponsive, it is simply because it is downloading the files.
 
-![image](https://github.com/KHOmega/KH-ReFined-Setup/assets/93887977/c471709e-d92a-48cb-ac68-4f94d6ee9ec4)
+![image](https://github.com/KHOmega/KH-Linux-Setup/assets/93887977/f34df394-93a1-4186-a3b4-5d57204bd665)
 
 - Step 2: You will see `Kingdom Hearts II - Re:Fined` added into your mods list. Tick the little box so a checkmark appears in it.
 
 - Click `Mod Loader` ->  `Build Only`
 
-- A debug window will then open, signaling that the game is currently being patched.
+![image](https://github.com/KHOmega/KH-Linux-Setup/assets/93887977/ab132d5d-5f2b-4732-8eea-f42418dbfa70)
 
-![image](https://github.com/KHOmega/KH-SteamDeck-Setup/assets/93887977/f080aa0a-a2ab-48bc-9e22-7a418fbc1fdd)
+- A debug window will then open, signaling that the game is currently being patched. Once the window closes by itself, the patching process has been completed.
 
 # Installing Re:Fined v4.00 and finalizing Linux Setup:
 
@@ -134,6 +146,7 @@ In this section, we will be placing our new Re:Fined v4.00 installation files in
    - If you get a box asking you if you would like to overwrite any data, select `Yes`
 
 - Step 4: Rename `EPIC` to `EPIC.bak`
+    - Note: Cutscenes will *not* work due to WINE not having the proprietary media files necessary to play cutscenes, and will crash the game. This allows you to continue playing the game with minimal crashes, but FMV cutscenes will not play!
 
 This is what your game installation folder should now look like:
 
@@ -157,7 +170,9 @@ And there you go! Kingdom Hearts II Final Mix - Re:Fined v4.00 has been successf
 - Click the three dots on the top right, and then click `Add to Steam`
 - Do the same for any other program you have, and it will appear in your Steam Library.
 
-![image](https://github.com/KHOmega/KH-SteamDeck-Setup/assets/93887977/f05fddbe-a38d-42aa-bf50-e3fb3e2753c4)
+![image](https://github.com/KHOmega/KH-Linux-Setup/assets/93887977/c31c9751-e137-4c7f-a135-f11d5cfa2cfc)
+
+----
 
 # Misc. Mods for Steam Deck:
 **Name:** [Steam Deck Buttons](https://github.com/KHOmega/KH2-SteamDeckButtons)
