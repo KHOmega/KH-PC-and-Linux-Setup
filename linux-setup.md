@@ -17,7 +17,7 @@ To get started you need to download the following:
 - [**OpenKH**](https://github.com/OpenKH/OpenKh/releases)
    - Download `openkh.zip` from the latest build.
 
-- [**.NET 6.0 Desktop Runtime (v6.0.23)**](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-6.0.23-windows-x64-installer?cid=getdotnetcore)
+- [**.NET 6.0 Desktop Runtime (v6.0.24)**](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-6.0.24-windows-x64-installer?cid=getdotnetcore)
 
 # Heroic Games Launcher Initial Setup:
 
@@ -67,7 +67,7 @@ Step 4: From this window, you must do the following:
 
 After this, you will be brought back to your Wineprefix window. Go ahead and click `Cancel` until you are back to the Heroic Games Launcher window.
 
-- Step 5: Click `RUN EXE ON PREFIX`, and locate your `windowsdesktop-runtime-6.0.23-win-x64.exe` file you downloaded earlier, and select it. After a couple seconds, this window will open, and go ahead and go through the installer.
+- Step 5: Click `RUN EXE ON PREFIX`, and locate your `windowsdesktop-runtime-6.0.24-win-x64.exe` file you downloaded earlier, and select it. After a couple seconds, this window will open, and go ahead and go through the installer.
 
 ![image](https://github.com/KHOmega/KH-SteamDeck-Setup/assets/93887977/7d04eda5-66aa-4322-8683-bddcdca33874)
 
