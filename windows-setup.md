@@ -113,6 +113,9 @@ Updating is not a trivial task and does not take long to perform.
 
 - Step 2:
 - If the note *does exist*, open OpenKH, update the necessary patches (you can see them by looking for the `Update available` note) and [build the patch as you did previously](#downloading-and-patching-in-refined-v4xxs-files-using-openkh).
+
+![image](https://github.com/KHOmega/KH-Linux-Setup/assets/93887977/10045628-4da7-4b4a-a86f-d619a30155f1)
+
   - After that, download the updated version release and [extract the files again](#setting-up-the-exe).
 
 - If the note *does not exist*, only download the updated version release and [extract the files again](#setting-up-the-exe).
