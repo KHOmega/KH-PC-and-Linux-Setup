@@ -1,6 +1,6 @@
-# Kingdom Hearts Setup for Linux and Steam Deck
+# KINGDOM HEARTS Setup for Windows, Linux, and Steam Deck
 
-A guide on how to setup Kingdom Hearts on Linux and Steam Deck.
+A repository that helps users setup the Epic Games Store versions of the various KINGDOM HEARTS games on Windows, Linux, and Steam Deck.
 
 # For Steam Deck / Linux Users
 - Click [here](https://github.com/KHOmega/KH-Linux-Setup/blob/main/linux-setup-vanilla.md) on how to setup and install Kingdom Hearts 1.5/2.5 HD ReMix.
@@ -18,6 +18,11 @@ A guide on how to setup Kingdom Hearts on Linux and Steam Deck.
 
 # Modifications:
 
+## Lua Backend
+
+### For Steam Deck / Linux Users
+- TBA 
+
 ## Re:Fined/Re:Freshed
 
 ### For Windows Users:
@@ -25,7 +30,6 @@ A guide on how to setup Kingdom Hearts on Linux and Steam Deck.
 
 ### For Steam Deck / Linux Users:
 - Click [here](https://github.com/KHOmega/KH-Linux-Setup/blob/main/linux-setup.md) for installation steps on how to install ***Re:Fined*** on your Steam Deck / Linux.
-
 
 ## Critical Mix (Kingdom Hearts)
 
