@@ -1,4 +1,8 @@
 # Installation
+
+## Note:
+If you are installing an older version of Re:Fined (eg. 3.00) or Re:Freshed (3.15), please follow the directions [here](https://github.com/KH-ReFreshed/KH-ReFreshed?tab=readme-ov-file#download) instead.
+
 ## Pre-requisities
 To get started you need to download the following:
 
