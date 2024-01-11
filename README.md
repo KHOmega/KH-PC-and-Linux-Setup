@@ -26,10 +26,10 @@ A repository that helps users setup the Epic Games Store versions of the various
 ## Re:Fined/Re:Freshed
 
 ### For Windows Users:
-- Click [here](https://github.com/KHOmega/KH-Linux-Setup/blob/main/windows-setup.md) for installation steps on how to install ***Re:Fined*** on Windows.
+- Click [here](https://github.com/KHOmega/KH-PC-and-Linux-Setup/blob/main/refined-windows-setup.md) for installation steps on how to install ***Re:Fined*** on Windows.
 
 ### For Steam Deck / Linux Users:
-- Click [here](https://github.com/KHOmega/KH-Linux-Setup/blob/main/linux-setup.md) for installation steps on how to install ***Re:Fined*** on your Steam Deck / Linux.
+- Click [here](https://github.com/KHOmega/KH-PC-and-Linux-Setup/blob/main/refined-linux-setup.md) for installation steps on how to install ***Re:Fined*** on your Steam Deck / Linux.
 
 ## Critical Mix (Kingdom Hearts)
 
