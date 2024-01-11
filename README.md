@@ -23,7 +23,7 @@ A repository that helps users setup the Epic Games Store versions of the various
 ### For Steam Deck / Linux Users
 - TBA 
 
-## Re:Fined/Re:Freshed
+## Re:Fined
 
 ### For Windows Users:
 - Click [here](https://github.com/KHOmega/KH-PC-and-Linux-Setup/blob/main/refined-windows-setup.md) for installation steps on how to install ***Re:Fined*** on Windows.
