@@ -3,6 +3,7 @@
  - This guide assumes you are installing this on Steam Deck! For other OS's, please adjust accordingly. 
  - This guide also assumes that you have some knowledge in how to navigate Linux based OSs!
  - ***Steam Deck***: Please launch into Desktop Mode and use a mouse and keyboard! While this is doable without a mouse or keyboard, it will be frustrating!
+ - If you do not plan on installing Re:Fined 4.00 and above for some reason and wish to stay on Re:Fined 3.00 / Re:Freshed 3.15, please follow [this guide](https://github.com/KHOmega/KH-PC-and-Linux-Setup/blob/main/vanilla-linux-setup.md) instead and then follow [these directions](https://github.com/KH-ReFreshed/KH-ReFreshed?tab=readme-ov-file#installation) on installing those versions.
 
 ## Pre-requisities
 To get started you need to download the following:
