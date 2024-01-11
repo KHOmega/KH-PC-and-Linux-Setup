@@ -5,7 +5,7 @@ To get started you need to download the following:
 - [**KINGDOM HEARTS HD 1.5+2.5 ReMIX**](https://store.epicgames.com/en-US/p/kingdom-hearts-hd-1-5-2-5-remix)
    - If you are using an unofficial copy, please make sure your vanilla game works before installing Re:Fined!
 
-- [**Latest build of Re:Fined**](https://github.com/KH-ReFined/KH-ReFined/releases/tag/Latest)
+- [**Latest build of Re:Fined**](https://github.com/KH-ReFined/KH-ReFined/releases)
    - Download the latest build of Re:Fined. 
 
 - [**OpenKH**](https://github.com/OpenKH/OpenKh/releases)
