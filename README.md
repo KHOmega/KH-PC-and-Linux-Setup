@@ -34,16 +34,10 @@ A repository that helps users setup the Epic Games Store versions of the various
 
 ## Critical Mix (Kingdom Hearts)
 
-### For Windows Users:
-- TBA
-
 ### For Steam Deck / Linux Users:
 - TBA
 
 ## GoA Randomizer (Kingdom Hearts II)
-
-### For Windows Users:
-- TBA
 
 ### For Steam Deck / Linux Users:
 - TBA
