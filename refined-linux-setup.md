@@ -3,7 +3,9 @@
  - This guide assumes you are installing this on Steam Deck! For other OS's, please adjust accordingly. 
  - This guide also assumes that you have some knowledge in how to navigate Linux based OSs!
  - ***Steam Deck***: Please launch into Desktop Mode and use a mouse and keyboard! While this is doable without a mouse or keyboard, it will be frustrating!
- - If you do not plan on installing Re:Fined 4.00 and above for some reason and wish to stay on Re:Fined 3.00 / Re:Freshed 3.15, please follow [this guide](https://github.com/KHOmega/KH-PC-and-Linux-Setup/blob/main/vanilla-linux-setup.md) instead and then follow [these directions](https://github.com/KH-ReFreshed/KH-ReFreshed?tab=readme-ov-file#installation) on installing those versions.
+ - This guide is written with the intention of installing Re:Fined v.5.00 and up.
+  - As of this writing, the only version with a Re:Fined v.5.00 release is ``KINGDOM HEARTS II FINAL MIX``
+  - If you wish to install ``KINGDOM HEARTS FINAL MIX`` or ``KINGDOM HEARTS HD Dream Drop Distance``, please follow [this guide](https://github.com/KHOmega/KH-PC-and-Linux-Setup/blob/main/vanilla-linux-setup.md) instead to setup a prefix and then follow [these directions](https://github.com/KH-ReFined/KH-ReFined/blob/mother/SETUP.md#installing-refined-v315) on installing those versions.
 
 ## Pre-requisities
 To get started you need to download the following:
@@ -12,13 +14,15 @@ To get started you need to download the following:
    - Steam Deck - Download from the Discover Store
    - Linux - Download from your preferred repository
 
-- [**Kingdom Hearts II Final Mix Re:Fined**](https://github.com/KH-ReFined/KH-ReFined/releases/)
-   - Download Re:Fined from the latest build. 
+- [**Kingdom Hearts II Final Mix Re:Fined**](https://github.com/KH-ReFined/KH-ReFined/releases)
+   - Download Re:Fined from the latest build.
 
 - [**OpenKH**](https://github.com/OpenKH/OpenKh/releases)
    - Download `openkh.zip` from the latest build.
 
-- [**.NET 6.0 Desktop Runtime (v6.0.25)**](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-6.0.25-windows-x64-installer?cid=getdotnetcore)
+- [**.NET 6.0 Desktop Runtime**](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
+   - Install the latest ``.NET Desktop Runtime 6.0`` x64 .exe
+![image](https://github.com/KHOmega/KH-PC-and-Linux-Setup/assets/93887977/195bcbcc-1610-44eb-a368-4a628a2cb44b)
 
 # Heroic Games Launcher Initial Setup:
 
@@ -135,7 +139,7 @@ In this section, we will be downloading the necessary patches to properly run Re
 
 - A debug window will then open, signaling that the game is currently being patched. Once the window closes by itself, the patching process has been completed.
 
-# Installing Re:Fined v4.00 and finalizing Linux Setup:
+# Installing Re:Fined v5.00 and finalizing Linux Setup:
 
 In this section, we will be placing our new Re:Fined v4.00 installation files into our game directory, and finish setting up our Linux Installation.
 
@@ -144,6 +148,7 @@ In this section, we will be placing our new Re:Fined v4.00 installation files in
 - Step 2: In your game installation folder, backup your original .exe by either moving or renaming `KINGDOM HEARTS II FINAL MIX.exe` somewhere or something different.
 
 - Step 3: Extract the Re:Fined .zip downloaded earlier, and place `KINGDOM HEARTS II FINAL MIX.exe` and `keystone.dll` into your game directory folder.
+   - Do ***not*** place ``ViGEmClient.dll`` into the folder, as this is not compatible with Steam Deck / Linux.
    - If you get a box asking you if you would like to overwrite any data, select `Yes`
 
 - Step 4: Rename `EPIC` to `EPIC.bak`
@@ -151,9 +156,9 @@ In this section, we will be placing our new Re:Fined v4.00 installation files in
 
 This is what your game installation folder should now look like:
 
-![image](https://github.com/KHOmega/KH-SteamDeck-Setup/assets/93887977/5f5dc550-9ce4-4be8-9873-c3205ee6db37)
+![image](https://github.com/KHOmega/KH-PC-and-Linux-Setup/assets/93887977/c4e461ec-b22e-440d-bcb8-0823a04befd2)
 
-# Launching Re:Fined v4.00.
+# Launching Re:Fined v5.00.
 
 Congratulations! You are very close into launching Re:Fined v4.00!
 
@@ -161,7 +166,7 @@ Congratulations! You are very close into launching Re:Fined v4.00!
 - Step 2: Start up `KINGDOM HEARTS HD 1.5+2.5 ReMIX`
 - Step 3: Start `KINGDOM HEARTS II FINAL MIX` as you would normally.
 
-And there you go! Kingdom Hearts II Final Mix - Re:Fined v4.00 has been successfully installed! You will know it has worked when you select `NEW GAME` and you get the new options to select your controller prompts and skip the prologue!
+And there you go! Kingdom Hearts II Final Mix - Re:Fined v5.00 has been successfully installed! You will know it has worked when you select `NEW GAME` and you get the new options to select your controller prompts and skip the prologue!
 
 ![image](https://github.com/KHOmega/KH-SteamDeck-Setup/assets/93887977/7a3d09f6-3800-4ca2-b1c6-8dea624416fb)
 
