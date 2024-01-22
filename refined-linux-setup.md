@@ -82,7 +82,7 @@ After this, you will be brought back to your Wineprefix window. Go ahead and cli
 
 # Setting up OpenKH:
 
-In this section, we will be setting up OpenKH's Mods Manager to patch the necessary files to run Re:Fined 4.00.
+In this section, we will be setting up OpenKH's Mods Manager to patch the necessary files to run Re:Fined 5.00.
 
 - Step 1: Right click `openkh.zip` and extract the folder somewhere where it won't accidently get deleted.
    - eg: `/home/deck/Documents/OpenKH`
@@ -119,13 +119,13 @@ When you are done, you should be at this screen!
 
 ![image](https://github.com/KHOmega/KH-Linux-Setup/assets/93887977/3c0d26c6-1ef5-4f3e-ba84-9e29a8e0291a)
 
-# Downloading and Patching in Re:Fined v4.00's files using OpenKH:
+# Downloading and Patching in Re:Fined v5.00's files using OpenKH:
 
-In this section, we will be downloading the necessary patches to properly run Re:Fined v4.00.
+In this section, we will be downloading the necessary patches to properly run Re:Fined v5.00.
 
 - Step 1: In OpenKH, select the `Mods` button on the top, and then select `Install a new mod`.
    - Under `Add a new mod from GitHub`, we will be pasting in `KH-ReFined/KH2-MAIN`, as seen in the screenshot below, and then will click `Install`.
-   - *Optional*: Feel free to also add `KH-ReFined/KH2-MultiAudio`, `KH-ReFined/KH2-VanillaOST`, and `KH-ReFined/KH2-VanillaEnemy` as well for extra Re:Fined v4.00 features!
+   - *Optional*: Feel free to also add `KH-ReFined/KH2-MultiAudio`, `KH-ReFined/KH2-VanillaOST`, and `KH-ReFined/KH2-VanillaEnemy` as well for extra Re:Fined v5.00 features!
    - *Note*: If you download additional add-ons, please make sure to place `KH2-MAIN` ***below*** the additional add-ons! 
    - *Note*: `KH-ReFined/KH2-MultiAudio` takes a ***very long time*** to download and install, as it is a rather large repository! If it looks like the program is unresponsive, it is simply because it is downloading the files.
 
@@ -141,7 +141,7 @@ In this section, we will be downloading the necessary patches to properly run Re
 
 # Installing Re:Fined v5.00 and finalizing Linux Setup:
 
-In this section, we will be placing our new Re:Fined v4.00 installation files into our game directory, and finish setting up our Linux Installation.
+In this section, we will be placing our new Re:Fined v5.00 installation files into our game directory, and finish setting up our Linux Installation.
 
 - Step 1: Locate your game installation.
 
@@ -160,7 +160,7 @@ This is what your game installation folder should now look like:
 
 # Launching Re:Fined v5.00.
 
-Congratulations! You are very close into launching Re:Fined v4.00!
+Congratulations! You are very close into launching Re:Fined v5.00!
 
 - Step 1: Load up Heroic Games Launcher.
 - Step 2: Start up `KINGDOM HEARTS HD 1.5+2.5 ReMIX`
