@@ -72,6 +72,7 @@ Step 4: From this window, you must do the following:
 - Under `New override for library:`, type in `keystone.dll` and then click `Add`.
 - Under `New override for library:`, type in `VERSION.DLL` and then click `Add`.
 - Under `New override for library:`, type in `Newtonsoft.Json.dll` and then click `Add`.
+- ***(Optional if installing LuaBackend***) Under `New override for library:`, type in `dinput8.dll` and then click `Add`.
 - Click `Apply` and `OK`
 
 After this, you will be brought back to your Wineprefix window. Go ahead and click `Cancel` until you are back to the Heroic Games Launcher window.
@@ -108,6 +109,7 @@ In this section, we will be setting up OpenKH's Mods Manager to patch the necess
    - OpenKH Panacea allows you to load your mods without modifying the game files.
 
 - Step 6: OpenKH will ask if you want to install `Lua Backend`. This is *not* necessary for Re:Fined, so feel free to click `Next >` if you do not wish to install it.
+    - If you choose to install `Lua Backend`, you must rename `LuaBackend.dll` to `dinput8.dll` in your game directory folder where the .exe files are located, otherwise the game will fail to load. 
 
 - Step 7: - On the next screen, it will ask you to `Launch via Epic Games`. As we are loading with Heroic and not EGS, skip this by clicking `Next >`.
 
