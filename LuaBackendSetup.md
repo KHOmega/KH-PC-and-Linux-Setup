@@ -76,8 +76,8 @@ In this section, we will be setting up OpenKH Mods Manager.
 - Step 4: Click `Next >` and choose `Install Panacea for Linux`.
    - OpenKH Panacea allows you to load your mods without modifying the game files.
 
-- Step 5: OpenKH will ask if you want to install `Lua Backend`. This is *not* necessary for Re:Fined, so feel free to click `Next >` if you do not wish to install it.
-    - If you choose to install `Lua Backend`, you must rename `LuaBackend.dll` to `dinput8.dll` in your game directory folder where the .exe files are located, otherwise the game will fail to load. 
+- Step 5: OpenKH will ask if you want to install `Lua Backend`.
+    -  You ***must*** rename `LuaBackend.dll` to `dinput8.dll` in your game directory folder where the .exe files are located, otherwise the game will fail to load. 
 
 - Step 6: - On the next screen, it will ask you to `Launch via Epic Games`. As we are loading with Heroic and not EGS, skip this by clicking `Next >`.
 
