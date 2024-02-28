@@ -79,7 +79,7 @@ In this section, we will be setting up OpenKH Mods Manager.
 - Step 5: OpenKH will ask if you want to install `Lua Backend`.
     -  You ***must*** rename `LuaBackend.dll` to `dinput8.dll` in your game directory folder where the .exe files are located, otherwise the game will fail to load. 
 
-- Step 6: - On the next screen, it will ask you to `Launch via Epic Games`. As we are loading with Heroic and not EGS, skip this by clicking `Next >`.
+- Step 6: On the next screen, it will ask you to `Launch via Epic Games`. As we are loading with Heroic and not EGS, skip this by clicking `Next >`.
 
 - Step 7: (***Optional if you only want to use Lua Scripts***) Select which game you wish to extract and select it, and then click `Extract game data`. This may take roughly fifteen or more minutes.
    - Extracting is necessary for getting mods to work in the game of your choosing, and can help with reverting any mods that may cause your game to act up.
