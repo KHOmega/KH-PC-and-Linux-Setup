@@ -4,7 +4,7 @@ A repository that helps users setup the Epic Games Store versions of the various
 
 # For Steam Deck / Linux Users
 - Click [here](https://github.com/KHOmega/KH-PC-and-Linux-Setup/blob/main/vanilla-linux-setup.md) on how to setup and install Kingdom Hearts 1.5/2.5 HD ReMix.
-    - **Update - [1/22/24]:** Guide updated to supports Re:Fined v.5.00.
+    - **Update - [2/28/24]:** Guide updated to supports Re:Fined v.4.55.
 
 - ~~Click here on how to setup and install Kingdom Hearts 2.8 Final Chapter Prologue.~~
     - **Update - [12/3/23]:** Try using the same prefix created for 1.5/2.5 for 2.8 while a guide is written up.
@@ -21,8 +21,11 @@ A repository that helps users setup the Epic Games Store versions of the various
 
 ## Lua Backend
 
+### For Windows Users:
+- TBA
+
 ### For Steam Deck / Linux Users
-- TBA 
+- Click [here](https://github.com/KHOmega/KH-PC-and-Linux-Setup/blob/main/LuaBackendSetup.md) for installation steps on how to install ***Lua Backend*** on your Steam Deck / Linux. 
 
 ## Re:Fined
 
