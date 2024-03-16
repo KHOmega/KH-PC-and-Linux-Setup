@@ -1,5 +1,8 @@
 # Installation
 
+## Update 03/16/24
+There is currently an issue with new installations of Re:Fined, resulting in a infinite loading screen after following all the directions. This is due to Re:Fined failing to initilize its custom save directories, and the issue is currently being looked into. Please look at the end of this guide [here](https://github.com/KHOmega/KH-PC-and-Linux-Setup/edit/main/refined-windows-setup.md#initializing-saveconfiglog-directories-error) on how to fix this issue while a fix is being worked on.
+
  - This guide assumes you are installing this on Steam Deck! For other OS's, please adjust accordingly. 
  - This guide also assumes that you have some knowledge in how to navigate Linux based OSs!
  - ***Steam Deck***: Please launch into Desktop Mode and use a mouse and keyboard! While this is doable without a mouse or keyboard, it will be frustrating!
@@ -128,8 +131,9 @@ In this section, we will be downloading the necessary patches to properly run Re
 
 - Step 1: In OpenKH, select the `Mods` button on the top, and then select `Install a new mod`.
    - Under `Add a new mod from GitHub`, we will be pasting in `KH-ReFined/KH2-MAIN`, as seen in the screenshot below, and then will click `Install`.
-   - *Optional*: Feel free to also add `KH-ReFined/KH2-MultiAudio`, `KH-ReFined/KH2-VanillaOST`, and `KH-ReFined/KH2-VanillaEnemy` as well for extra Re:Fined v4.xx features!
-   - *Note*: If you download additional add-ons, please make sure to place `KH2-MAIN` ***below*** the additional add-ons! 
+   - *Optional*: Feel free to also add `KH-ReFined/KH2-MultiAudio`, `KH-ReFined/KH2-SpanishVO` `KH-ReFined/KH2-VanillaOST`, and `KH-ReFined/KH2-VanillaEnemy` as well for extra Re:Fined v4.00 features!
+   - *Note*: If you download additional add-ons, please make sure to place `KH2-MAIN` ***below*** the additional add-ons!
+   - *Note*: If downloading `KH-ReFined/KH2-SpanishVO`, place above `KH-ReFined/KH2-MultiAudio`
    - *Note*: `KH-ReFined/KH2-MultiAudio` takes a ***very long time*** to download and install, as it is a rather large repository! If it looks like the program is unresponsive, it is simply because it is downloading the files.
 
 ![image](https://github.com/KHOmega/KH-Linux-Setup/assets/93887977/f34df394-93a1-4186-a3b4-5d57204bd665)
