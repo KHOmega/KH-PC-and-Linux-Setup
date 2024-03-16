@@ -70,8 +70,9 @@ In this section, we will be downloading the necessary patches to properly run Re
 
 - Step 1: In OpenKH, select the `Mods` button on the top, and then select `Install a new mod`.
    - Under `Add a new mod from GitHub`, we will be pasting in `KH-ReFined/KH2-MAIN`, as seen in the screenshot below, and then will click `Install`.
-   - *Optional*: Feel free to also add `KH-ReFined/KH2-MultiAudio`, `KH-ReFined/KH2-VanillaOST`, and `KH-ReFined/KH2-VanillaEnemy` as well for extra Re:Fined v4.00 features!
-   - *Note*: If you download additional add-ons, please make sure to place `KH2-MAIN` ***below*** the additional add-ons! 
+   - *Optional*: Feel free to also add `KH-ReFined/KH2-MultiAudio`, `KH-ReFined/KH2-SpanishVO` `KH-ReFined/KH2-VanillaOST`, and `KH-ReFined/KH2-VanillaEnemy` as well for extra Re:Fined v4.00 features!
+   - *Note*: If you download additional add-ons, please make sure to place `KH2-MAIN` ***below*** the additional add-ons!
+   - *Note*: If downloading `KH-ReFined/KH2-SpanishVO`, place above `KH-ReFined/KH2-MultiAudio`
    - *Note*: `KH-ReFined/KH2-MultiAudio` takes a ***very long time*** to download and install, as it is a rather large repository! If it looks like the program is unresponsive, it is simply because it is downloading the files.
 
 ![image](https://github.com/KHOmega/KH-Linux-Setup/assets/93887977/5214422f-a1b2-4197-b73e-7eaa9f8ff394)
