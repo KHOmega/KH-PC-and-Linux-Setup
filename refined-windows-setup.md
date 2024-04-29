@@ -1,7 +1,8 @@
 # Installation
 
 ## Update 03/13/24
-There is currently an issue with new installations of Re:Fined, resulting in a infinite loading screen after following all the directions. This is due to Re:Fined failing to initilize its custom save directories, and the issue is currently being looked into. Please look at the end of this guide [here](https://github.com/KHOmega/KH-PC-and-Linux-Setup/edit/main/refined-windows-setup.md#initializing-saveconfiglog-directories-error) on how to fix this issue while a fix is being worked on.
+There is currently an issue with new installations of Re:Fined, resulting in a infinite loading screen after following all the directions. This is due to Re:Fined failing to initilize its custom save directories, and the issue is currently being looked into. Please look at the end of this guide [here](https://github.com/KHOmega/KH-PC-and-Linux-Setup/blob/main/refined-windows-setup.md#initializing-saveconfiglog-directories-error) on how to fix this issue while a fix is being worked on.
+
 
 ## Note:
 If you are installing an older version of Re:Fined (eg. 3.00), please follow the instructions [here](https://github.com/KH-ReFined/KH-ReFined/blob/mother/SETUP.md#installing-refined-v320).
