@@ -82,7 +82,7 @@ After this, you will be brought back to your Wineprefix window. Go ahead and cli
       
 ![image](https://github.com/KHOmega/KH-SteamDeck-Setup/assets/93887977/7d04eda5-66aa-4322-8683-bddcdca33874)
 
-- Step 6: Click `Play` and boot up the game. This is necessary to create the original save data directory files so that when we install Panacea later on, it doesn't crash. ***You must not skip this step***.
+- Step 6: Click `Play Now >` and boot up the game. This is necessary to create the original save data directory files so that when we install Panacea later on, it doesn't crash. ***You must not skip this step***.
 
 # Setting up OpenKH:
 
