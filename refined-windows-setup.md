@@ -1,8 +1,5 @@
 # Installation
 
-## Update 03/13/24
-There is currently an issue with new installations of Re:Fined, resulting in a infinite loading screen after following all the directions. This is due to Re:Fined failing to initilize its custom save directories, and the issue is currently being looked into. Please look at the end of this guide [here](https://github.com/KHOmega/KH-PC-and-Linux-Setup/edit/main/refined-windows-setup.md#initializing-saveconfiglog-directories-error) on how to fix this issue while a fix is being worked on.
-
 ## Note:
 If you are installing an older version of Re:Fined (eg. 3.00), please follow the instructions [here](https://github.com/KH-ReFined/KH-ReFined/blob/mother/SETUP.md#installing-refined-v320).
 
@@ -12,25 +9,26 @@ If you are installing an older version of Re:Fined (eg. 3.00), please follow the
 To get started you need to download the following:
 
 - [**KINGDOM HEARTS HD 1.5+2.5 ReMIX**](https://store.epicgames.com/en-US/p/kingdom-hearts-hd-1-5-2-5-remix)
+   - Please ***launch*** the game prior to modding to ensure the game works beforehand! Failure to do this will cause the game to not boot when modded.
    - If you are using an unofficial copy, please make sure your vanilla game works before installing Re:Fined!
 
-- [**KINGDOM HEARTS II FINAL MIX Re:Fined v4.00**](https://github.com/KH-ReFined/KH-ReFined/releases)
-   - Download the latest build of Re:Fined.
+- [**Re:Fined**](https://github.com/KH-ReFined/KH-ReFined/releases)
+   - Download the latest build of Re:Fined for **KINGDOM HEARTS II FINAL MIX**.
 
 - [**OpenKH**](https://github.com/OpenKH/OpenKh/releases)
    - Download `openkh.zip` from the latest build.
 
-## Optional but Recommended:
-
 - [**ViGEmBus**](https://github.com/nefarius/ViGEmBus/releases/tag/v1.22.0)
    - Download ``ViGEmBus_1.22.0_x64_x86_arm64.exe``
-   - The DualSense/DS4 integration requires the VigEmDriver.
-   - You may skip installing this by booting up Re:Fined, and then accessing the newly created ``refined.ini`` where your .exe files are located and setting ``dualSenseIntegration = true`` to ``dualSenseIntegration = false``
-      - Failure to do this will result in Re:Fined not opening
+       - The DualSense/DS4 integration requires the VigEmDriver.
+    - You may skip installing this by booting up Re:Fined, and then accessing the newly created ``refined.ini`` where your .exe files are located and setting ``dualSenseIntegration = true`` to ``dualSenseIntegration = false``
+    - Failure to do this will result in Re:Fined not opening.
+
+----
 
 ***Please also have the following downloaded and installed already if you do not already:***
 - [**Visual C++ Redistributable Runtimes All-in-One**](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/)
-   - Download and run `install_all.bat`
+    - Download and run `install_all.bat`
 
 ----
 
@@ -64,7 +62,7 @@ When you are done, you should be at this screen!
 
 ![image](https://github.com/KHOmega/KH-Linux-Setup/assets/93887977/35210466-2789-4fc6-9a31-6e0026d8b763)
 
-## Downloading and Patching in Re:Fined v4.xx's files using OpenKH:
+## Downloading and Patching in Re:Fined using OpenKH:
 
 In this section, we will be downloading the necessary patches to properly run Re:Fined v4.00.
 
@@ -100,7 +98,6 @@ In this section, we will be placing our new Re:Fined v4.00 installation files in
 - Step 2: In your game installation folder, backup your original .exe by either moving or renaming `KINGDOM HEARTS II FINAL MIX.exe` somewhere or something different.
 
 - Step 3: Extract the Re:Fined .zip downloaded earlier, and place `KINGDOM HEARTS II FINAL MIX.exe`, `keystone.dll`, `Newtonsoft.Json.dll` and `ViGEmClient.dll` into your game directory folder.
-   - Skip adding `ViGEmClient.dll` if you are not installing ViGEmBus.
    - If you get a box asking you if you would like to overwrite any data, select `Yes`
 
 Note:
@@ -124,7 +121,7 @@ And there you go! Re:Fined v4.xx has been successfully installed!
 ![image](https://github.com/KHOmega/KH-SteamDeck-Setup/assets/93887977/d7fddfbe-7ff4-4eae-9581-bed9b0dca2a7)
 ![image](https://github.com/KHOmega/KH-SteamDeck-Setup/assets/93887977/5607719a-127d-476a-8418-0e816b6e9642)
 
-## Updating Re:Fined v4.xx:
+## Updating Re:Fined:
 
 Updating is not a trivial task and does not take long to perform. 
 
@@ -140,15 +137,3 @@ Updating is not a trivial task and does not take long to perform.
   - After that, download the updated version release and [extract the files again](#setting-up-the-exe).
 
 - If the note *does not exist*, only download the updated version release and [extract the files again](#setting-up-the-exe).
-
-----
-
-### "Initializing Save/Config/Log Directories..." Error!
-Please do the following if you freshly install the game and get an infinite loading screen:
-
-- In your Documents folder, locate `KINGDOM HEARTS HD 1.5+2.5 ReMIX` -> `Epic Games Store` -> `[folder with a bunch of numbers and letters]`
-- Copy the name of that folder, and then go into your Kingdom Hearts folder, and make a new folder and apply that string of numbers and letters into `Save Data` and `Configuration`
-   - It'll look something like this:
-
-![image](https://github.com/KHOmega/KH-PC-and-Linux-Setup/assets/93887977/20ac9118-c8f6-4053-92f5-2e20cea04e7f)
-
