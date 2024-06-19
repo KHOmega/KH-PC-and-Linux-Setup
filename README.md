@@ -1,10 +1,22 @@
 # KINGDOM HEARTS Setup for Windows, Linux, and Steam Deck
 
-A repository that helps users setup the Epic Games Store versions of the various KINGDOM HEARTS games on Windows, Linux, and Steam Deck.
+A repository that helps users setup the Steam and/or Epic Games Store versions the various KINGDOM HEARTS games on Windows, Linux, and Steam Deck.
+
+----
+
+If you are using ***Steam***:
+
+- There is no necessary instructions on getting the collection working on ***Steam Deck***. The games are configured to work by default!
+
+- If you are on a different Linux Distro,
+    - Add `SteamDeck=1 %command%` to KH1.5/2.5's Launch Options in Steam.
+
+----
+
+If you are using ***Epic Games Store***:
 
 # For Steam Deck / Linux Users
 - Click [here](https://github.com/KHOmega/KH-PC-and-Linux-Setup/blob/main/vanilla-linux-setup.md) on how to setup and install Kingdom Hearts 1.5/2.5 HD ReMix.
-    - **Update - [2/28/24]:** Guide updated to support the installation of Re:Fined v.4.55.
 
 - ~~Click here on how to setup and install Kingdom Hearts 2.8 Final Chapter Prologue.~~
     - **Update - [12/3/23]:** Try using the same prefix created for 1.5/2.5 for 2.8 while a guide is written up.
@@ -25,25 +37,46 @@ A repository that helps users setup the Epic Games Store versions of the various
 - TBA
 
 ### For Steam Deck / Linux Users
-- Click [here](https://github.com/KHOmega/KH-PC-and-Linux-Setup/blob/main/LuaBackendSetup.md) for installation steps on how to install ***Lua Backend*** on your Steam Deck / Linux. 
+- Epic Games Store:
+    - ~~Click [here](https://github.com/KHOmega/KH-PC-and-Linux-Setup/blob/main/LuaBackendSetup.md) for installation steps on how to install ***Lua Backend*** on your Steam Deck / Linux.~~
+        - ***(Requires Update as of 06/16/2024)***
+- Steam
+    - TBA
 
 ## Re:Fined
 
 ### For Windows Users:
-- Click [here](https://github.com/KHOmega/KH-PC-and-Linux-Setup/blob/main/refined-windows-setup.md) for installation steps on how to install ***Re:Fined*** on Windows.
+ - Epic Games Store
+    - ~~Click [here](https://github.com/KHOmega/KH-PC-and-Linux-Setup/blob/main/refined-windows-setup.md) for installation steps on how to install ***Re:Fined*** on Windows.~~
+        - ***(Requires Update as of 06/16/2024)***
+
+ - Steam
+    - TBA
 
 ### For Steam Deck / Linux Users:
-- Click [here](https://github.com/KHOmega/KH-PC-and-Linux-Setup/blob/main/refined-linux-setup.md) for installation steps on how to install ***Re:Fined*** on your Steam Deck / Linux.
+ - Epic Games Store
+    - ~~Click [here](https://github.com/KHOmega/KH-PC-and-Linux-Setup/blob/main/refined-linux-setup.md) for installation steps on how to install ***Re:Fined*** on your Steam Deck / Linux.~~
+        - ***(Requires Update as of 06/16/2024)***
+
+- Steam
+    - TBA
 
 ## Critical Mix (Kingdom Hearts)
-
 ### For Steam Deck / Linux Users:
-- TBA
+- Epic Games Store
+  - TBA
+ 
+- Steam
+  - TBA
 
 ## GoA Randomizer (Kingdom Hearts II)
 
 ### For Steam Deck / Linux Users:
-- TBA
+- Epic Games Store
+  - TBA
+ 
+- Steam
+  - TBA
 
 ----
 
