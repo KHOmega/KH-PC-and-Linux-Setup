@@ -1,8 +1,5 @@
 # Installation
 
-## Update 03/16/24
-There is currently an issue with new installations of Re:Fined, resulting in a infinite loading screen after following all the directions. This is due to Re:Fined failing to initilize its custom save directories, and the issue is currently being looked into. Please look at the end of this guide [here](https://github.com/KHOmega/KH-PC-and-Linux-Setup/edit/main/refined-windows-setup.md#initializing-saveconfiglog-directories-error) on how to fix this issue while a fix is being worked on.
-
  - This guide assumes you are installing this on Steam Deck! For other OS's, please adjust accordingly. 
  - This guide also assumes that you have some knowledge in how to navigate Linux based OSs!
  - ***Steam Deck***: Please launch into Desktop Mode and use a mouse and keyboard! While this is doable without a mouse or keyboard, it will be frustrating!
@@ -11,13 +8,13 @@ There is currently an issue with new installations of Re:Fined, resulting in a i
   - If you wish to install ``KINGDOM HEARTS FINAL MIX`` or ``KINGDOM HEARTS HD Dream Drop Distance``, please follow [this guide](https://github.com/KHOmega/KH-PC-and-Linux-Setup/blob/main/vanilla-linux-setup.md) instead to setup a prefix and then follow [these directions](https://github.com/KH-ReFined/KH-ReFined/blob/mother/SETUP.md#installing-refined-v315) on installing those versions.
 
 ## Pre-requisities
-To get started you need to download the following:
+To get started you need to download and have the following:
 
 - **Heroic Games Launcher**
    - Steam Deck - Download from the Discover Store
    - Linux - Download from your preferred repository
 
-- [**Kingdom Hearts II Final Mix Re:Fined**](https://github.com/KH-ReFined/KH-ReFined/releases)
+- [**Re:Fined**](https://github.com/KH-ReFined/KH-ReFined/releases) for **KINGDOM HEARTS II FINAL MIX**
    - Download Re:Fined from the latest build.
 
 - [**OpenKH**](https://github.com/OpenKH/OpenKh/releases)
@@ -84,6 +81,8 @@ After this, you will be brought back to your Wineprefix window. Go ahead and cli
     - Note: The image below shows an older version of .NET 6 being installed. Please make sure to install the latest .NET 6!
       
 ![image](https://github.com/KHOmega/KH-SteamDeck-Setup/assets/93887977/7d04eda5-66aa-4322-8683-bddcdca33874)
+
+- Step 6: Click `Play Now >` and boot up the game. This is necessary to create the original save data directory files so that when we install Panacea later on, it doesn't crash. ***You must not skip this step***.
 
 # Setting up OpenKH:
 
@@ -199,4 +198,3 @@ And there you go! Kingdom Hearts II Final Mix - Re:Fined v4.xx has been successf
 **Repository:** `KHOmega/KH2-SteamDeckButtons`
 
 ![image](https://github.com/KHOmega/KH-SteamDeck-Setup/assets/93887977/786fb4f6-afac-4f27-96d1-422c0ba097bd)
-
