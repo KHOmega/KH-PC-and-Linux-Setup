@@ -1,3 +1,4 @@
+# WARNING: THIS GUIDE IS CURRENTLY OUTDATED. THIS WILL ONLY BE KEPT UP FOR HISTORICAL PURPOSES. A NEW ONE WILL BE MADE WHEN LUABACKEND IS UPDATED.
 # Setting Up OpenKH / Modloader for Linux / Steam Deck
 
  - This guide assumes you are installing this on Steam Deck! For other OS's, please adjust accordingly. 
