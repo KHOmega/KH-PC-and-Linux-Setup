@@ -132,7 +132,7 @@ In this section, we will be downloading the necessary patches to properly run Re
 - Step 5: A new window will open, you must select `Wine Mono for Windows` and the two VCRun2022 applications and click `Uninstall` After you have uninstalled those three programs, exit out of that window.
 
 - Step 6: In Konsole, type in the following code and hit enter:
-   - `flatpak run com.github.Matoking.protontricks 2552430 -q -f dotnet40 dotenet48 dotnet6 dotnetdesktop6 vcrun2022`
+   - `flatpak run com.github.Matoking.protontricks 2552430 -q -f dotnet40 dotnet48 dotnet6 dotnetdesktop6 vcrun2022`
    - This will take a little while, about 15-20ish minutes. When it is done, proceed to Step 7.
 
 - Step 7: In Konsole, type in the following code and hit enter:
@@ -172,4 +172,4 @@ And there you go! Kingdom Hearts II Final Mix - Re:Fined has been successfully i
 
 ![title screen](https://github.com/user-attachments/assets/b34ee907-0247-4c0b-94d0-fd76385fb3a4)
 
-*Note*, if controller inputs are not working, simply either tap your screen, or hold down the `Steam` button and click down the right touch pad.
+*Note*, if controller inputs are not working, simply either tap your screen, or hold down the `STEAM` button and click down the right touch pad.
