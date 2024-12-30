@@ -117,7 +117,7 @@ In this section, we will be downloading the necessary patches to properly run Re
 
 # Setting up Kingdom Hearts 1.5+2.5 HD ReMix's Prefix:
 
-- Note, *DO NOT* skip *ANY* step in this section, as you NEED to follow everything here for the game to properly work.
+### Note, *DO NOT* skip *ANY* step in this section, as you NEED to follow everything here for the game to properly work.
 
 - Step 1: Make sure Steam Cloud saves are enabled for Kingdom Hearts, as we are going to completely delete the prefix of the game if you previously played KH on your steam deck.
 
