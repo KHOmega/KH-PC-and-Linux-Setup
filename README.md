@@ -41,7 +41,7 @@ If you are using ***Epic Games Store***:
     - ~~Click [here](https://github.com/KHOmega/KH-PC-and-Linux-Setup/blob/main/LuaBackendSetup.md) for installation steps on how to install ***Lua Backend*** on your Steam Deck / Linux.~~
         - ***(Requires Update as of 06/16/2024)***
 - Steam
-    - TBA
+    - Click [here](https://github.com/KHOmega/KH-PC-and-Linux-Setup/blob/main/refined-steam-version-linux-setup.md) for installation steps for the Steam.
 
 ## Re:Fined
 
