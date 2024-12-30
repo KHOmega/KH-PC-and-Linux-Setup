@@ -38,7 +38,8 @@ In this section, we will be downloading a version of Glorious Eggroll Proton. We
 
 - Step 3: After it is done installing, exit out of ProtonUp-QT ***AND*** Steam. Then, re-open Steam.
 
-![image](SLAP IMAGE HERE)~~~~~~~~~~~~~~~~~~~~~~~~~
+![ProtonUpQT](https://github.com/user-attachments/assets/a4da90d1-cac4-462e-be50-16daa3a24b06)
+![Exit Steam](https://github.com/user-attachments/assets/60dc174e-888c-4a9f-8076-57415efdf227)
 
 # Setting Up OpenKH's Prefix
 
@@ -47,7 +48,7 @@ In this section, we will be downloading a version of Glorious Eggroll Proton. We
 
 - Step 1: In Steam, click `Add a Game` on the bottom right, select `Add a Non-Steam Game...`, select `Browse`, and where you have OpenKH extracted, select `OpenKH.Tools.ModsManager.exe`, and click `Open`. Then click `Add Selected Programs`.
 
-![image](IMAGE HERE)
+![OpenKH Steam Library](https://github.com/user-attachments/assets/6b7af2e3-3d06-4acb-9e02-2c0f1003c58f)
 
 - Step 2: Right Click `OpenKH.Tools.ModsManager.exe` in your Steam Library, and click `Properties`
    - Click `Compatibility`, and then select `Force the use of a specific Steam Play compatibility tool`, and select `Proton 9.0-4`
@@ -58,7 +59,7 @@ In this section, we will be downloading a version of Glorious Eggroll Proton. We
 - Step 4: Load up `Protontricks` and do any first time setups it tells you to do. When it is setup, you should be at this window:
    - Take note of the numbers preceeding the name of the game. In this instance, OpenKH Mods Manager's Prefix folder for me is `2895334390`, which may be different than yours.
 
-![image](IMAGE HERE)
+![Protontricks window](https://github.com/user-attachments/assets/069e08fc-a99a-479a-8f4c-35af7ed4e457)
 
 - Step 5: Load up Konsole and enter the following code here and click enter:
    - `flatpak run com.github.Matoking.protontricks PREFIXNUMBERHERE -q -f dotnetdesktop6 dotnet6`
@@ -120,7 +121,7 @@ In this section, we will be downloading the necessary patches to properly run Re
 
 - Step 1: Make sure Steam Cloud saves are enabled for Kingdom Hearts, as we are going to completely delete the prefix of the game if you previously played KH on your steam deck.
 
-- Step 2: Navigate to your Steam Prefix directory (`/home/deck/.steam/steam/steamapps/compatdata/`) and ***DELETE** `2552430`.
+- Step 2: Navigate to your Steam Prefix directory (`/home/deck/.steam/steam/steamapps/compatdata/`) and **DELETE** `2552430`.
 
 - Step 3: In Steam, right click 1.5/2.5 HD ReMix and select `Compatibility`, and then select `GE-Proton9-21` and then Launch Game.
    - After the game successfully opens, exit out of the game.
@@ -157,15 +158,18 @@ In this section, we will be placing the Re:Fined .exe onto our game directory, a
 
 This is what your game installation folder should now look like:
 
-![image]((IMAGE HERE)
+![game directory](https://github.com/user-attachments/assets/a263a78c-9926-4104-8ecf-e89ef66b03cc)
 
 # Launching Re:Fined.
 
 Congratulations! You are very close into launching Re:Fined!
 
-- Step 1: Load up 1.5/2.5 HD ReMix
-- Step 2: Select `KINGDOM HEARTS II FINAL MIX`
+- Step 1: Right Click 1.5/2.5 HD ReMix, and select `Compatibility`, and then switch the Proton version to `Proton 9.0-4`
+- Step 2: Load up 1.5/2.5 HD ReMix
+- Step 3: Select `KINGDOM HEARTS II FINAL MIX`
 
 And there you go! Kingdom Hearts II Final Mix - Re:Fined has been successfully installed! You will know it has worked when you see "Re:Fined by TopazTK" on the title screen.
 
-![image](IMAGE HERE)
+![title screen](https://github.com/user-attachments/assets/b34ee907-0247-4c0b-94d0-fd76385fb3a4)
+
+*Note*, if controller inputs are not working, simply either tap your screen, or hold down the `Steam` button and click down the right touch pad.
