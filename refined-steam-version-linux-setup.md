@@ -7,6 +7,10 @@
   - As of this writing, the only version with a Re:Fined release is ``KINGDOM HEARTS II FINAL MIX``
  - If you are using an Epic Games Store or an unofficial copy, a guide will be made soon for that!
 
+## ***IMPORTANT NOTE FOR STEAM DECK/BAZZITE USERS (DO NOT SKIP)***: 
+- IF YOU ARE ON STEAM DECK, DO NOT LAUNCH THIS GAME VIA GAME MODE, AS THE PROTON VERSION USED WILL CAUSE THE GAME TO FLASH. THIS WILL ***ONLY WORK*** IN DESKTOP MODE. PLEASE ***DO NOT*** LAUNCH THIS GAME VIA GAME MODE. THERE IS NO FIX FOR THIS.
+- I CAN NOT STRESS THIS ENOUGH, ESPECIALLY IF YOU ARE EPILEPTIC OR ARE PRONE TO SEIZURES, PLEASE ***DO.*** ***NOT.*** LAUNCH THIS GAME IN GAME MODE.
+
 ## Pre-requisities
 To get started you need to download and have the following:
 
@@ -27,18 +31,18 @@ To get started you need to download and have the following:
 - **Protontricks**
    - Download from Discover
 
-# Downloading GE-Proton 9-x:
+# Downloading GE-Proton 8-32:
 
-In this section, we will be downloading a version of Glorious Eggroll Proton. We will be using this version of Proton to help us install some pre-requisitie files.
+In this section, we will be downloading **GE-Proton 8-32**. We will be using this version of Proton to help us install some pre-requisitie files.
 
 - Step 1: Launch **ProtonUp-QT**
 
 - Step 2: Under "Install For", select "Steam", and then click `Add Version`
-   - From here, under "Compatibility tool:" select GE-Proton. Then under "Version:", select the latest version of GE-Proton available (GE-Proton9-21 as of this tutorial), and then click `Install`.
+   - From here, under "Compatibility tool:" select GE-Proton. Then under "Version:", select the latest version of **GE-Proton 8-32**, and then click `Install`.
 
 - Step 3: After it is done installing, exit out of ProtonUp-QT ***AND*** Steam. Then, re-open Steam.
 
-![ProtonUpQT](https://github.com/user-attachments/assets/a4da90d1-cac4-462e-be50-16daa3a24b06)
+![image](https://github.com/user-attachments/assets/b6ced675-2b68-484e-a7eb-89075e10385a)
 ![Exit Steam](https://github.com/user-attachments/assets/60dc174e-888c-4a9f-8076-57415efdf227)
 
 # Setting Up OpenKH's Prefix
@@ -123,16 +127,11 @@ In this section, we will be downloading the necessary patches to properly run Re
 
 - Step 2: Navigate to your Steam Prefix directory (`/home/deck/.steam/steam/steamapps/compatdata/`) and **DELETE** `2552430`.
 
-- Step 3: In Steam, right click 1.5/2.5 HD ReMix and select `Compatibility`, and then select `GE-Proton9-21` and then Launch Game.
+- Step 3: In Steam, right click 1.5/2.5 HD ReMix and select `Compatibility`, and then select `GE-Proton8-32` and then Launch Game.
    - After the game successfully opens, exit out of the game.
 
-- Step 4: Open Konsole, and type in the following code and hit enter:
-   - `flatpak run com.github.Matoking.protontricks 2552430 uninstaller`
-
-- Step 5: A new window will open, you must select `Wine Mono for Windows` and the two VCRun2022 applications and click `Uninstall` After you have uninstalled those three programs, exit out of that window.
-
 - Step 6: In Konsole, type in the following code and hit enter:
-   - `flatpak run com.github.Matoking.protontricks 2552430 -q -f dotnet40 dotnet48 dotnet6 dotnetdesktop6 vcrun2022`
+   - `flatpak run com.github.Matoking.protontricks 2552430 -q -f dotnet40 dotnet48 dotnet6 dotnetdesktop6`
    - This will take a little while, about 15-20ish minutes. When it is done, proceed to Step 7.
 
 - Step 7: In Konsole, type in the following code and hit enter:
@@ -143,7 +142,6 @@ In this section, we will be downloading the necessary patches to properly run Re
 - Select `Libraries`
 - Under `New override for library:`, type in `keystone` and then click `Add`.
 - Under `New override for library:`, type in `version` and then click `Add`.
-- Under `New override for library:`, type in `newtonsoft.json` and then click `Add`.
 - Click `Apply` and `OK`
 
 # Installing Re:Fined and finalizing Linux Setup:
@@ -164,7 +162,11 @@ This is what your game installation folder should now look like:
 
 Congratulations! You are very close into launching Re:Fined!
 
-- Step 1: Right Click 1.5/2.5 HD ReMix, and select `Compatibility`, and then switch the Proton version to `Proton 9.0-4`
+- Step 1: Right Click 1.5/2.5 HD ReMix, and in `General`, enter the following text into `Launch Options`
+    - `WINEDLLOVERRIDES="Newtonsoft.Json,System.Runtime.CompilerServices.Unsafe=n,b" %command%`
+
+![image](https://github.com/user-attachments/assets/b268345f-5001-47d0-9d01-796078636db0)
+
 - Step 2: Load up 1.5/2.5 HD ReMix
 - Step 3: Select `KINGDOM HEARTS II FINAL MIX`
 
