@@ -163,8 +163,11 @@ This is an example of what your game installation folder should now look like:
 
 Congratulations! You are very close into launching Re:Fined!
 
-- Step 1: Load up 1.5/2.5 HD ReMix
-- Step 2: Select `KINGDOM HEARTS II FINAL MIX`
+- Step 1: Right Click `KINGDOM HEARTS 1.5+2.5 HD ReMIX`, click `Properties`, select `Compatibility`, and switch the Proton version to `Proton 8.0-5`
+- Step 2: Click play on `KINGDOM HEARTS 1.5+2.5 HD ReMIX`
+- Step 3: Select `KINGDOM HEARTS II FINAL MIX`
+ - If you get this error, just click `No`.
+![image](https://github.com/user-attachments/assets/4e208067-e2f2-40d7-a2c3-21a6f7a5516a)
 
 And there you go! Kingdom Hearts II Final Mix - Re:Fined has been successfully installed! You will know it has worked when you see `Re:Fined by TopazTK` on the title screen.
 
