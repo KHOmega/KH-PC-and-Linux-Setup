@@ -27,7 +27,7 @@ In this section, we will be setting up Heroic Games Launcher. This is where we w
 - Step 1: Launch `Heroic Games Launcher` and click `Log in` on the top left, and then click `Epic Games Login` and proceed to login into your Epic Games Store Account.
 
 - Step 2: After you are logged in, click `Wine Manager` on the left, select `WINE-GE`, and then click the refresh button which will then refresh the window with different Wine versions.
-   - From here, download the `WINE-GE-Proton8-25`
+   - From here, download the `WINE-GE-Proton8-26`
 
 ![image](https://github.com/user-attachments/assets/3bbceb09-867f-4c19-a64b-d862eae53139)
 
