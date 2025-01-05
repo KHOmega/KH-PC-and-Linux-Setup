@@ -38,7 +38,7 @@ In this section, we will be setting up Heroic Games Launcher. This is where we w
 
 - Step 1: Click `KINGDOM HEARTS 1.5+2.5 HD ReMix`, proceed to download it, and once it is done, click the settings icon.
 
-- ![image](https://github.com/KHOmega/KH-SteamDeck-Setup/assets/93887977/784f663c-3527-4935-9cb8-1e203a2acae0)
+![image](https://github.com/KHOmega/KH-SteamDeck-Setup/assets/93887977/784f663c-3527-4935-9cb8-1e203a2acae0)
 
 - Step 2: Under `Wine Version`, select `Wine - Wine-GE-Proton8-26`
 
