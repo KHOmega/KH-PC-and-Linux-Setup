@@ -125,14 +125,15 @@ In this section, we will be downloading the necessary patches to properly run Re
 
 - Step 1: Make sure Steam Cloud saves are enabled for Kingdom Hearts, as we are going to completely delete the prefix of the game if you previously played KH on your steam deck.
 
-- Step 2: Navigate to your Steam Prefix directory (`/home/deck/.steam/steam/steamapps/compatdata/`) and **DELETE** `2552430`.
+- Step 2: Navigate to your Steam Prefix directory (`/home/deck/.steam/steam/steamapps/compatdata/`) and ***DELETE*** `2552430`.
 
 - Step 3: In Steam, right click 1.5/2.5 HD ReMix and select `Compatibility`, and then select `GE-Proton8-32` and then Launch Game.
    - After the game successfully opens, exit out of the game.
 
 - Step 6: In Konsole, type in the following code and hit enter:
-   - `flatpak run com.github.Matoking.protontricks 2552430 -q -f dotnet40 dotnet48 dotnet6 dotnetdesktop6`
-   - This will take a little while, about 15-20ish minutes. When it is done, proceed to Step 7.
+   - `flatpak run com.github.Matoking.protontricks 2552430 -q -f dotnet40 dotnet48 dotnet6 dotnet7 dotnetdesktop6 dotnetdesktop7 win10`
+
+       - This will take a little while, about 15-20ish minutes. When it is done, proceed to the next step.
 
 - Step 7: In Konsole, type in the following code and hit enter:
    - `flatpak run com.github.Matoking.protontricks 2552430 winecfg`
@@ -154,7 +155,7 @@ In this section, we will be placing the Re:Fined .exe onto our game directory, a
 
 - Step 3: Extract the Re:Fined .zip downloaded earlier, and place `KINGDOM HEARTS II FINAL MIX.exe`, `keystone.dll`, `Newtonsoft.Json.dll` and `System.Runtime.CompilerServices.Unsafe.dll` into your game directory folder.
 
-This is what your game installation folder should now look like:
+This is an example of what your game installation folder should now look like:
 
 ![game directory](https://github.com/user-attachments/assets/a263a78c-9926-4104-8ecf-e89ef66b03cc)
 
@@ -162,16 +163,11 @@ This is what your game installation folder should now look like:
 
 Congratulations! You are very close into launching Re:Fined!
 
-- Step 1: Right Click 1.5/2.5 HD ReMix, and in `General`, enter the following text into `Launch Options`
-    - `WINEDLLOVERRIDES="Newtonsoft.Json,System.Runtime.CompilerServices.Unsafe=n,b" %command%`
+- Step 1: Load up 1.5/2.5 HD ReMix
+- Step 2: Select `KINGDOM HEARTS II FINAL MIX`
 
-![image](https://github.com/user-attachments/assets/b268345f-5001-47d0-9d01-796078636db0)
-
-- Step 2: Load up 1.5/2.5 HD ReMix
-- Step 3: Select `KINGDOM HEARTS II FINAL MIX`
-
-And there you go! Kingdom Hearts II Final Mix - Re:Fined has been successfully installed! You will know it has worked when you see "Re:Fined by TopazTK" on the title screen.
+And there you go! Kingdom Hearts II Final Mix - Re:Fined has been successfully installed! You will know it has worked when you see `Re:Fined by TopazTK` on the title screen.
 
 ![title screen](https://github.com/user-attachments/assets/b34ee907-0247-4c0b-94d0-fd76385fb3a4)
 
-*Note*, if controller inputs are not working, simply either tap your screen, or hold down the `STEAM` button and click down the right touch pad.
+- *Note*, if controller inputs are not working, simply either tap your screen, or hold down the `STEAM` button and click down the right touch pad.
