@@ -88,7 +88,7 @@ In this section, we will be setting up OpenKH's Mods Manager to patch the necess
     - If you choose to install `Lua Backend`, you must rename `LuaBackend.dll` to `dinput8.dll` in your game directory folder where the .exe files are located, otherwise the game will fail to load.
     - ***As of this tutorial, LuaBackend does not work with Re:Fined.***
 
-- Step 7: - On the next screen, it will ask if you want to `Launch Games Directly (Steam)`. Skip this, ass this method does not work on Steam Deck/Linux.
+- Step 7: - On the next screen, it will ask if you want to `Launch Games Directly (Steam)`. Skip this, as this method does not work on Steam Deck/Linux.
 
 - Step 8: Make sure `KH2-43GB` is checked, and then click `Extract game data`. This may take roughly *thirty* or more minutes.
    - If you encounter any errors extracting the game files, please either try again, or re-download your game!
