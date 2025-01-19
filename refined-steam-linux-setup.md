@@ -86,7 +86,6 @@ In this section, we will be setting up OpenKH's Mods Manager to patch the necess
 
 - Step 6: OpenKH will ask if you want to install `Lua Backend`. This is *not* necessary for Re:Fined, so feel free to click `Next >` if you do not wish to install it.
     - If you choose to install `Lua Backend`, you must rename `LuaBackend.dll` to `dinput8.dll` in your game directory folder where the .exe files are located, otherwise the game will fail to load.
-    - ***As of this tutorial, LuaBackend does not work with Re:Fined.***
 
 - Step 7: - On the next screen, it will ask if you want to `Launch Games Directly (Steam)`. Skip this, as this method does not work on Steam Deck/Linux.
 
