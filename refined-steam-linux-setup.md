@@ -1,3 +1,8 @@
+> [!WARNING]  
+> - ## ***IMPORTANT NOTE FOR STEAM DECK/BAZZITE USERS (DO NOT SKIP)***:
+>   - IF YOU ARE ON STEAM DECK, DO NOT LAUNCH THIS GAME VIA GAME MODE, AS THE PROTON VERSION USED WILL CAUSE THE GAME TO FLASH. THIS WILL ***ONLY WORK*** IN DESKTOP MODE. PLEASE ***DO NOT*** LAUNCH THIS GAME VIA GAME MODE. THERE IS NO FIX FOR THIS.
+>   - I CAN NOT STRESS THIS ENOUGH, ESPECIALLY IF YOU ARE EPILEPTIC OR ARE PRONE TO SEIZURES, PLEASE ***DO.*** ***NOT.*** LAUNCH THIS GAME IN GAME MODE.
+
 # Installation
 
  - This guide assumes you are installing this on Steam Deck! For other OS's, please adjust accordingly.
@@ -6,10 +11,6 @@
  - This guide is written with the intention of installing Re:Fined
   - As of this writing, the only version with a Re:Fined release is ``KINGDOM HEARTS II FINAL MIX``
  - If you are using an Epic Games Store or an unofficial copy, a guide will be made soon for that!
-
-## ***IMPORTANT NOTE FOR STEAM DECK/BAZZITE USERS (DO NOT SKIP)***: 
-- IF YOU ARE ON STEAM DECK, DO NOT LAUNCH THIS GAME VIA GAME MODE, AS THE PROTON VERSION USED WILL CAUSE THE GAME TO FLASH. THIS WILL ***ONLY WORK*** IN DESKTOP MODE. PLEASE ***DO NOT*** LAUNCH THIS GAME VIA GAME MODE. THERE IS NO FIX FOR THIS.
-- I CAN NOT STRESS THIS ENOUGH, ESPECIALLY IF YOU ARE EPILEPTIC OR ARE PRONE TO SEIZURES, PLEASE ***DO.*** ***NOT.*** LAUNCH THIS GAME IN GAME MODE.
 
 ## Pre-requisities
 To get started you need to download and have the following:
@@ -22,7 +23,7 @@ To get started you need to download and have the following:
    - Download `KH2-ReFined-STEAM-vx.xx.zip` from the latest build.
 
 - [**OpenKH**](https://github.com/OpenKH/OpenKh/releases)
-   - Download `openkh.zip` from the latest build.
+   - Download `openkh.zip` from the latest numbered build.
    - Extract OpenKH somewhere safe on your system.
 
 - **ProtonUp-QT**
@@ -130,7 +131,7 @@ In this section, we will be downloading the necessary patches to properly run Re
    - After the game successfully opens, exit out of the game.
 
 - Step 6: In Konsole, type in the following code and hit enter:
-   - `flatpak run com.github.Matoking.protontricks 2552430 -q -f dotnet40 dotnet48 dotnet6 dotnet7 dotnetdesktop6 dotnetdesktop7 win10`
+   - `flatpak run com.github.Matoking.protontricks 2552430 -q -f dotnet40 dotnet48 dotnet6 dotnetdesktop6`
 
        - This will take a little while, about 15-20ish minutes. When it is done, proceed to the next step.
 
@@ -142,6 +143,8 @@ In this section, we will be downloading the necessary patches to properly run Re
 - Select `Libraries`
 - Under `New override for library:`, type in `keystone` and then click `Add`.
 - Under `New override for library:`, type in `version` and then click `Add`.
+- Under `New override for library:` type in `dinput8` and then click `Add`
+   - This is optional if you decide to install LuaBackend.
 - Click `Apply` and `OK`
 
 # Installing Re:Fined and finalizing Linux Setup:
