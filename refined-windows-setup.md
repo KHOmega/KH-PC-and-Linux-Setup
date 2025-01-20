@@ -1,65 +1,52 @@
-# WARNING: THIS GUIDE IS CURRENTLY OUTDATED. THIS WILL ONLY BE KEPT UP FOR HISTORICAL PURPOSES. A NEW ONE WILL BE MADE WHEN RE:FINED V5.00 RELEASES.
-# PLEASE DO NOT SUBMIT ANY BUG REPORTS OR COMPLAINTS IN THE DISCORD SERVER. YOU WILL BE IGNORED. 
-
-# Installation
-
-## Note:
-If you are installing an older version of Re:Fined (eg. 3.00), please follow the instructions [here](https://github.com/KH-ReFined/KH-ReFined/blob/mother/SETUP.md#installing-refined-v320).
-
-----
-
-## Pre-requisities
+## Pre-requisites
 To get started you need to download the following:
 
-- [**KINGDOM HEARTS HD 1.5+2.5 ReMIX**](https://store.epicgames.com/en-US/p/kingdom-hearts-hd-1-5-2-5-remix)
+- **KINGDOM HEARTS HD 1.5+2.5 ReMIX**
    - Please ***launch*** the game prior to modding to ensure the game works beforehand! Failure to do this will cause the game to not boot when modded.
-   - If you are using an unofficial copy, please make sure your vanilla game works before installing Re:Fined!
+   - Illegitimate copies are not supported!
 
 - [**Re:Fined**](https://github.com/KH-ReFined/KH-ReFined/releases)
-   - Download the latest build of Re:Fined for **KINGDOM HEARTS II FINAL MIX**.
+   - Download Re:Fined from the latest build.
+      - If you are using *Steam*: `KH2-ReFined-STEAM-vX.XX.zip`
+      - If you are using *Epic Games Store*: `KH2-ReFined-EPIC-vX.XX.zip`
 
 - [**OpenKH**](https://github.com/OpenKH/OpenKh/releases)
-   - Download `openkh.zip` from the latest build.
+   - Download `openkh.zip` from the latest numbered release.
 
-- [**ViGEmBus**](https://github.com/nefarius/ViGEmBus/releases/tag/v1.22.0)
-   - Download ``ViGEmBus_1.22.0_x64_x86_arm64.exe``
-       - The DualSense/DS4 integration requires the VigEmDriver.
-    - You may skip installing this by booting up Re:Fined, and then accessing the newly created ``refined.ini`` where your .exe files are located and setting ``dualSenseIntegration = true`` to ``dualSenseIntegration = false``
-    - Failure to do this will result in Re:Fined not opening.
+- [**.NET Framework 4.8**](https://dotnet.microsoft.com/en-us/download/dotnet-framework/thank-you/net48-offline-installer)
+   - Launch and install if not done already.
 
-----
-
-***Please also have the following downloaded and installed already if you do not already:***
-- [**Visual C++ Redistributable Runtimes All-in-One**](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/)
-    - Download and run `install_all.bat`
-
+- [**.NET 6.0 Desktop Runtime**](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-6.0.36-windows-x64-installer)
+   - Launch and install if not done already.
 ----
 
 ## OpenKH Setup:
 
-In this section, we will be setting up OpenKH's Mods Manager to patch the necessary files to run Re:Fined 4.00.
+In this section, we will be setting up OpenKH's Mods Manager to patch the necessary files to run Re:Fined
 
 - Step 1: Right click `openkh.zip` and extract the folder somewhere where it won't accidently get deleted.
    - eg: `C:\Users\[UserName]\Documents\OpenKH\`
 
 - Step 2: Go into your `openkh` folder and look for a program named `OpenKh.Tools.ModsManager.exe` and open it.
 
-- Step 3: A window will pop up saying "Welcome to OpenKH Mods Manager"
-   - You are going to click `Next >`, select `PC Release via Epic Game Store`, and then you are going to click the little folder icon to select the location of your game.
-   - If you do not know where you have `KINGDOM HEARTS HD 1.5+2.5 ReMIX` installed, open up Epic Games Store, go into your library, right click `KINGDOM HEARTS HD 1.5+2.5 ReMIX`, click `Manage`, and then click the folder icon next to `Installation`. This will bring you to where it is downloaded.
+Step 3: On the `Welcome to OpenKH Mods Manager` screen, click `Next >`, then under `Game edition`, select `PC Release`, select `Global` and then select either `Steam` or `Epic Games Launcher` depending on which launcher you are using to launch the collection.
+   - Under `Folder location of the PC release of 1.5+2.5`, locate the directory that your game is installed.
+     - If selecting `Detect Installations` doesn't work, manually input the directory in-which your game is located
+       - **Steam**: `~\steamapps\common\KINGDOM HEARTS -HD 1.5+2.5 ReMIX-`
+       - **Epic Games Launcher**: `~\KH_1.5_2.5`
 
-- Step 4: Click `Next >` and choose whether you want to install OpenKH Panacea. For this tutorial, we ***will*** be installing and using Panacea, so please select `Install Panacea for Windows`.
+- Step 5: Click `Next >` and choose `Install Panacea for Windows`. We will be using Panacea for this tutorial.
    - OpenKH Panacea allows you to load your mods without modifying the game files.
 
-- Step 5: OpenKH will ask if you want to install `Lua Backend`. This is *not* necessary for Re:Fined, so feel free to click `Next >` if you do not wish to install it.
+- Step 6: OpenKH will ask if you want to install `Lua Backend`. This is *not* necessary for Re:Fined, so feel free to click `Next >` if you do not wish to install it.
 
-- Step 6: On the next screen, you may choose to `Launch via Epic Games`. If you would like to, check this and then click `Next >`.
+- Step 7: On the next screen, it may ask you if you want to launch your games directly via your launcher. Follow through if you want this option.
 
-- Step 7: Make sure `KH2-25GB` is checked, and then click `Extract game data`. This may take roughly fifteen minutes.
-   - If you have already used OpenKH in the past, I recommend doing this step again with a completely fresh install of the game, that way any extracted data is guaranteed to not be accidently modified by a pre-existing modification.
+- Step 8: Make sure `KH2-43GB` is checked, and then click `Extract game data`. This may take roughly *thirty* or more minutes.
+   - **This step is necessary!**
    - If you encounter any errors extracting the game files, please either try again, or re-download your game!
 
-- Step 8: After extraction, click `Next >` and then click `Finish`
+- Step 9: After extraction, click `Next >` and then click `Finish`
 
 When you are done, you should be at this screen!
 
@@ -67,18 +54,18 @@ When you are done, you should be at this screen!
 
 ## Downloading and Patching in Re:Fined using OpenKH:
 
-In this section, we will be downloading the necessary patches to properly run Re:Fined v4.00.
+In this section, we will be downloading the necessary patches to properly run Re:Fined.
 
 - Step 1: In OpenKH, select the `Mods` button on the top, and then select `Install a new mod`.
    - Under `Add a new mod from GitHub`, we will be pasting in `KH-ReFined/KH2-MAIN`, as seen in the screenshot below, and then will click `Install`.
-   - *Optional*: Feel free to also add `KH-ReFined/KH2-MultiAudio`, `KH-ReFined/KH2-SpanishVO` `KH-ReFined/KH2-VanillaOST`, and `KH-ReFined/KH2-VanillaEnemy` as well for extra Re:Fined v4.00 features!
+   - *Optional*: Feel free to also add `KH-ReFined/KH2-JapaneseVO`, `KH-ReFined/KH2-SpanishVO` `KH-ReFined/KH2-VanillaOST`, and `KH-ReFined/KH2-VanillaEnemy` as well for extra Re:Fined features!
    - *Note*: If you download additional add-ons, please make sure to place `KH2-MAIN` ***below*** the additional add-ons!
-   - *Note*: If downloading `KH-ReFined/KH2-SpanishVO`, place above `KH-ReFined/KH2-MultiAudio`
-   - *Note*: `KH-ReFined/KH2-MultiAudio` takes a ***very long time*** to download and install, as it is a rather large repository! If it looks like the program is unresponsive, it is simply because it is downloading the files.
+   - *Note*: `KH-ReFined/KH2-JapaneseVO` and `KH-ReFined/KH2-SpanishVO` take a ***very long time*** to download and install, as it is a rather large repository! If it looks like the program is unresponsive, it is simply because it is downloading the files.
 
 ![image](https://github.com/KHOmega/KH-Linux-Setup/assets/93887977/5214422f-a1b2-4197-b73e-7eaa9f8ff394)
 
 - Step 2: You will see `Kingdom Hearts II - Re:Fined` added into your mods list. Tick the little box so a checkmark appears in it.
+  - Also tick any other addons you have downloaded as well!
 
 - Click  `Mod Loader` ->  `Build Only`
    - The mod **will** persist after you close the game, so you don't have to re-open OpenKH.
@@ -88,35 +75,32 @@ In this section, we will be downloading the necessary patches to properly run Re
 
 - A debug window will then open, signaling that the game is currently being patched.
 
-![](https://cdn.discordapp.com/attachments/1145843947571249152/1155913243232063558/image.png?ex=653fe299&is=652d6d99&hm=1e4d8e927f678fc75008346591f5440c914d67e718b8eeb233379ae16e6202bd)
-
-![](https://cdn.discordapp.com/attachments/1145843947571249152/1155913243534037103/image.png?ex=653fe299&is=652d6d99&hm=33b1beb8e70c91f3ac9b52cec434afb8d2361f00520872bac3581213955dedc6)
-
 ## Setting up the .exe:
 
-In this section, we will be placing our new Re:Fined v4.00 installation files into our game directory.
+In this section, we will be placing Re:Fined installation files into our game directory.
 
 - Step 1: Locate your game installation.
 
 - Step 2: In your game installation folder, backup your original .exe by either moving or renaming `KINGDOM HEARTS II FINAL MIX.exe` somewhere or something different.
 
-- Step 3: Extract the Re:Fined .zip downloaded earlier, and place `KINGDOM HEARTS II FINAL MIX.exe`, `keystone.dll`, `Newtonsoft.Json.dll` and `ViGEmClient.dll` into your game directory folder.
+- Step 3: Extract the Re:Fined .zip downloaded earlier, and place `KINGDOM HEARTS II FINAL MIX.exe`, `keystone.dll`, `Newtonsoft.Json.dll` and `System.Runtime.CompilerServices.Unsafe.dll` into your game directory folder.
    - If you get a box asking you if you would like to overwrite any data, select `Yes`
 
 Note:
 - The .exe's game icon may not update right away. This is due to Windows Icon caching and in no way affects Re:Fined.
 
-This is what your game installation folder should now look like
+This is what your game installation folder should now look like:
 
-![image](https://github.com/KHOmega/KH-PC-and-Linux-Setup/assets/93887977/a231670a-04bb-4ef4-a1c7-a750603da051)
+![image](https://github.com/user-attachments/assets/b0319447-c01e-49cb-af66-e3aca2a33093)
 
 ## Done!
 
-Congratulations! Now you can just boot the game as you would normally and it will be there. You will know if it has worked when you select `NEW GAME` and you get the new options to select your controller prompts and skip the prologue! 
+And there you go! Kingdom Hearts II Final Mix - Re:Fined has been successfully installed! You will know it has worked when you see `Re:Fined by TopazTK` on the title screen.
 
-![image](https://github.com/KHOmega/KH-SteamDeck-Setup/assets/93887977/da61afaa-602c-4af0-a473-dc924c9daf95)
+![title screen](https://github.com/user-attachments/assets/b34ee907-0247-4c0b-94d0-fd76385fb3a4)
 
-And there you go! Re:Fined v4.xx has been successfully installed!
+
+And there you go! Re:Fined has been successfully installed!
 
 # Working Screenshots
 ![image](https://github.com/KHOmega/KH-SteamDeck-Setup/assets/93887977/82ed635e-524b-4f48-b2cd-533f50cd392a)
