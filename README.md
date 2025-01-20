@@ -31,12 +31,8 @@ A repository that helps users setup the Steam and/or Epic Games Store versions o
 
 ## Re:Fined
 ### For Windows Users:
-- Steam
-    - TBA
-
- - Epic Games Store
-    - ~~Click [here](https://github.com/KHOmega/KH-PC-and-Linux-Setup/blob/main/refined-windows-setup.md) for installation steps on how to install ***Re:Fined*** on Windows.~~
-        - ***(Requires Update as of 06/16/2024)***
+- Steam / Epic Games Store
+    - Click [here](https://github.com/KHOmega/KH-PC-and-Linux-Setup/blob/main/refined-windows-setup.md) for installation steps on how to install ***Re:Fined***.
 
 ### For SteamOS/Bazzite/other Linux Distros:
  - Steam
