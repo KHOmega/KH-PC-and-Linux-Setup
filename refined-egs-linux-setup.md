@@ -95,7 +95,7 @@ In this section, we will be setting up OpenKH's Mods Manager to patch the necess
 
 - Step 3: A window will pop up saying "Welcome to OpenKH Mods Manager".
   
-- Step 4: On the `Welcome to OpenKH Mods Manager` screen, click `Next >`, then under `Game edition`, select `PC Release`, sekect `Global` and then select `Epic Games Store`
+- Step 4: On the `Welcome to OpenKH Mods Manager` screen, click `Next >`, then under `Game edition`, select `PC Release`, select `Global` and then select `Epic Games Store`
    - Under `Folder location of the PC release of 1.5+2.5`, find the directory that your game is installed.
     - If you don't know where you have installed 1.5+2.5, go back into Heroic, click the game, and then click `Installed Location`, and copy the path under `Install Path` and input that in OpenKH.
 
