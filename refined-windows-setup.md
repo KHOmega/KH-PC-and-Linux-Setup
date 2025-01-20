@@ -110,8 +110,6 @@ And there you go! Re:Fined has been successfully installed!
 
 ## Updating Re:Fined:
 
-Updating is not a trivial task and does not take long to perform. 
-
 - Step 1: Check if the updated .exe version contains a note like this:
 
 ![image](https://github.com/KHOmega/KH-SteamDeck-Setup/assets/93887977/2704921c-14c5-47a2-bb69-062f1a6624b3)
