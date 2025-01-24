@@ -33,14 +33,14 @@ A repository that helps users setup the Steam and/or Epic Games Store versions o
 ### For Windows Users:
 - Steam / Epic Games Store
     - Click [here](https://github.com/KHOmega/KH-PC-and-Linux-Setup/blob/main/refined-windows-setup.md) for installation steps on how to install ***Re:Fined***.
-    - Click [here](https://www.youtube.com/watch?v=m1IRz-_uCmc&list=PLMI1YpfVD_3EVSd_pCiPrFh1bio-tvbbg&index=10) for an installation video on how to install ***Re:Fined*** by [Kité2810](https://github.com/Kite2810)
+    - Click [here](https://www.youtube.com/watch?v=m1IRz-_uCmc&) for an installation video on how to install ***Re:Fined*** by [Kité2810](https://github.com/Kite2810)
 
 ### For SteamOS/Bazzite/other Linux Distros:
  - Steam
     - Click [here](https://github.com/KHOmega/KH-PC-and-Linux-Setup/blob/main/refined-steam-linux-setup.md) for installation steps on how to install ***Re:Fined***.
      
        - This guide ***uses*** Panacea and ***does not work*** on Gaming Mode on SteamOS/Bazzite 
-    - Click [here](https://www.outube.com/watch?v=EV6HlD90ePw&feature=youtu.be) for an installation video on how to install ***Re:Fined*** by geo.stigma.
+    - Click [here](https://www.youtube.com/watch?v=EV6HlD90ePw&) for an installation video on how to install ***Re:Fined*** by geo.stigma.
      
        - This guide ***does not*** use Panacea and instead directly patches the game, but ***does work*** on Gaming Mode on Steam OS/Bazzite
 
