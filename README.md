@@ -33,10 +33,16 @@ A repository that helps users setup the Steam and/or Epic Games Store versions o
 ### For Windows Users:
 - Steam / Epic Games Store
     - Click [here](https://github.com/KHOmega/KH-PC-and-Linux-Setup/blob/main/refined-windows-setup.md) for installation steps on how to install ***Re:Fined***.
+    - Click [here](https://www.youtube.com/watch?v=m1IRz-_uCmc&list=PLMI1YpfVD_3EVSd_pCiPrFh1bio-tvbbg&index=10) for an installation video on how to install ***Re:Fined*** by [Kité2810](https://github.com/Kite2810)
 
 ### For SteamOS/Bazzite/other Linux Distros:
  - Steam
     - Click [here](https://github.com/KHOmega/KH-PC-and-Linux-Setup/blob/main/refined-steam-linux-setup.md) for installation steps on how to install ***Re:Fined***.
+     
+       - This guide ***uses*** Panacea and ***does not work*** on Gaming Mode on SteamOS/Bazzite 
+    - Click [here](https://www.outube.com/watch?v=EV6HlD90ePw&feature=youtu.be) for an installation video on how to install ***Re:Fined*** by geo.stigma.
+     
+       - This guide ***does not*** use Panacea and instead directly patches the game, but ***does work*** on Gaming Mode on Steam OS/Bazzite
 
 - Epic Games Store
     - Click [here](https://github.com/KHOmega/KH-PC-and-Linux-Setup/blob/main/refined-egs-linux-setup.md) for installation steps on how to install ***Re:Fined***.
@@ -70,9 +76,13 @@ Click [here](https://tommadness.github.io/KH2Randomizer/setup/Panacea-ModLoader/
 
 # Misc. / Credits
 
-Thank you to [TopazTK](https://github.com/TopazTK) for letting this be the official guide on how to install Re:Fined on PCs
+Thank you to [TopazTK](https://github.com/TopazTK) for letting this be the official GitHub read-me on how to install Re:Fined
 
 Thank you to [SandeMC](https://github.com/SandeMC) for original PR on the main KH Re:Fined page for converting the original Discord tutorial to Github format
+
+Thank you to [Kité2810](https://github.com/Kite2810) for his tutorial on how to install Re:Fined on Windows
+
+Thank you to geo.stigma for his video tutorial on how to install Re:Fined on Steam OS
 
 ### Where to reach me!
 
