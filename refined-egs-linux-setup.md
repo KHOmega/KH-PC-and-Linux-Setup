@@ -99,7 +99,7 @@ In this section, we will be setting up OpenKH's Mods Manager to patch the necess
    - Under `Folder location of the PC release of 1.5+2.5`, find the directory that your game is installed.
     - If you don't know where you have installed 1.5+2.5, go back into Heroic, click the game, and then click `Installed Location`, and copy the path under `Install Path` and input that in OpenKH.
 
-- Step 5: Click `Next >` and choose `Install Panacea for Linux`. We will be using Panacea for this tutorial.
+- Step 5: Click `Next >` and choose `Install Panacea`. We will be using Panacea for this tutorial.
    - OpenKH Panacea allows you to load your mods without modifying the game files.
 
 - Step 6: OpenKH will ask if you want to install `Lua Backend`. This is *not* necessary for Re:Fined, so feel free to click `Next >` if you do not wish to install it.
@@ -123,7 +123,7 @@ In this section, we will be downloading the necessary patches to properly run Re
 - Step 1: In OpenKH, select the `Mods` button on the top, and then select `Install a new mod`.
    - Under `Add a new mod from GitHub`, we will be pasting in `KH-ReFined/KH2-MAIN`, as seen in the screenshot below, and then will click `Install`.
    - **Optional**: Additional Re:Fined Mods, such as Voice Packs, Heartless Colors, and Vanilla OST can be found [here](https://github.com/KH-ReFined/KH-ReFined?tab=readme-ov-file#kingdom-hearts-ii-1).
-      - *Note*: If you download additional add-ons, please make sure to place `KH2-MAIN` ***below*** the additional add-ons!
+      - *Note*: If you download the additional add-ons, please make sure to place the add-ons ***above*** the main patch!
    - *Note*: `KH-ReFined/KH2-JapaneseVO` and `KH-ReFined/KH2-SpanishVO` take a ***very long time*** to download and install, as it is a rather large repository! If it looks like the program is unresponsive, it is simply because it is downloading the files.
 
 ![image](https://github.com/KHOmega/KH-Linux-Setup/assets/93887977/f34df394-93a1-4186-a3b4-5d57204bd665)
