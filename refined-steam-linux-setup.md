@@ -142,7 +142,7 @@ In this section, we will be downloading the necessary patches to properly run Re
 - Select `Libraries`
 - Under `New override for library:`, type in `keystone` and then click `Add`.
 - Under `New override for library:`, type in `version` and then click `Add`.
-- Under `New override for library:` type in `dinput8` and then click `Add`
+- ***Optional***: Under `New override for library:` type in `dinput8` and then click `Add`
    - This is optional if you decide to install LuaBackend.
 - Click `Apply` and `OK`
 
