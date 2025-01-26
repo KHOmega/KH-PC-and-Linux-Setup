@@ -20,4 +20,5 @@ echo "Deleting zip file..."
 cd
 rm KH2-ReFined-STEAM-v2.60.zip
 rm winetricks
+rm ReFinedPreReq.sh
 echo "Done! You may now exit."
