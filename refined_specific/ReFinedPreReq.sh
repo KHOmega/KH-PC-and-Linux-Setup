@@ -2,6 +2,8 @@
 cd
 echo "Downloading Winetricks from KH-PC-and-Linux-Setup..."
 wget https://raw.githubusercontent.com/KHOmega/KH-PC-and-Linux-Setup/refs/heads/main/refined_specific/winetricks
+echo "Backing up KH Prefix folder..."
+mv /home/deck/.steam/steam/steamapps/compatdata/2552430/ /home/deck/.steam/steam/steamapps/compatdata/2552430.bak/
 echo "Moving winetricks to Protontricks's directory..."
 cp /home/deck/winetricks /home/deck/.local/share/flatpak/app/com.github.Matoking.protontricks/current/active/files/bin/
  echo "Installing all Re:Fined prerequisites into 1.5/2.5's Prefix folder..."
