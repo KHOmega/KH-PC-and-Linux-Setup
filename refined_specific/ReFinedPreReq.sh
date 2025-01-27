@@ -6,7 +6,7 @@ echo "Backing up KH Prefix folder..."
 mv /home/deck/.steam/steam/steamapps/compatdata/2552430/ /home/deck/.steam/steam/steamapps/compatdata/2552430.bak/
 mkdir /home/deck/.steam/steam/steamapps/compatdata/2552430/
 echo "Moving winetricks to Protontricks's directory..."
-cp /home/deck/winetricks /home/deck/.local/share/flatpak/app/com.github.Matoking.protontricks/current/active/files/bin/
+cp /home/deck/winetricks /var/lib/flatpak/app/com.github.Matoking.protontricks/current/active/files/bin/
  echo "Installing all Re:Fined prerequisites into 1.5/2.5's Prefix folder..."
 flatpak run com.github.Matoking.protontricks 2552430 -q -f dotnet40 dotnet48 dotnet6 dotnet7 dotnet8 dotnet9 dotnetdesktop6 dotnetdesktop7 dotnetdesktop8 dotnetdesktop9 vcrun2022 vcrun6 xaudio29
 echo "Now downloading Re:Fined 2.60 (Steam) from GitHub..."
