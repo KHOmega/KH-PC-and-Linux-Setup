@@ -1,4 +1,6 @@
 #!/bin/bash
+"Attempting to get permission to access Protontrick's directory..."
+sudo chmod 777 /var/lib/flatpak/app/com.github.Matoking.protontricks/current/active/files/bin/
 cd
 echo "Downloading Winetricks from KH-PC-and-Linux-Setup..."
 wget https://raw.githubusercontent.com/KHOmega/KH-PC-and-Linux-Setup/refs/heads/main/refined_specific/winetricks
