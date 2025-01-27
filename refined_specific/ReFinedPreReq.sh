@@ -21,7 +21,7 @@ mv KINGDOM\ HEARTS\ II\ FINAL\ MIX.exe Backup\ EXE/KINGDOM\ HEARTS\ II\ FINAL\ M
 cd
 echo "Unzipping ReFined and placing the files into KH 1.5/2.5..."
 unzip KH2-ReFined-STEAM-v2.60.zip -d /home/deck/.local/share/Steam/steamapps/common/KINGDOM\ HEARTS\ -HD\ 1.5+2.5\ ReMIX-
-echo "Deleting zip file..."
+echo "Deleting setup files..."
 cd
 rm KH2-ReFined-STEAM-v2.60.zip
 rm winetricks
