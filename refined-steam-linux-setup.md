@@ -1,26 +1,18 @@
-> [!WARNING]  
-> - ## ***IMPORTANT NOTE FOR STEAM DECK/BAZZITE USERS (DO NOT SKIP)***:
->   - IF YOU ARE ON STEAM DECK, DO NOT LAUNCH THIS GAME VIA GAME MODE, AS THE PROTON VERSION USED WILL CAUSE THE GAME TO FLASH. THIS WILL ***ONLY WORK*** IN DESKTOP MODE. PLEASE ***DO NOT*** LAUNCH THIS GAME VIA GAME MODE. THERE IS NO FIX FOR THIS.
->   - I CAN NOT STRESS THIS ENOUGH, ESPECIALLY IF YOU ARE EPILEPTIC OR ARE PRONE TO SEIZURES, PLEASE ***DO.*** ***NOT.*** LAUNCH THIS GAME IN GAME MODE.
-
 # Installation
 
- - This guide assumes you are installing this on Steam Deck! For other OS's, please adjust accordingly.
- - This guide also assumes that you have some knowledge in how to navigate Linux based OSs!
- - ***Steam Deck***: Please launch into Desktop Mode and use a mouse and keyboard! While this is doable without a mouse or keyboard, it will be frustrating!
- - This guide is written with the intention of installing Re:Fined
-  - As of this writing, the only version with a Re:Fined release is ``KINGDOM HEARTS II FINAL MIX``
- - If you are using an Epic Games Store or an unofficial copy, a guide will be made soon for that!
+> [!IMPORTANT]
+> - This guide assumes you are installing this on Steam Deck! For other OS's, please adjust accordingly.
+> - This guide also assumes that you have some knowledge in how to navigate Linux based OSs!
+> - ***Steam Deck***: Please launch into Desktop Mode and use a mouse and keyboard! While this is doable without a mouse or keyboard, it will be frustrating!
+> - As of this writing, the only version with a Re:Fined release is ``KINGDOM HEARTS II FINAL MIX``.
+> - If you are using an ***Epic Games Store*** or an unofficial copy, [please follow this tutorial](https://github.com/KHOmega/KH-PC-and-Linux-Setup/blob/main/refined-egs-linux-setup.md).
 
-## Pre-requisities
-To get started you need to download and have the following:
+## Pre-requisites
+To get started you need to download and install the following:
 
 - [**KINGDOM HEARTS -HD 1.5+2.5 ReMIX-**](https://store.steampowered.com/app/2552430/KINGDOM_HEARTS_HD_1525_ReMIX/)
    - Steam Deck - Download from the Discover Store
    - Linux - Download from your preferred repository
-
-- [**Re:Fined**](https://github.com/KH-ReFined/KH-ReFined/releases) for **KINGDOM HEARTS II FINAL MIX**
-   - Download `KH2-ReFined-STEAM-vx.xx.zip` from the latest build.
 
 - [**OpenKH**](https://github.com/OpenKH/OpenKh/releases)
    - Download `openkh.zip` from the latest numbered build.
@@ -32,18 +24,22 @@ To get started you need to download and have the following:
 - **Protontricks**
    - Download from Discover
 
-# Downloading GE-Proton 8-32:
+- Password set in Konsole
+   - Enter `passwd` in Konsole to setup a password if you haven't already.
 
-In this section, we will be downloading **GE-Proton 8-32**. We will be using this version of Proton to help us install some pre-requisitie files.
+# Downloading and Installing GE-Proton 9-23:
+
+In this section, we will be downloading **GE-Proton 9-23**.
 
 - Step 1: Launch **ProtonUp-QT**
 
 - Step 2: Under "Install For", select "Steam", and then click `Add Version`
-   - From here, under "Compatibility tool:" select GE-Proton. Then under "Version:", select the latest version of **GE-Proton 8-32**, and then click `Install`.
+   - From here, under "Compatibility tool:" select GE-Proton. Then under "Version:", select the latest version of **GE-Proton 9-23**, and then click `Install`.
+
+![image](https://github.com/user-attachments/assets/598130ad-1580-4c2c-aa7a-022aeb0f3b22)
 
 - Step 3: After it is done installing, exit out of ProtonUp-QT ***AND*** Steam. Then, re-open Steam.
 
-![image](https://github.com/user-attachments/assets/b6ced675-2b68-484e-a7eb-89075e10385a)
 ![Exit Steam](https://github.com/user-attachments/assets/60dc174e-888c-4a9f-8076-57415efdf227)
 
 # Setting Up OpenKH's Prefix
@@ -118,55 +114,39 @@ In this section, we will be downloading the necessary patches to properly run Re
 
 - Step 3: After everything is done installing, you can exit out of OpenKH.
 
-# Setting up Kingdom Hearts 1.5+2.5 HD ReMix's Prefix:
+# Downloading and Installing Re:Fined Pre-Requisite Script:
 
-### Note, *DO NOT* skip *ANY* step in this section, as you NEED to follow everything here for the game to properly work.
+> [!IMPORTANT]
+> If you are on a different Linux Distro, this step might not work due to the script being made for SteamOS users in mind!
+> We are working on an auto detection and will update the guide accordingly!
+> For a workaround, please look towards the bottom of the guide.
 
-- Step 1: Make sure Steam Cloud saves are enabled for Kingdom Hearts, as we are going to completely delete the prefix of the game if you previously played KH on your steam deck.
-
-- Step 2: Navigate to your Steam Prefix directory (`/home/deck/.steam/steam/steamapps/compatdata/`) and ***DELETE*** `2552430`.
-
-- Step 3: In Steam, right click 1.5/2.5 HD ReMix and select `Compatibility`, and then select `GE-Proton8-32` and then Launch Game.
+- Step 1: In Steam, right click 1.5/2.5 HD ReMix and select `Compatibility`, and then select `GE-Proton9-23` and then Launch Game.
    - After the game successfully opens, exit out of the game.
 
-- Step 6: In Konsole, type in the following code and hit enter:
-   - `flatpak run com.github.Matoking.protontricks 2552430 -q -f dotnet40 dotnet48 dotnet6 dotnetdesktop6`
+- Step 2: Open Konsole, enter `passwd`, and create a password to use in Konsole.
+   - If you have already done this in the past, you do not need to do this again.
 
-       - This will take a little while, about 15-20ish minutes. When it is done, proceed to the next step.
+- Step 3: In Konsole, type in the following code and hit enter:
+   - `wget https://raw.githubusercontent.com/KHOmega/KH-PC-and-Linux-Setup/refs/heads/main/refined_specific/ReFinedPreReq.sh`
 
-- Step 7: In Konsole, type in the following code and hit enter:
-   - `flatpak run com.github.Matoking.protontricks 2552430 winecfg`
+- Step 4: In Konsole, type in the following code and hit enter:
+   - `sh ReFinedPreReq.sh`
 
-    A new window will open, in which you will do the following:
+- You will now be prompted to type in the password you made in Step 1. Enter your password and then click enter, and the installer will do all the work for you.
+   - If Konsole asks you to overwrite any files, follow the steps on screen and overwrite.
 
-- Select `Libraries`
-- Under `New override for library:`, type in `keystone` and then click `Add`.
-- Under `New override for library:`, type in `version` and then click `Add`.
-- ***Optional***: Under `New override for library:` type in `dinput8` and then click `Add`
-   - This is optional if you decide to install LuaBackend.
-- Click `Apply` and `OK`
+- Step 5: Right click KINGDOM HEARTS 1.5 + 2.5 HD ReMIX in Steam and select `Properties`
+   - Under launch options, paste the following code: `WINEDLLOVERRIDES="version,keystone,newtonsoft.json,dinput8=n,b" %command%`
 
-# Installing Re:Fined and finalizing Linux Setup:
-
-In this section, we will be placing the Re:Fined .exe onto our game directory, and finish setting up our Linux Installation.
-
-- Step 1: Locate your game installation.
-
-- Step 2: In your game installation folder, backup your original .exe by either moving or renaming `KINGDOM HEARTS II FINAL MIX.exe` somewhere or something different.
-
-- Step 3: Extract the Re:Fined .zip downloaded earlier, and place `KINGDOM HEARTS II FINAL MIX.exe`, `keystone.dll`, `Newtonsoft.Json.dll` and `System.Runtime.CompilerServices.Unsafe.dll` into your game directory folder.
-
-This is an example of what your game installation folder should now look like:
-
-![game directory](https://github.com/user-attachments/assets/a263a78c-9926-4104-8ecf-e89ef66b03cc)
+![image](https://github.com/user-attachments/assets/5003536f-a103-4863-bce9-74ffabf4e9c3)
 
 # Launching Re:Fined.
 
 Congratulations! You are very close into launching Re:Fined!
 
-- Step 1: Right Click `KINGDOM HEARTS 1.5+2.5 HD ReMIX`, click `Properties`, select `Compatibility`, and switch the Proton version to `Proton 8.0-5`
-- Step 2: Click play on `KINGDOM HEARTS 1.5+2.5 HD ReMIX`
-- Step 3: Select `KINGDOM HEARTS II FINAL MIX`
+- Step 1: Click play on `KINGDOM HEARTS 1.5+2.5 HD ReMIX`
+- Step 2: Select `KINGDOM HEARTS II FINAL MIX`
  - If you get this error in the screenshot listed below, just click `No`.
 
 ![image](https://github.com/user-attachments/assets/4e208067-e2f2-40d7-a2c3-21a6f7a5516a)
@@ -176,3 +156,17 @@ And there you go! Kingdom Hearts II Final Mix - Re:Fined has been successfully i
 ![title screen](https://github.com/user-attachments/assets/b34ee907-0247-4c0b-94d0-fd76385fb3a4)
 
 - *Note*, if controller inputs are not working, simply either tap your screen, or hold down the `STEAM` button and click down the right touch pad.
+
+# Non-SteamOS Linux Script Workaround
+
+> [!WARNING]
+> - This is untested!
+
+- Please enter the following commands in Terminal:
+
+    - `sudo chmod -R 777 ~/var/lib/flatpak/app/com.github.Matoking.protontricks/current/active/files/bin/`
+    - `wget https://raw.githubusercontent.com/KHOmega/KH-PC-and-Linux-Setup/refs/heads/main/refined_specific/winetricks`
+    - `cp ~/winetricks /var/lib/flatpak/app/com.github.Matoking.protontricks/current/active/files/bin/`
+    - `flatpak run com.github.Matoking.protontricks 2552430 -q -f dotnet40 dotnet48 dotnet6 dotnet7 dotnet8 dotnet9 dotnetdesktop6 dotnetdesktop7 dotnetdesktop8 dotnetdesktop9 vcrun2022 vcrun6 xaudio29 win11`
+
+- Please then proceed to download the [latest release](https://github.com/KH-ReFined/KH-ReFined/releases/latest) and place all the files into the game directory.
