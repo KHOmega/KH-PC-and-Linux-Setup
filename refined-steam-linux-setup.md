@@ -2,6 +2,7 @@
 
 > [!IMPORTANT]
 > - This guide assumes you are installing this on Steam Deck! For other OS's, please adjust accordingly.
+>   - The script below assumes you are running this on Steam Deck.
 > - This guide also assumes that you have some knowledge in how to navigate Linux based OSs!
 > - ***Steam Deck***: Please launch into Desktop Mode and use a mouse and keyboard! While this is doable without a mouse or keyboard, it will be frustrating!
 > - As of this writing, the only version with a Re:Fined release is ``KINGDOM HEARTS II FINAL MIX``.
@@ -11,17 +12,18 @@
 To get started you need to download and install the following:
 
 - [**KINGDOM HEARTS -HD 1.5+2.5 ReMIX-**](https://store.steampowered.com/app/2552430/KINGDOM_HEARTS_HD_1525_ReMIX/)
-   - Steam Deck - Download from the Discover Store
-   - Linux - Download from your preferred repository
+   - This guide assumes you have the game downloaded to your ***Internal Storage***.
+   - If not, please syslink it to your Internal Storage's game directory.
+      - [eg. `~/.local/Steam/steamapps/common/KINGDOM HEARTS -HD 1.5+2.5 ReMIX-/`]
 
 - [**OpenKH**](https://github.com/OpenKH/OpenKh/releases)
    - Download `openkh.zip` from the latest numbered build.
    - Extract OpenKH somewhere safe on your system.
 
-- **ProtonUp-QT**
+- **ProtonUp-QT (Flatpak)**
    - Download from Discover
 
-- **Protontricks**
+- **Protontricks (Flatpak)**
    - Download from Discover
 
 - Password set in Konsole
