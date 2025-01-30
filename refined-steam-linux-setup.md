@@ -122,7 +122,7 @@ In this section, we will be downloading the necessary patches to properly run Re
 > - If you are on a different Linux Distro, this step might not work due to the script being made for SteamOS users in mind!
 > - We are working on an auto detection and will update the guide accordingly!
 > - For a workaround, please look towards the bottom of the guide.
-> -Please make sure cloud-saving is enabled!
+> - Please make sure cloud-saving is enabled!
 
 - Step 1: Navigate to `~/.steam/steam/steamapps/compatdata` and ***delete*** `2552430`. To make sure everything works, we will be using a new, clean prefix.
 
