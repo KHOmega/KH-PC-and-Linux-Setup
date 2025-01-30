@@ -1,16 +1,16 @@
 #!/bin/bash
 echo "Hello! Welcome to the scuffed auto-Re:Fined installer by KHOmega!"
-sleep 5
+sleep 3
 echo "During this setup, we will be downloading a version of Winetricks that has the ability to install the necessary dependencies needed to run Re:Fined, Panacea, and LuaBackend on your Linux device!"
-sleep 5
+sleep 3
 echo "If you have any questions, please feel free to reach out in the Re:Fined server in the #linux-and-steamdeck channel!"
-sleep 5
+sleep 3
 echo "If you have not done so, please make sure you have deleted your old prefix as stated in the guide, or else this script might not work correctly!"
+sleep 3
+echo "If you do not have a password set, please exit this script and setup a password for Konsole by using passwd!"
 sleep 3
 echo "Starting the script now!"
 sleep 3
-echo "If you do not have a password set, please exit this script and setup a password for Konsole by using passwd!"
-sleep 5
 echo "Attempting to get permission to access Protontrick's directory..."
 sleep 3
 sudo chmod -R 777 /var/lib/flatpak/app/com.github.Matoking.protontricks/current/active/files/bin/
