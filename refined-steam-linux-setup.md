@@ -172,7 +172,7 @@ And there you go! Kingdom Hearts II Final Mix - Re:Fined has been successfully i
 
     - `sudo chmod -R 777 ~/var/lib/flatpak/app/com.github.Matoking.protontricks/current/active/files/bin/`
     - `wget https://raw.githubusercontent.com/KHOmega/KH-PC-and-Linux-Setup/refs/heads/main/refined_specific/winetricks`
-    - `cp ~/winetricks /var/lib/flatpak/app/com.github.Matoking.protontricks/current/active/files/bin/`
+    - `cp ~/winetricks ~/var/lib/flatpak/app/com.github.Matoking.protontricks/current/active/files/bin/`
     - `flatpak run com.github.Matoking.protontricks 2552430 -q -f dotnet40 dotnet48 dotnet6 dotnet7 dotnet8 dotnet9 dotnetdesktop6 dotnetdesktop7 dotnetdesktop8 dotnetdesktop9 vcrun2022 vcrun6 xaudio29 win11`
 
 - Please then proceed to download the [latest release](https://github.com/KH-ReFined/KH-ReFined/releases/latest) and place all the files into the game directory.
