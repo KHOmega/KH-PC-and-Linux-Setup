@@ -147,8 +147,9 @@ In this section, we will be downloading the necessary patches to properly run Re
 
 Congratulations! You are very close into launching Re:Fined!
 
-- Step 1: Click play on `KINGDOM HEARTS 1.5+2.5 HD ReMIX`
-- Step 2: Select `KINGDOM HEARTS II FINAL MIX`
+- Step 1: Right click `KINGDOM HEARTS -HD 1.5+2.5 HD ReMIX-` -> `Properties...` -> `Compatiblity` and change the compatibility to `Proton 9.0-4`
+- Step 2: Click play on `KINGDOM HEARTS 1.5+2.5 HD ReMIX`
+- Step 3: Select `KINGDOM HEARTS II FINAL MIX`
  - If you get this error in the screenshot listed below, just click `No`.
 
 ![image](https://github.com/user-attachments/assets/4e208067-e2f2-40d7-a2c3-21a6f7a5516a)
