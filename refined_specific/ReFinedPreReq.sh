@@ -44,4 +44,4 @@ cd
 rm KH2-ReFined-STEAM-v2.60.zip
 rm winetricks
 rm ReFinedPreReq.sh
-echo "All complete! Please continue on with the guide and make sure you switch back to Proton 9.0-4!"
+echo "All complete! Please continue on with the guide and make sure you switch to Proton Experimental!"
