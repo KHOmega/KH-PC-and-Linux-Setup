@@ -23,7 +23,8 @@ sleep 3
 cp ~/winetricks /var/lib/flatpak/app/com.github.Matoking.protontricks/current/active/files/bin/
 echo "Installing all Re:Fined dependencies into 2552430..."
 sleep 3
-flatpak run com.github.Matoking.protontricks 2552430 -q -f dotnet40 dotnet48 dotnet6 dotnet7 dotnet8 dotnet9 dotnetdesktop6 dotnetdesktop7 dotnetdesktop8 dotnetdesktop9 vcrun2022 vcrun6 xaudio29 win11
+flatpak run com.github.Matoking.protontricks 2552430 -q -f dotnet40 dotnet48 dotnet6 dotnet7 dotnet8 dotnet9 dotnetdesktop6 dotnetdesktop7 dotnetdesktop8 dotnetdesktop9 vcrun2022 vcrun6 xaudio29
+flatpak run com.github.Matoking.protontricks 2552430 -q -f win11
 echo "Downloading Re:Fined [Steam] from GitHub..."
 sleep 3
 cd
