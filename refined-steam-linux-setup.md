@@ -8,7 +8,7 @@
 > - As of this writing, the only version with a Re:Fined release is ``KINGDOM HEARTS II FINAL MIX``.
 > - If you are using an ***Epic Games Store*** or an unofficial copy, [please follow this tutorial](https://github.com/KHOmega/KH-PC-and-Linux-Setup/blob/main/refined-egs-linux-setup.md).
 
-## Pre-requisites
+## Prerequisites
 To get started you need to download and install the following:
 
 - [**KINGDOM HEARTS -HD 1.5+2.5 ReMIX-**](https://store.steampowered.com/app/2552430/KINGDOM_HEARTS_HD_1525_ReMIX/)
@@ -36,7 +36,7 @@ In this section, we will be downloading **GE-Proton 9-23**.
 - Step 1: Launch **ProtonUp-QT**
 
 - Step 2: Under "Install For", select "Steam", and then click `Add Version`
-   - From here, under "Compatibility tool:" select GE-Proton. Then under "Version:", select the latest version of **GE-Proton 9-23**, and then click `Install`.
+   - From here, under "Compatibility tool:" select `GE-Proton`. Then under "Version:", select `GE-Proton 9-23`, and then click `Install`.
 
 ![image](https://github.com/user-attachments/assets/598130ad-1580-4c2c-aa7a-022aeb0f3b22)
 
@@ -116,30 +116,33 @@ In this section, we will be downloading the necessary patches to properly run Re
 
 - Step 3: After everything is done installing, you can exit out of OpenKH.
 
-# Downloading and Installing Re:Fined Pre-Requisite Script:
+# Downloading and Installing Re:Fined Dependencies Script:
 
 > [!IMPORTANT]
 > If you are on a different Linux Distro, this step might not work due to the script being made for SteamOS users in mind!
 > We are working on an auto detection and will update the guide accordingly!
 > For a workaround, please look towards the bottom of the guide.
+> Please make sure cloud-saving is enabled!
 
-- Step 1: In Steam, right click 1.5/2.5 HD ReMix and select `Compatibility`, and then select `GE-Proton9-23` and then Launch Game.
+- Step 1: Navigate to `~/.steam/steam/steamapps/compatdata` and ***delete*** `2552430`. To make sure everything works, we will be using a new, clean prefix.
+
+- Step 2: In Steam, right click `KINGDOM HEARTS -HD 1.5+2.5 HD ReMIX-` -> `Properties...` -> `Compatiblity` and change the compatibility to `GE-Proton9-23` and then launch the game.
    - After the game successfully opens, exit out of the game.
 
-- Step 2: Open Konsole, enter `passwd`, and create a password to use in Konsole.
+- Step 3: Open Konsole, enter `passwd`, and create a password to use in Konsole.
    - If you have already done this in the past, you do not need to do this again.
 
-- Step 3: In Konsole, type in the following code and hit enter:
+- Step 4: In Konsole, type in the following code and hit enter:
    - `wget https://raw.githubusercontent.com/KHOmega/KH-PC-and-Linux-Setup/refs/heads/main/refined_specific/ReFinedPreReq.sh`
 
-- Step 4: In Konsole, type in the following code and hit enter:
+- Step 5: In Konsole, type in the following code and hit enter:
    - `sh ReFinedPreReq.sh`
 
 - You will now be prompted to type in the password you made in Step 1. Enter your password and then click enter, and the installer will do all the work for you.
    - If Konsole asks you to overwrite any files, follow the steps on screen and overwrite.
 
-- Step 5: Right click KINGDOM HEARTS 1.5 + 2.5 HD ReMIX in Steam and select `Properties`
-   - Under launch options, paste the following code: `WINEDLLOVERRIDES="version,keystone,newtonsoft.json,dinput8=n,b" %command%`
+- Step 6: Now right click `KINGDOM HEARTS -HD 1.5+2.5 HD ReMIX-` -> `Properties...` and enter the following under `Launch Options`:
+   -  `WINEDLLOVERRIDES="version,keystone,newtonsoft.json,dinput8=n,b" %command%`
 
 ![image](https://github.com/user-attachments/assets/5003536f-a103-4863-bce9-74ffabf4e9c3)
 
