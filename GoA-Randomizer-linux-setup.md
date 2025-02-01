@@ -18,7 +18,7 @@ To get started you will need the following:
 # OpenKH & Seed Generator Script
 
 > [!IMPORTANT]
-> - If you already have OpenKH setup and configured, you can skip below to the [Seed Generator Step](https://github.com/KHOmega/KH-PC-and-Linux-Setup/main/GoA-Randomizer-linux-setup.md#installing-goa-randomizer) after running the script and *continue from there*!
+> - If you already have OpenKH setup and configured, you can skip below to the [Seed Generator Step](https://github.com/KHOmega/KH-PC-and-Linux-Setup/blob/main/GoA-Randomizer-linux-setup.md#installing-goa-randomizer) after running the script and *continue from there*!
 > - This script will automatically download the latest version of **OpenKH**, **Seed Generator**, and **.NET 6.0.31**.
 > - **OpenKH** and **Seed Genearator** will be placed in your `Documents` folder
 > - **.NET 6.0.31** will be placed into your `Downloads` folder.
