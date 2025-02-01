@@ -17,14 +17,13 @@ To get started you need to download and install the following:
       - [eg. `~/.local/Steam/steamapps/common/KINGDOM HEARTS -HD 1.5+2.5 ReMIX-/`]
 
 - [**OpenKH**](https://github.com/OpenKH/OpenKh/releases)
-   - Download `openkh.zip` from the latest numbered build.
-   - Extract OpenKH somewhere safe on your system.
+   - Will be downloaded from the `OpenKHSetup.sh` Script
 
 - **ProtonUp-QT (Flatpak)**
    - Download from Discover
 
 - **Protontricks (Flatpak)**
-   - Download from Discover
+   - Download from Discover and run once.
 
 - Password set in Konsole
    - Enter `passwd` in Konsole to setup a password if you haven't already.
@@ -46,26 +45,30 @@ In this section, we will be downloading **GE-Proton 9-23**.
 
 # Setting Up OpenKH's Prefix
 
-- In this section, we will be setting up OpenKH.
- - A prefix is where WINE has all it's files setup, and is similar to a `C:\` drive on a regular Windows computer. This is where data such as your save data will be located in.
+- Step 1: In Konsole, enter and run the following code:
+  - `wget https://raw.githubusercontent.com/KHOmega/KH-PC-and-Linux-Setup/refs/heads/main/refined_specific/OpenKHSetup.sh`
 
-- Step 1: In Steam, click `Add a Game` on the bottom right, select `Add a Non-Steam Game...`, select `Browse`, and where you have OpenKH extracted, select `OpenKH.Tools.ModsManager.exe`, and click `Open`. Then click `Add Selected Programs`.
+- Step 2: In Konsole, enter and run the following code:
+    - `sh OpenKHSetup.sh`
+
+- Step 3: In Steam, click `Add a Game` on the bottom right, select `Add a Non-Steam Game...`, select `Browse`, navigate to `~/Documents/OpenKH`, select `OpenKH.Tools.ModsManager.exe`, and click `Open`. Then click `Add Selected Programs`.
 
 ![OpenKH Steam Library](https://github.com/user-attachments/assets/6b7af2e3-3d06-4acb-9e02-2c0f1003c58f)
 
 - Step 2: Right Click `OpenKH.Tools.ModsManager.exe` in your Steam Library, and click `Properties`
-   - Click `Compatibility`, and then select `Force the use of a specific Steam Play compatibility tool`, and select `Proton 9.0-4`
+   - Click `Compatibility`, and then select `Force the use of a specific Steam Play compatibility tool`, and select `Proton Experimental`
    - Optional: Rename `OpenKH.Tools.ModsManager.exe` to something more cleaner such as `OpenKH Mods Manager` in the properties window.
 
 - Step 3: Load up OpenKH. This will generate a prefix and it will error out telling you that .NET6 needs to be installed. Close out of this window and proceed to the next step.
 
-- Step 4: Load up `Protontricks` and do any first time setups it tells you to do. When it is setup, you should be at this window:
-   - Take note of the numbers preceeding the name of the game. In this instance, OpenKH Mods Manager's Prefix folder for me is `2895334390`, which may be different than yours.
+- Step 4 : Right Click `OpenKH.Tools.ModsManager.exe` in your Steam Library, and click `Properties`
+   - Click `Compatibility`, and then select `Force the use of a specific Steam Play compatibility tool`, and select `Proton Experimental`
+   - Optional: Rename `OpenKH.Tools.ModsManager.exe` to something more cleaner such as `OpenKH Mods Manager` in the properties window.
 
-![Protontricks window](https://github.com/user-attachments/assets/069e08fc-a99a-479a-8f4c-35af7ed4e457)
+- Step 5: Load up OpenKH. This will generate a prefix and it will error out telling you that **.NET 6** needs to be installed. Select `No` and proceed to the next step.
 
-- Step 5: Load up Konsole and enter the following code here and click enter:
-   - `flatpak run com.github.Matoking.protontricks PREFIXNUMBERHERE -q -f dotnetdesktop6 dotnet6`
+- Step 6: Navigate to your `Downloads` folder and open `windowsdesktop-runtime-6.0.31-win-x64.exe`.
+   - Protontricks should now open up. When it does, locate OpenKH on the game selection and select it to install **.NET 6** to it's prefix.
 
 - After a couple minutes, open OpenKH Mods Manager again and proceed with the tutorial.
 
