@@ -10,18 +10,18 @@ A repository that helps users setup the Steam and/or Epic Games Store versions o
 - The games are configured to work by default!
 
 **Other Linux Distro:**
-   - Add `SteamDeck=1 %command%` to KH1.5/2.5's Launch Options in Steam.
+   - Add `SteamDeck=1 %command%` to the appropriate game's launch options in Steam.
 
 ### If you are using ***Epic Games Store***:
 
 - **KINGDOM HEARTS 1.5+2.5 HD ReMIX**:
 - Click [here](https://github.com/KHOmega/KH-PC-and-Linux-Setup/blob/main/vanilla-linux-setup.md) on how to setup and install Kingdom Hearts 1.5/2.5 HD ReMix.
 
-- ~~**KINGDOM HEARTS 2.8 Final Chapter Prologue:**~~
-    - **Update - [12/3/23]:** Try using the same prefix created for 1.5/2.5 for 2.8 while a guide is written up.
+- **KINGDOM HEARTS 2.8 Final Chapter Prologue:**
+    - Follow the guide for **KINGDOM HEARTS 1.5+2.5 HD ReMIX** and use the same prefix for **KINGDOM HEARTS 2.8 Final Chapter Prologue**.
 
-- ~~**Kingdom Hearts III:**~~
-    - **Update - [12/3/23]:** Confirmed working via personal tests on Heroic using a legit copy, guide will be written up soon based off [this video](https://www.youtube.com/watch?v=8K3QkvKC0UU) by The DarKris
+- **Kingdom Hearts III:**
+    - Video tutorial by The DarKris [here](https://www.youtube.com/watch?v=8K3QkvKC0UU)
 
 - **KINGDOM HEARTS Melody of Memory:**
   - Download the game via Heroic and use the latest WINE-GE.
@@ -47,42 +47,28 @@ A repository that helps users setup the Steam and/or Epic Games Store versions o
 - Epic Games Store
     - Click [here](https://github.com/KHOmega/KH-PC-and-Linux-Setup/blob/main/refined-egs-linux-setup.md) for installation steps on how to install ***Re:Fined***.
 
-## Lua Backend
-
-### For Windows Users:
-- TBA
-
-### For SteamOS/Bazzite/other Linux Distros:
-- Steam:
-    - TBA
-
-- Epic Games Store:
-    - ~~Click [here](https://github.com/KHOmega/KH-PC-and-Linux-Setup/blob/main/LuaBackendSetup.md) for installation steps on how to install ***Lua Backend*** on your Steam Deck / Linux.~~
-        - ***(Requires Update as of 06/16/2024)***
-
 ## GoA Randomizer (Kingdom Hearts II)
 
 ### For Windows Users:
 Click [here](https://tommadness.github.io/KH2Randomizer/setup/Panacea-ModLoader/) for official instructions on how to install GoA Randomizer.
 
 ### For SteamOS/Bazzite/other Linux Distros:
-- Steam:
-  - TBA
- 
-- Epic Games Store:
-  - TBA
+- Steam / Epic Games Store
+Click [here](https://github.com/KHOmega/KH-PC-and-Linux-Setup/blob/main/GoA-Randomizer-linux-setup.md)
 
 ----
 
 # Misc. / Credits
 
-Thank you to [TopazTK](https://github.com/TopazTK) for letting this be the official GitHub read-me on how to install Re:Fined
+[TopazTK](https://github.com/TopazTK) for letting this be the official GitHub read-me on how to install Re:Fined
 
-Thank you to [SandeMC](https://github.com/SandeMC) for original PR on the main KH Re:Fined page for converting the original Discord tutorial to Github format
+[SandeMC](https://github.com/SandeMC) for original PR on the main KH Re:Fined page for converting the original Discord tutorial to Github format
 
-Thank you to [Kité2810](https://github.com/Kite2810) for his tutorial on how to install Re:Fined on Windows
+[Kité2810](https://github.com/Kite2810) for his tutorial on how to install Re:Fined on Windows
 
-Thank you to geo.stigma for his video tutorial on how to install Re:Fined on Steam OS
+geo.stigma for his video tutorial on how to install Re:Fined on Steam OS
+
+The DarKris for his KINGDOM HEARTS III EGS Video Tutorial
 
 ### Where to reach me!
 
