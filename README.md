@@ -53,8 +53,7 @@ A repository that helps users setup the Steam and/or Epic Games Store versions o
 Click [here](https://tommadness.github.io/KH2Randomizer/setup/Panacea-ModLoader/) for official instructions on how to install GoA Randomizer.
 
 ### For SteamOS/Bazzite/other Linux Distros:
-- Steam / Epic Games Store
-Click [here](https://github.com/KHOmega/KH-PC-and-Linux-Setup/blob/main/GoA-Randomizer-linux-setup.md)
+Click [here](https://github.com/KHOmega/KH-PC-and-Linux-Setup/blob/main/GoA-Randomizer-linux-setup.md) for instructions on how to install GoA Rondomizer by KHOmega.
 
 ----
 
