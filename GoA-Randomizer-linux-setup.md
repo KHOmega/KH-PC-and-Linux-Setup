@@ -33,7 +33,7 @@ To get started you will need the following:
 
 # Setting Up OpenKH
 
-- Step 1: In Steam, click `Add a Game` on the bottom right, select `Add a Non-Steam Game...`, select `Browse`, and where you have OpenKH extracted, select `OpenKH.Tools.ModsManager.exe`, and click `Open`. Then click `Add Selected Programs`.
+- Step 1: In Steam, click `Add a Game` on the bottom right, select `Add a Non-Steam Game...`, select `Browse`, navigate to `~/Documents/OpenKH`, select `OpenKH.Tools.ModsManager.exe`, and click `Open`. Then click `Add Selected Programs`.
 
 ![OpenKH Steam Library](https://github.com/user-attachments/assets/6b7af2e3-3d06-4acb-9e02-2c0f1003c58f)
 
