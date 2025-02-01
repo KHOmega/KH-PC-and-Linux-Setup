@@ -99,7 +99,7 @@ In this section, we will be downloading the necessary patches to properly run Go
    - A window will open with no text and a black background. This just means that the Seed Generator is setting up it's files and will open up normally within thirty seconds.
 
 - Step 4: Generate a seed of your choosing, and then save it somewhere easily accessable, such as `~/Documents`
-   - Take not on not saving `randoseed.zip` into your prefix folder, as this will be annoying to navigate to when installing a new seed.
+   - Take note on not saving `randoseed.zip` into your prefix folder, as this will be annoying to navigate to when installing a new seed.
 
 ![image](https://github.com/user-attachments/assets/82a0e8fa-5bba-4b22-a232-594d3e16adb8)
 
