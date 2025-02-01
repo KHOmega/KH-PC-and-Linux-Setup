@@ -8,11 +8,8 @@
 To get started you will need the following:
 
 - [**KINGDOM HEARTS -HD 1.5+2.5 ReMIX-**](https://store.steampowered.com/app/2552430/KINGDOM_HEARTS_HD_1525_ReMIX/)
-   - This guide assumes you have the game downloaded to your ***Internal Storage***.
-   - If not, please syslink it to your Internal Storage's game directory.
-      - [eg. `~/.local/Steam/steamapps/common/KINGDOM HEARTS -HD 1.5+2.5 ReMIX-/`]
 
-- [**OpenKH & Seed Generator Script**]
+- **OpenKH & Seed Generator Script**
    - Will be downloaded in tutorial below
 
 - **Protontricks (Flatpak)**
@@ -21,16 +18,18 @@ To get started you will need the following:
 # OpenKH & Seed Generator Script
 
 > [!IMPORTANT]
-> - If you already have OpenKH setup and configured, you can skip below to the [Seed Generator Step]() and continue from there!
+> - If you already have OpenKH setup and configured, you can skip below to the [Seed Generator Step](https://github.com/KHOmega/KH-PC-and-Linux-Setup/main/GoA-Randomizer-linux-setup.md#installing-goa-randomizer) after running the script and *continue from there*!
 > - This script will automatically download the latest version of **OpenKH**, **Seed Generator**, and **.NET 6.0.31**.
->    - **OpenKH** and **Seed Genearator** will be placed in your `Documents` folder, and **.NET 6.0.31** will be placed into your `Downloads` folder.
+> - **OpenKH** and **Seed Genearator** will be placed in your `Documents` folder
+> - **.NET 6.0.31** will be placed into your `Downloads` folder.
 
-- Step 1: Open Konsole and enter the following code:
+- Step 1: Open Konsole and enter and run the following code:
 
-`wget SCRIPTCODEHERE`
+`wget https://raw.githubusercontent.com/KHOmega/KH-PC-and-Linux-Setup/refs/heads/main/GoASetup.sh`
 
-- Step 2: Enter the following code:
-`sh SeedSetup.sh`
+- Step 2: Enter and run the following code:
+
+`sh GoASetup.sh`
 
 # Setting Up OpenKH
 
@@ -102,22 +101,25 @@ In this section, we will be downloading the necessary patches to properly run Go
 - Step 4: Generate a seed of your choosing, and then save it somewhere easily accessable, such as `~/Documents`
    - Take not on not saving `randoseed.zip` into your prefix folder, as this will be annoying to navigate to when installing a new seed.
 
-INSERT IMAGE HERE OF randoseed.zip
+![image](https://github.com/user-attachments/assets/82a0e8fa-5bba-4b22-a232-594d3e16adb8)
 
 - Step 5: Navigate back to OpenKH, click on `Mods` -> `Install a New Mod`, and then `Select and Install Mod Archive or Lua Script`, and navigate to where you saved `randoseed.zip`, and click `Open` and then `Install`
 
-- Step 6: Make sure your Randomizer Seed is ***above*** GoA Rom Edition, and that both are selected with a check mark.
-   - After this, select `Mods` -> `Build Only`.
+- Step 6: Make sure your Randomizer Seed is ***above*** GoA Rom Edition, and that both are selected with a check mark, then select `Mods` -> `Build Only`.
+   - Note: If you are using any other mods, please make sure they are ***between*** GoA and Rando Seed!
 
-# Launching GoA Randomizer.
+![image](https://github.com/user-attachments/assets/ec082b30-d938-4ab0-ac09-a1fbe0afd58e)
+
+# Launching GoA Randomizer:
 
 Congratulations! You are very close into playing GoA Randomizer!
 
+- Step 1: Right click `KINGDOM HEARTS -HD 1.5+2.5 HD ReMIX-` -> `Properties...` and enter the following under `Launch Options`:
+     - `WINEDLLOVERRIDES="dinput8=n,b" %command%`
+     -  If you are coming from the ***Re:Fined*** guide, skip this step!
 - Step 2: Click play on `KINGDOM HEARTS -HD 1.5+2.5 HD ReMIX-`
 - Step 3: Select `KINGDOM HEARTS II FINAL MIX`
 
-![image](https://github.com/user-attachments/assets/4e208067-e2f2-40d7-a2c3-21a6f7a5516a)
-
 And there you go! Kingdom Hearts II Randomizer has been successfully installed! You will know it has worked when you see your rando seed hash when you select `NEW GAME`.
 
-INSERT NEW GAME SCREEN HERE
+![image](https://github.com/user-attachments/assets/a3ade002-1c70-4110-927d-4cbd21a84f43)
