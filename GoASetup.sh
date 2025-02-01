@@ -9,7 +9,7 @@ wget https://download.visualstudio.microsoft.com/download/pr/a1da19dc-d781-4981-
 unzip openkh.zip -d ~/Documents
 mv ~/Documents/openkh ~/Documents/OpenKH
 mv ~/SeedSetup/KH2.Randomizer.exe ~/Documents/SeedGenerator
-mv ~/SeedSetup/windowsdesktop-runtime-6.0.31-win-x64.exe ~/Documents/Downloads
+mv ~/SeedSetup/windowsdesktop-runtime-6.0.31-win-x64.exe ~/Downloads
 cd
 rm -rf ~/SeedSetup
 exit
