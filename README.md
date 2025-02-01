@@ -7,7 +7,7 @@ A repository that helps users setup the Steam and/or Epic Games Store versions o
 ### If you are using ***Steam***:
 
 **Steam Deck:**
-- The games are configured to work by default!
+   - The games are configured to work by default!
 
 **Other Linux Distro:**
    - Add `SteamDeck=1 %command%` to the appropriate game's launch options in Steam.
@@ -15,7 +15,7 @@ A repository that helps users setup the Steam and/or Epic Games Store versions o
 ### If you are using ***Epic Games Store***:
 
 - **KINGDOM HEARTS 1.5+2.5 HD ReMIX**:
-- Click [here](https://github.com/KHOmega/KH-PC-and-Linux-Setup/blob/main/vanilla-linux-setup.md) on how to setup and install Kingdom Hearts 1.5/2.5 HD ReMix.
+   - Click [here](https://github.com/KHOmega/KH-PC-and-Linux-Setup/blob/main/vanilla-linux-setup.md) on how to setup and install Kingdom Hearts 1.5/2.5 HD ReMix.
 
 - **KINGDOM HEARTS 2.8 Final Chapter Prologue:**
     - Follow the guide for **KINGDOM HEARTS 1.5+2.5 HD ReMIX** and use the same prefix for **KINGDOM HEARTS 2.8 Final Chapter Prologue**.
@@ -69,12 +69,3 @@ Click [here](https://github.com/KHOmega/KH-PC-and-Linux-Setup/blob/main/GoA-Rand
 geo.stigma for his video tutorial on how to install Re:Fined on Steam OS
 
 The DarKris for his KINGDOM HEARTS III EGS Video Tutorial
-
-### Where to reach me!
-
-<a href="https://www.twitter.com/KHOmega">
-<img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white&label=KHOmega" />
-<a href="https://www.youtube.com/KHOmega">
-<img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white&label=KHOmega" />
-<a href="https://www.discord.com" />
-<img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white&label=KHOmega" />
