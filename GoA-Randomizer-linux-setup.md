@@ -115,7 +115,7 @@ In this section, we will be downloading the necessary patches to properly run Go
 Congratulations! You are very close into playing GoA Randomizer!
 
 - Step 1: Right click `KINGDOM HEARTS -HD 1.5+2.5 HD ReMIX-` -> `Properties...` and enter the following under `Launch Options`:
-     - `WINEDLLOVERRIDES="dinput8=n,b" %command%`
+     - `WINEDLLOVERRIDES="version,dinput8=n,b" %command%`
      -  If you are coming from the ***Re:Fined*** guide, skip this step!
 - Step 2: Click play on `KINGDOM HEARTS -HD 1.5+2.5 HD ReMIX-`
 - Step 3: Select `KINGDOM HEARTS II FINAL MIX`
