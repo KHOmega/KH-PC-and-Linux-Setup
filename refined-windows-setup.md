@@ -13,6 +13,9 @@ To get started you need to download the following:
 - [**OpenKH**](https://github.com/OpenKH/OpenKh/releases)
    - Download `openkh.zip` from the latest numbered release.
 
+- [**Visual C++ Redistributable Runtimes All-in-One**](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/)
+   - Download and run `install_all.bat`
+
 - [**.NET Framework 4.8**](https://dotnet.microsoft.com/en-us/download/dotnet-framework/thank-you/net48-offline-installer)
    - Launch and install if not done already.
 
