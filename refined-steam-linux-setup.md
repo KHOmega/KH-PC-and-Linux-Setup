@@ -20,7 +20,7 @@ To get started you need to download and install the following:
    - Will be downloaded from the `OpenKHSetup.sh` Script
 
 - Re:Fined
-   - - Will be downloaded from the `OpenKHSetup.sh` Script
+   - Will be downloaded from the `OpenKHSetup.sh` Script
 
 - **ProtonUp-QT (Flatpak)**
    - Download from Discover
