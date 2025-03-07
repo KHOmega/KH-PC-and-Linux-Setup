@@ -14,7 +14,7 @@ To get started you need to download and install the following:
 - [**KINGDOM HEARTS -HD 1.5+2.5 ReMIX-**](https://store.steampowered.com/app/2552430/KINGDOM_HEARTS_HD_1525_ReMIX/)
    - This guide assumes you have the game downloaded to your ***Internal Storage***.
    - If not, please symlink it to your Internal Storage's game directory.
-      - [eg. `~/.local/Steam/steamapps/common/KINGDOM HEARTS -HD 1.5+2.5 ReMIX-/`]
+      - [eg: `path/to/location/in/sdcard/` -> `~/.local/Steam/steamapps/common/KINGDOM HEARTS -HD 1.5+2.5 ReMIX-/`]
 
 - [**OpenKH**](https://github.com/OpenKH/OpenKh/releases)
    - Will be downloaded from the `OpenKHSetup.sh` Script
