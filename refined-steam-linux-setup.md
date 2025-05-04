@@ -1,3 +1,8 @@
+> [!IMPORTANT] 
+> Guide is currently outdated, will be re-written when all the kinks with 3.00 are worked out!
+> 
+> As such, all info currently pertains to 2.60. Please check out the Re:Fined server for more info!
+
 # Installation
 
 > [!IMPORTANT]
