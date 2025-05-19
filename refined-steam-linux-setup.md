@@ -103,7 +103,7 @@ When you are done, you should be at this screen!
 In this section, we will be downloading the necessary patches to properly run Re:Fined.
 
 - Step 1: In OpenKH, select the `Mods` button on the top, and then select `Install a new mod`.
-   - Under `Add a new mod from GitHub`, we will be pasting in `KH-ReFined/KH2-MAIN`, as seen in the screenshot below, and then will click `Install`.
+   - Under `Add a new mod from GitHub`, we will be pasting in `KHOmega/KH2-MAIN-2.60`, ~~as seen in the screenshot below~~ (temporary archive), and then will click `Install`.
    - **Optional**: Additional Re:Fined Mods, such as Voice Packs, Heartless Colors, and Vanilla OST can be found [here](https://github.com/KH-ReFined/KH-ReFined?tab=readme-ov-file#kingdom-hearts-ii-1).
       - *Note*: If you download the additional add-ons, please make sure to place the add-ons ***above*** the main patch!
    - *Note*: `KH-ReFined/KH2-JapaneseVO` and `KH-ReFined/KH2-SpanishVO` take a ***very long time*** to download and install, as it is a rather large repository! If it looks like the program is unresponsive, it is simply because it is downloading the files.
