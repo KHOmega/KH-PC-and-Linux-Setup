@@ -54,12 +54,9 @@ In this section, we will be downloading **GE-Proton 9-23**.
 # Setting Up OpenKH's Prefix
 
 - Step 1: In Konsole, enter and run the following code:
-  - `wget https://raw.githubusercontent.com/KHOmega/KH-PC-and-Linux-Setup/refs/heads/main/refined_specific/OpenKHSetup.sh`
+  - `wget https://raw.githubusercontent.com/KHOmega/KH-PC-and-Linux-Setup/refs/heads/main/refined_specific/OpenKHSetup.sh -O - | sh`
 
-- Step 2: In Konsole, enter and run the following code:
-    - `sh OpenKHSetup.sh`
-
-- Step 3: In Steam, click `Add a Game` on the bottom right, select `Add a Non-Steam Game...`, select `Browse`, navigate to `~/Documents/OpenKH`, select `OpenKH.Tools.ModsManager.exe`, and click `Open`. Then click `Add Selected Programs`.
+- Step 2: In Steam, click `Add a Game` on the bottom right, select `Add a Non-Steam Game...`, select `Browse`, navigate to `~/Documents/OpenKH`, select `OpenKH.Tools.ModsManager.exe`, and click `Open`. Then click `Add Selected Programs`.
 
 ![OpenKH Steam Library](https://github.com/user-attachments/assets/6b7af2e3-3d06-4acb-9e02-2c0f1003c58f)
 
@@ -138,15 +135,12 @@ In this section, we will be downloading the necessary patches to properly run Re
    - If you have already done this in the past, you do not need to do this again.
 
 - Step 4: In Konsole, type in the following code and hit enter:
-   - `wget https://raw.githubusercontent.com/KHOmega/KH-PC-and-Linux-Setup/refs/heads/main/refined_specific/ReFinedPreReq.sh`
-
-- Step 5: In Konsole, type in the following code and hit enter:
-   - `sh ReFinedPreReq.sh`
+   - `wget https://raw.githubusercontent.com/KHOmega/KH-PC-and-Linux-Setup/refs/heads/main/refined_specific/ReFinedPreReq.sh -O - | sh`
 
 - You will now be prompted to type in the password you made in Step 1. Enter your password and then click enter, and the installer will do all the work for you.
    - If Konsole asks you to overwrite any files, follow the steps on screen and overwrite.
 
-- Step 6: Now right click `KINGDOM HEARTS -HD 1.5+2.5 HD ReMIX-` -> `Properties...` and enter the following under `Launch Options`:
+- Step 5: Now right click `KINGDOM HEARTS -HD 1.5+2.5 HD ReMIX-` -> `Properties...` and enter the following under `Launch Options`:
    -  `WINEDLLOVERRIDES="version,keystone,newtonsoft.json,dinput8=n,b" %command%`
 
 ![image](https://github.com/user-attachments/assets/5003536f-a103-4863-bce9-74ffabf4e9c3)
@@ -178,6 +172,6 @@ And there you go! Kingdom Hearts II Final Mix - Re:Fined has been successfully i
     - `sudo chmod -R 777 ~/var/lib/flatpak/app/com.github.Matoking.protontricks/current/active/files/bin/`
     - `wget https://raw.githubusercontent.com/KHOmega/KH-PC-and-Linux-Setup/refs/heads/main/refined_specific/winetricks`
     - `cp ~/winetricks ~/var/lib/flatpak/app/com.github.Matoking.protontricks/current/active/files/bin/`
-    - `flatpak run com.github.Matoking.protontricks 2552430 -q -f dotnet40 dotnet48 dotnet6 dotnet7 dotnet8 dotnet9 dotnetdesktop6 dotnetdesktop7 dotnetdesktop8 dotnetdesktop9 vcrun2022 vcrun6 xaudio29 win11`
+    - `flatpak run com.github.Matoking.protontricks 2552430 -q -f dotnet48 vcrun6 xaudio29 win11`
 
 - Please then proceed to download the [latest release](https://github.com/KH-ReFined/KH-ReFined/releases/latest) and place all the files into the game directory.
