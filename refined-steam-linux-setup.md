@@ -1,8 +1,3 @@
-> [!IMPORTANT] 
-> Guide is currently outdated, will be re-written when all the kinks with 3.00 are worked out!
-> 
-> As such, all info currently pertains to 2.60. Please check out the Re:Fined server for more info!
-
 # Installation
 
 > [!IMPORTANT]
@@ -11,6 +6,7 @@
 > - This guide also assumes that you have some knowledge in how to navigate Linux based OSs!
 > - ***Steam Deck***: Please launch into Desktop Mode and use a mouse and keyboard! While this is doable without a mouse or keyboard, it will be frustrating!
 > - As of this writing, the only version with a Re:Fined release is ``KINGDOM HEARTS II FINAL MIX``.
+> - If you are ***updating*** an existing installation of Re:Fined and were already using this guide, [please click here](https://github.com/KHOmega/KH-PC-and-Linux-Setup/blob/main/refined-steam-linux-setup.md#updating-refined).
 > - If you are using an ***Epic Games Store*** or an unofficial copy, [please follow this tutorial](https://github.com/KHOmega/KH-PC-and-Linux-Setup/blob/main/refined-egs-linux-setup.md).
 
 ## Prerequisites
@@ -52,6 +48,9 @@ In this section, we will be downloading **GE-Proton 9-23**.
 ![Exit Steam](https://github.com/user-attachments/assets/60dc174e-888c-4a9f-8076-57415efdf227)
 
 # Setting Up OpenKH's Prefix
+
+> [!IMPORTANT]
+> - If you wish to completely ***SKIP*** using OpenKH, and aren't planning on using any other mods alongside Re:Fined, you can skip right to [Downloading and Installing Re:Fined Dependencies Script](https://github.com/KHOmega/KH-PC-and-Linux-Setup/blob/main/refined-steam-linux-setup.md#downloading-and-installing-refined-dependencies-script).
 
 - Step 1: In Konsole, enter and run the following code:
   - `wget https://raw.githubusercontent.com/KHOmega/KH-PC-and-Linux-Setup/refs/heads/main/refined_specific/OpenKHSetup.sh -O - | sh`
@@ -103,7 +102,7 @@ When you are done, you should be at this screen!
 In this section, we will be downloading the necessary patches to properly run Re:Fined.
 
 - Step 1: In OpenKH, select the `Mods` button on the top, and then select `Install a new mod`.
-   - Under `Add a new mod from GitHub`, we will be pasting in `KHOmega/KH2-MAIN-2.60`, ~~as seen in the screenshot below~~ (temporary archive), and then will click `Install`.
+   - Under `Add a new mod from GitHub`, we will be pasting in `KH-ReFined/KH2-MAIN`, and then click `Install`.
    - **Optional**: Additional Re:Fined Mods, such as Voice Packs, Heartless Colors, and Vanilla OST can be found [here](https://github.com/KH-ReFined/KH-ReFined?tab=readme-ov-file#kingdom-hearts-ii-1).
       - *Note*: If you download the additional add-ons, please make sure to place the add-ons ***above*** the main patch!
    - *Note*: `KH-ReFined/KH2-JapaneseVO` and `KH-ReFined/KH2-SpanishVO` take a ***very long time*** to download and install, as it is a rather large repository! If it looks like the program is unresponsive, it is simply because it is downloading the files.
@@ -140,11 +139,6 @@ In this section, we will be downloading the necessary patches to properly run Re
 - You will now be prompted to type in the password you made in Step 1. Enter your password and then click enter, and the installer will do all the work for you.
    - If Konsole asks you to overwrite any files, follow the steps on screen and overwrite.
 
-- Step 5: Now right click `KINGDOM HEARTS -HD 1.5+2.5 HD ReMIX-` -> `Properties...` and enter the following under `Launch Options`:
-   -  `WINEDLLOVERRIDES="version,keystone,newtonsoft.json,dinput8=n,b" %command%`
-
-![image](https://github.com/user-attachments/assets/5003536f-a103-4863-bce9-74ffabf4e9c3)
-
 # Launching Re:Fined.
 
 Congratulations! You are very close into launching Re:Fined!
@@ -162,6 +156,12 @@ And there you go! Kingdom Hearts II Final Mix - Re:Fined has been successfully i
 
 - *Note*, if controller inputs are not working, simply either tap your screen, or hold down the `STEAM` button and click down the right touch pad.
 
+# Updating Re:Fined
+- If you have already followed this guide and just want to update Re:Fined, please use the following script in Konsole:
+   - `wget https://raw.githubusercontent.com/KHOmega/KH-PC-and-Linux-Setup/refs/heads/main/refined_specific/update.sh -O - | sh`
+
+- *Note*: This only updates the .exe, and not the actual patch content itself. To update the content, please make sure to update the patch in OpenKH as well, or delete `version.dll` in your game directory and run the auto-patch.
+
 # Non-SteamOS Linux Script Workaround
 
 > [!WARNING]
@@ -174,4 +174,4 @@ And there you go! Kingdom Hearts II Final Mix - Re:Fined has been successfully i
     - `cp ~/winetricks ~/var/lib/flatpak/app/com.github.Matoking.protontricks/current/active/files/bin/`
     - `flatpak run com.github.Matoking.protontricks 2552430 -q -f dotnet48 vcrun6 xaudio29 win11`
 
-- Please then proceed to download the [latest release](https://github.com/KH-ReFined/KH-ReFined/releases/latest) and place all the files into the game directory.
+- Please then proceed to download the [latest release](https://github.com/KH-ReFined/KH-ReFined/releases/latest) and download `KH2-STEAM.exe`, renaming it to `KINGDOM HEARTS II FINAL MIX.exe`, and placing it in your game directory.
