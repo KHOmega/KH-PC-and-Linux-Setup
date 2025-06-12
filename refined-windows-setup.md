@@ -12,8 +12,8 @@ To get started you need to download the following:
 
 - [**Re:Fined**](https://github.com/KH-ReFined/KH-ReFined/releases)
    - Download Re:Fined from the latest build.
-      - If you are using *Steam*: `KH2-ReFined-STEAM-vX.XX.zip`
-      - If you are using *Epic Games Store*: `KH2-ReFined-EPIC-vX.XX.zip`
+      - If you are using *Steam*: `KH2-STEAM.exe`
+      - If you are using *Epic Games Store*: `KH2-EPIC.exe`
 
 - [**OpenKH**](https://github.com/OpenKH/OpenKh/releases)
    - Download `openkh.zip` from the latest numbered release.
@@ -26,6 +26,48 @@ To get started you need to download the following:
 
 - [**.NET 6.0 Desktop Runtime**](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-6.0.36-windows-x64-installer)
    - Launch and install if not done already.
+----
+
+# Before you Start:
+Re:Fined v4.00 offers two different ways to be installed, being ***OpenKH***, or it's built in ***Auto-Installer***
+
+- With **OpenKH**: You can use other mods in conjunction with OpenKH, but you will have to extract data to install mods.
+ - Recommended if you plan on experimenting with other mods, such as Kingdom Hearts II Randomizer.
+ - Not recommended if you are tight on storage space.
+
+- With **Auto-Installer**:
+ - Recommended if you only plan on using Re:Fined and nothing else.
+ - Not recommended if you want to use other mods.
+
+If you proceed to utilize **Auto-Installer**, you can always switch over to **OpenKH** later on.
+
+## Auto-Installer Setup:
+
+- Step 1: Locate your game installation.
+
+- Step 2: In your game installation folder, backup your original .exe by either moving or renaming `KINGDOM HEARTS II FINAL MIX.exe` somewhere or something different.
+
+- Step 3: Place the `KH2-STEAM.exe` or `KH2-EGS.exe` exe file downloaded earlier, and place it into your game directory folder.
+   - Rename the .exe to `KINGDOM HEARTS II FINAL MIX.exe`
+
+- Step 4: Boot up `KINGDOM HEARTS II FINAL MIX`, and you will be prompt with the Auto-Installer setup.
+ - If you get an error saying `Windows protected your PC`, go ahead and click `More info`, and then click `Run anyway`.
+
+![Screenshot 2025-06-11 172247](https://github.com/user-attachments/assets/eaa6f02d-2075-490b-9d84-6e243c6d202f)
+
+- On Error #400, click `Yes` to install Panacea and the main patch for Re:Fined.
+
+![Screenshot 2025-06-11 172830](https://github.com/user-attachments/assets/c7e27091-dca8-4600-a005-cff353fe6f7d)
+
+- Afterwards, the Auto-Installer will ask if you wish to download any additional add-ons. Select `Yes`, or `No`, depending on your preference.
+
+- When it is done installing, you will be met with `Panacea Setup Completed!`
+  - When this happens, click `OK`, and then load up `KINGDOM HEARTS II FINAL MIX` again.
+
+![Screenshot 2025-06-11 173703](https://github.com/user-attachments/assets/ef1e4866-1a69-4e40-abd0-41729c93f87a)
+
+- Congratulations! Re:Fined has been setup and you are ready to play!
+
 ----
 
 ## OpenKH Setup:
@@ -91,13 +133,13 @@ In this section, we will be placing Re:Fined installation files into our game di
 
 - Step 2: In your game installation folder, backup your original .exe by either moving or renaming `KINGDOM HEARTS II FINAL MIX.exe` somewhere or something different.
 
-- Step 3: Extract the Re:Fined .zip downloaded earlier, and place `KINGDOM HEARTS II FINAL MIX.exe`, `keystone.dll`, `Newtonsoft.Json.dll` and `System.Runtime.CompilerServices.Unsafe.dll` into your game directory folder.
-   - If you get a box asking you if you would like to overwrite any data, select `Yes`
+- Step 3: Place the `KH2-STEAM.exe` or `KH2-EGS.exe` exe file downloaded earlier, and place it into your game directory folder.
+   - Rename the .exe to `KINGDOM HEARTS II FINAL MIX.exe`
 
 Note:
 - The .exe's game icon may not update right away. This is due to Windows Icon caching and in no way affects Re:Fined.
 
-This is what your game installation folder should now look like:
+This is what your game installation folder should now look like (If you went the OpenKH Route):
 
 ![image](https://github.com/user-attachments/assets/b0319447-c01e-49cb-af66-e3aca2a33093)
 
