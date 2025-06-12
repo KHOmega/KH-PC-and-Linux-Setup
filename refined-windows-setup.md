@@ -27,12 +27,12 @@ To get started you need to download the following:
 Re:Fined v4.00 offers two different ways to be installed, being ***OpenKH***, or it's built in ***Auto-Installer***
 
 - With **OpenKH**: You can use other mods in conjunction with OpenKH, but you will have to extract data to install mods.
- - Recommended if you plan on experimenting with other mods, such as Kingdom Hearts II Randomizer.
- - Not recommended if you are tight on storage space.
+  - Recommended if you plan on experimenting with other mods, such as Kingdom Hearts II Randomizer.
+  - Not recommended if you are tight on storage space.
 
 - With **Auto-Installer**:
- - Recommended if you only plan on using Re:Fined and nothing else.
- - Not recommended if you want to use other mods.
+  - Recommended if you only plan on using Re:Fined and nothing else.
+  - Not recommended if you want to use other mods.
 
 If you proceed to utilize **Auto-Installer**, you can always switch over to **OpenKH** later on.
 
