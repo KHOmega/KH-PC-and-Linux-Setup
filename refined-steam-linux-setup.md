@@ -1,8 +1,8 @@
 # Installation
 
 > [!IMPORTANT]
-> - This guide assumes you are installing this on Steam Deck! For other OS's, please adjust accordingly.
->   - The script below assumes you are running this on Steam Deck.
+> - This guide assumes you are installing this on Steam Deck! For other OS's, please adjust accordingly. 
+>   - If you are using a different Linux distro, please proceed to [Non-SteamOS Linux Script Workaround](https://github.com/KHOmega/KH-PC-and-Linux-Setup/blob/main/refined-steam-linux-setup.md#non-steamos-linux-script-workaround).
 > - This guide also assumes that you have some knowledge in how to navigate Linux based OSs!
 > - ***Steam Deck***: Please launch into Desktop Mode and use a mouse and keyboard! While this is doable without a mouse or keyboard, it will be frustrating!
 > - As of this writing, the only version with a Re:Fined release is ``KINGDOM HEARTS II FINAL MIX``.
@@ -163,6 +163,12 @@ And there you go! Kingdom Hearts II Final Mix - Re:Fined has been successfully i
 - *Note*: This only updates the .exe, and not the actual patch content itself. To update the content, please make sure to update the patch in OpenKH as well, or delete `version.dll` in your game directory and run the auto-patch.
 
 # Non-SteamOS Linux Script Workaround
+
+- ChimeraOS Script by [Raflos10](https://github.com/Raflos10): 
+   - `wget https://raw.githubusercontent.com/KHOmega/KH-PC-and-Linux-Setup/refs/heads/main/refined_specific/ReFinedChimeraOS -O - | sh`
+
+Please also enter this into the game's properties in Steam:
+- `WINEDLLOVERRIDES="discord_game_sdk,System.Runtime.CompilerServices.Unsafe,version,keystone,dinput8=n,b" SteamDeck=1 %command%`
 
 > [!WARNING]
 > - This is untested!
