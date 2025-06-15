@@ -165,7 +165,7 @@ And there you go! Kingdom Hearts II Final Mix - Re:Fined has been successfully i
 # Non-SteamOS Linux Script Workaround
 
 - ChimeraOS Script by [Raflos10](https://github.com/Raflos10): 
-   - `wget https://raw.githubusercontent.com/KHOmega/KH-PC-and-Linux-Setup/refs/heads/main/refined_specific/ReFinedChimeraOS -O - | sh`
+   - `wget https://raw.githubusercontent.com/KHOmega/KH-PC-and-Linux-Setup/refs/heads/main/refined_specific/ReFinedChimeraOS.sh -O - | sh`
 
 Please also enter this into the game's properties in Steam:
 - `WINEDLLOVERRIDES="discord_game_sdk,System.Runtime.CompilerServices.Unsafe,version,keystone,dinput8=n,b" SteamDeck=1 %command%`
