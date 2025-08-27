@@ -26,7 +26,7 @@ sleep 3
 cp ~/refined_temp/winetricks /var/lib/flatpak/app/com.github.Matoking.protontricks/current/active/files/bin/
 echo "Installing all Re:Fined dependencies into 2552430..."
 sleep 3
-flatpak run com.github.Matoking.protontricks 2552430 -q -f dotnet48 vcrun6 xaudio29 win11
+flatpak run com.github.Matoking.protontricks 2552430 -q -f dotnet48 dotnet8 dotnetdesktop8 vcrun6 xaudio29 win11
 echo "Making a backup of KINGDOM HEARTS II FINAL MIX.exe"
 sleep 3
 cd ~/.local/share/Steam/steamapps/common/KINGDOM\ HEARTS\ -HD\ 1.5+2.5\ ReMIX-
