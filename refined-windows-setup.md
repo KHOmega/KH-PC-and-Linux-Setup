@@ -76,7 +76,7 @@ In this section, we will be downloading the necessary patches to properly run Re
 
 - Click  `Mod Loader` ->  `Build Only`
    - The mod **will** persist after you close the game, so you don't have to re-open OpenKH.
-   - e.g, it should look like this:
+       - e.g, it should look like this:
 
 <p align="center">
 <img width="422" height="134" alt="image" src="https://github.com/user-attachments/assets/9459e9cd-b8ed-4c47-a4ed-c59abb3284a1" />
