@@ -115,7 +115,7 @@ Congratulations! You are very close into launching Re:Fined!
 - Step 1: Right click `KINGDOM HEARTS -HD 1.5+2.5 HD ReMIX-` and then `Properties...`
   - Please enter the following under `Launch Options`:
     - `WINEDLLOVERRIDES="version,keystone,discord_game_sdk,LuaBackend,dinput8=n,b" %command%`
-<img width="800" height="135" alt="image" src="https://github.com/user-attachments/assets/fb93a48b-52a8-43ae-90a3-1e43ac198dec" />
+<img width="698" height="131" alt="image" src="https://github.com/user-attachments/assets/df2c3649-f01c-47a0-9933-d1d2d59bc786" />
 
 - Step 2: Click play on `KINGDOM HEARTS -HD 1.5+2.5 HD ReMIX-`
 
