@@ -97,7 +97,7 @@ In this section, we will be setting up OpenKH's Mods Manager to patch the necess
 
 - Step 4: Scroll down and then click `WINETRICKS`.
    - Click where it says `Search fonts or components`, type in `dotnet6`, and click `Install`
-   - When that is done installing, click where it says `Search fonts or components` again, and type in `dotnetdesktop6`, and click `Install`
+   - When that is done installing, click where it says `Search fonts or components` again, and type in `dotnetdesktop8`, and click `Install`
 
 - Step 5: Click the green play button on OpenKH, and OpenKH will load up.
    - If you get an error message saying `rundll32.exe - This program could not be started.`, click `No` and continue.
