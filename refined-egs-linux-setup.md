@@ -16,7 +16,7 @@ To get started you need to download and have the following:
 - [**OpenKH**](https://github.com/OpenKH/OpenKh/releases)
    - Download `openkh.zip` from the latest build.
 
-# Heroic Games Launcher Initial Setup:
+# Heroic Games Launcher Initial Setup: 
 
 In this section, we will be setting up Heroic Games Launcher. This is where we will be launching OpenKH and `KINGDOM HEARTS HD 1.5+2.5 ReMIX`. 
 - Later towards the end of the guide, we will create shortcuts to add both programs to our Steam Library.
