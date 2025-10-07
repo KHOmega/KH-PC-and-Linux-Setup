@@ -9,7 +9,7 @@ wget https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/8.0.20/windowsdes
 unzip openkh.zip -d ~/Documents
 mv ~/Documents/openkh ~/Documents/OpenKH
 mv ~/SeedSetup/KH2.Randomizer.exe ~/Documents/SeedGenerator
-mv ~/SeedSetup/windowsdesktop-runtime-8.0.20-win-x64.exee ~/Downloads
+mv ~/SeedSetup/windowsdesktop-runtime-8.0.20-win-x64.exe ~/Downloads
 cd
 rm -rf ~/SeedSetup
 exit
