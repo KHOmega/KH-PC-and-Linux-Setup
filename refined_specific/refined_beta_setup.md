@@ -93,13 +93,3 @@ And there you go! Kingdom Hearts II Final Mix - Re:Fined has been successfully i
 <p align="center">
 <img width="1920" height="1080" alt="Screenshot 2025-09-02 150816" src="https://github.com/user-attachments/assets/b52b974a-2159-4a5b-8376-26ae64ae916b" />
 </p>
-
-And there you go! Re:Fined has been successfully installed!
-
-# Working Screenshots
-<p align="center">
-<img width="1920" height="1080" alt="Screenshot 2025-09-02 150943" src="https://github.com/user-attachments/assets/d7035075-1f0c-4f2b-b83a-3c76ee68d842" />
-<img width="1920" height="1080" alt="Screenshot 2025-09-02 150911" src="https://github.com/user-attachments/assets/2c70d4d1-d93e-4416-89f8-49f1cd5d03fa" />
-<img width="1920" height="1080" alt="Screenshot 2025-09-02 150847" src="https://github.com/user-attachments/assets/1a0bfa3d-a37e-48de-a32c-a21b88518194" />
-<img width="3440" height="1440" alt="image" src="https://github.com/user-attachments/assets/0f4a1924-762a-4d87-a802-3f778da1a0c4" />
-</p>
