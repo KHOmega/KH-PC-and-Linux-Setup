@@ -14,6 +14,11 @@ To get started you need to download and have the following installed:
 - [**Visual C++ Redistributable Runtimes All-in-One**](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/)
    - Download and run `install_all.bat`
 
+- [**Visual C++ 2022 Redistributable - 14.30.30708**]
+   - Please ***install both***
+      - [x64](https://download.visualstudio.microsoft.com/download/pr/571ad766-28d1-4028-9063-0fa32401e78f/5D3D8C6779750F92F3726C70E92F0F8BF92D3AE2ABD43BA28C6306466DE8A144/VC_redist.x64.exe)
+      - [x86](https://download.visualstudio.microsoft.com/download/pr/571ad766-28d1-4028-9063-0fa32401e78f/F02DEA65EA65633D1718E6C5E5EEE7D2DF640D1FFF332E4669DEA530B8C4F0E7/VC_redist.x86.exe)
+
 - [**.NET 8.0 Runtime**](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.19-windows-x64-installer)
 
 - [**.NET 8.0 Desktop Runtime**](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-8.0.19-windows-x64-installer)
