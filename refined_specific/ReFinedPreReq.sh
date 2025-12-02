@@ -24,7 +24,7 @@ sleep 3
 cp ~/refined_temp/winetricks /var/lib/flatpak/app/com.github.Matoking.protontricks/current/active/files/bin/
 echo "Installing dependencies into 2552430..."
 sleep 3
-flatpak run com.github.Matoking.protontricks 2552430 -q -f dotnet8 dotnetdesktop8 vcrun6 xaudio29 win11
+flatpak run com.github.Matoking.protontricks 2552430 -q -f dotnet8 dotnetdesktop8 vcrun6 ucrtbase2019 xaudio29 win11
 sleep 3
 cd ~/refined_temp
 sleep 3
