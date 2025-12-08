@@ -1,6 +1,6 @@
 # KINGDOM HEARTS Setup for Windows/Linux Distros
 
-A repository that helps users setup the Steam and/or Epic Games Store versions of the various KINGDOM HEARTS games on Windows and various other Linux Distros
+A repository that helps users setup the Steam and/or Epic Games Store versions of the various KINGDOM HEARTS games on Windows and various other Linux Distros (test)
 
 ----
 
