@@ -1,6 +1,6 @@
 # KINGDOM HEARTS Setup for Windows/Linux Distros
 
-A repository that helps users setup the Steam and/or Epic Games Store versions of the various KINGDOM HEARTS games on Windows and various other Linux Distros (test)
+A repository that helps users setup the Steam and/or Epic Games Store versions of the various KINGDOM HEARTS games on Windows and various other Linux Distros.
 
 ----
 
@@ -9,7 +9,7 @@ A repository that helps users setup the Steam and/or Epic Games Store versions o
 **Steam Deck:**
    - The games are configured to work by default!
 
-**Other Linux Distro:**
+**Non SteamOS Linux Distros**
    - Add `SteamDeck=1 %command%` to the appropriate game's launch options in Steam.
 
 ### If you are using ***Epic Games Store***:
@@ -30,25 +30,26 @@ A repository that helps users setup the Steam and/or Epic Games Store versions o
 # Modifications:
 
 ## Re:Fined
-### For Windows Users:
+### Windows:
 
 - Please wait while these guides will be updated when Re:Fined gets out of beta.
 
-~~- Steam / Epic Games Store~~
-    ~~- Click [here](https://github.com/KHOmega/KH-PC-and-Linux-Setup/blob/main/refined-windows-setup.md) for installation steps on how to install ***Re:Fined***.~~
-~~### For SteamOS/Bazzite/other Linux Distros:~~
- ~~- Steam~~
-    ~~- Click [here](https://github.com/KHOmega/KH-PC-and-Linux-Setup/blob/main/refined-steam-linux-setup.md) for installation steps on how to install ***Re:Fined***.~~
+- Steam / Epic Games Store
+    - Click [here](https://github.com/KHOmega/KH-PC-and-Linux-Setup/blob/main/refined-windows-setup.md) for installation steps on how to install ***Re:Fined***.
 
-~~- Epic Games Store~~
-    ~~- Click [here](https://github.com/KHOmega/KH-PC-and-Linux-Setup/blob/main/refined-egs-linux-setup.md) for installation steps on how to install ***Re:Fined***.~~
+### Linux:
+ - Steam
+    - Click [here](https://github.com/KHOmega/KH-PC-and-Linux-Setup/blob/main/refined-steam-linux-setup.md) for installation steps on how to install ***Re:Fined***.
+
+- Epic Games Store
+    - Click [here](https://github.com/KHOmega/KH-PC-and-Linux-Setup/blob/main/refined-egs-linux-setup.md) for installation steps on how to install ***Re:Fined***.
 
 ## GoA Randomizer (Kingdom Hearts II)
 
-### For Windows Users:
+### Windows:
 Click [here](https://tommadness.github.io/KH2Randomizer/setup/Panacea-ModLoader/) for official instructions on how to install GoA Randomizer.
 
-### For SteamOS/Bazzite/other Linux Distros:
+### Linux:
 Click [here](https://github.com/KHOmega/KH-PC-and-Linux-Setup/blob/main/GoA-Randomizer-linux-setup.md) for instructions on how to install GoA Rondomizer by KHOmega.
 
 ----

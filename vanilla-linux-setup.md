@@ -22,8 +22,7 @@ In this section, we will be setting up Heroic Games Launcher. This is where we w
 
 - Step 1: Launch `Heroic Games Launcher` and click `Log in` on the top left, and then click `Epic Games Login` and proceed to login into your Epic Games Store Account.
 
-- Step 2: After you are logged in, click `Wine Manager` on the left, select `WINE-GE`, and then click the refresh button which will then refresh the window with different Wine versions.
-   - From here, download the latest numbered Wine-GE version. (eg. `Wine-GE-Proton8-20`)
+- Step 2: After you are logged in, click `Wine Manager` on the left, select `GE-PROTON`, and install `GE-Proton-Latest`
 
 ![image](https://github.com/KHOmega/KH-SteamDeck-Setup/assets/93887977/a7739545-a0c8-45c9-b8df-0abd54180ed5)
 
@@ -60,11 +59,8 @@ In this section, we will be setting up Heroic Games Launcher. This is where we w
 Congratulations! You are very close into launching Kingdom Hearts 1.5/2.5 HD ReMix!
 
 - Step 1: Locate your game installation.
-
-- Step 2: Rename `EPIC` to `EPIC.bak`
-  - This is because the game will crash when trying to read the FMV files. There is currently no fix for this!
-- Step 3: Load up Heroic Games Launcher.
-- Step 4: Start up `KINGDOM HEARTS HD 1.5+2.5 HD ReMIX`
+- Step 2: Load up Heroic Games Launcher.
+- Step 3: Start up `KINGDOM HEARTS HD 1.5+2.5 HD ReMIX`
 
 And there you go! Kingdom Hearts 1.5/2.5 HD ReMix has been sucessfully installed!
 
@@ -84,10 +80,4 @@ Re:Fined/Re:Freshed also provides other quality of life changes, which you can l
 
 https://github.com/KH-ReFreshed
 
-For the other games, the cutscenes will simply skip themselves. Re:Coded and 358/2 will be completely unplayable. 
-
-### Links: 
-
-- Twitter: [@KHOmega](https://twitter.com/KHOmega)
-
-- YouTube: [KHOmega](https://youtube.com/KHOmega)
+For the other games, the cutscenes will simply skip themselves. Re:Coded and 358/2 will be completely unplayable.
