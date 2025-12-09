@@ -161,7 +161,7 @@ Please also enter this into the game's properties in Steam:
 
 - Please enter the following commands in Terminal:
 
-    - `sudo chmod -R 777 ~/var/lib/flatpak/app/com.github.Matoking.protontricks/current/active/files/bin/`
-    - `wget https://raw.githubusercontent.com/KHOmega/KH-PC-and-Linux-Setup/refs/heads/main/refined_specific/winetricks`
+    - `sudo chmod -R 700 ~/var/lib/flatpak/app/com.github.Matoking.protontricks/current/active/files/bin/`
+    - `wget https://raw.githubusercontent.com/Winetricks/winetricks/refs/heads/master/src/winetricks`
     - `cp ~/winetricks ~/var/lib/flatpak/app/com.github.Matoking.protontricks/current/active/files/bin/`
-    - `flatpak run com.github.Matoking.protontricks 2552430 -q -f dotnet8 dotnetdesktop8 ucrtbase2019 vcrun6 xaudio29 win11` 
+    - `flatpak run com.github.Matoking.protontricks 2552430 -q -f dotnet8 dotnetdesktop8 ucrtbase2019 vcrun6 xaudio29 win11`
