@@ -1,8 +1,10 @@
 #!/bin/bash
 echo "Re:Fined Dependency Installer (Fedora) by KHOmega"
 sleep 3
-echo "During this setup, we will upgrade the included `winetricks` to the latest version from their official repository. This is because it has the necessary dependencies needed to run Re:Fined and Panacea on Fedora."
+echo "During this setup, we will upgrade the included `winetricks` to the latest version from their official repository. This is because it has the necessary dependencies needed to run Re:Fined, Panacea, and LuaBackend on your Linux device."
 sleep 3
+echo "Please note, this ***will*** grant write permissions to your Protontricks's Flatpak folder. If you do not feel comfortable with this change, please exit the script."
+sleep 6
 echo "If you do not have a password set, please exit this script and setup a password for Konsole by using passwd!"
 sleep 3
 echo "Starting the script now!"
