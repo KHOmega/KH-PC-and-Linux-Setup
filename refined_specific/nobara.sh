@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "Re:Fined Dependency Installer (Fedora) by KHOmega"
 sleep 3
-echo "During this setup, a version of Winetricks will replace the one included within Protontricks taken from an install of Heroic Games Launcher. This is because it has the necessary dependencies needed to run Re:Fined and Panacea on Fedora."
+echo "During this setup, we will upgrade the included `winetricks` to the latest version from their official repository. This is because it has the necessary dependencies needed to run Re:Fined and Panacea on Fedora."
 sleep 3
 echo "If you do not have a password set, please exit this script and setup a password for Konsole by using passwd!"
 sleep 3
@@ -16,7 +16,7 @@ mkdir refined_temp
 cd refined_temp
 echo "Downloading Winetricks from KH-PC-and-Linux-Setup..."
 sleep 3
-wget https://raw.githubusercontent.com/KHOmega/KH-PC-and-Linux-Setup/refs/heads/main/refined_specific/winetricks
+wget https://raw.githubusercontent.com/Winetricks/winetricks/refs/heads/master/src/winetricks
 echo "Moving downloaded winetricks to Protontricks's directory..."
 sleep 3
 cp ~/refined_temp/winetricks ~/.local/share/flatpak/app/com.github.Matoking.protontricks/current/active/files/bin/
