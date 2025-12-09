@@ -18,7 +18,7 @@ mkdir refined_temp
 cd refined_temp
 echo "Downloading Winetricks from KH-PC-and-Linux-Setup..."
 sleep 3
-wget https://raw.githubusercontent.com/KHOmega/KH-PC-and-Linux-Setup/refs/heads/main/refined_specific/winetricks
+wget https://raw.githubusercontent.com/Winetricks/winetricks/refs/heads/master/src/winetricks
 echo "Moving downloaded winetricks to Protontricks's directory..."
 sleep 3
 cp ~/refined_temp/winetricks /var/lib/flatpak/app/com.github.Matoking.protontricks/current/active/files/bin/
