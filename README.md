@@ -32,8 +32,6 @@ A repository that helps users setup the Steam and/or Epic Games Store versions o
 ## Re:Fined
 ### Windows:
 
-- Please wait while these guides will be updated when Re:Fined gets out of beta.
-
 - Steam / Epic Games Store
     - Click [here](https://github.com/KHOmega/KH-PC-and-Linux-Setup/blob/main/refined-windows-setup.md) for installation steps on how to install ***Re:Fined***.
 
