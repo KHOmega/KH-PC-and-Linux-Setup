@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "Re:Fined Dependency Installer (SteamOS/Bazzite) by KHOmega"
 sleep 3
-echo "During this setup, a version of Winetricks will replace the one included within Protontricks taken from an install of Heroic Games Launcher. This is because it has the necessary dependencies needed to run Re:Fined, Panacea, and LuaBackend on your Linux device."
+echo "During this setup, we will upgrade the included `winetricks` to the latest version from their official repository.. This is because it has the necessary dependencies needed to run Re:Fined, Panacea, and LuaBackend on your Linux device."
 sleep 3
 echo "If you have any questions, please feel free to reach out in the Re:Fined server in the #linux-and-steamdeck channel!"
 sleep 3
