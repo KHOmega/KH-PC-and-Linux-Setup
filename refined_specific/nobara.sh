@@ -9,7 +9,7 @@ echo "Starting the script now!"
 sleep 3
 echo "Attempting to get permission to access Protontrick's directory, you will need to type in your password!"
 sleep 3
-sudo chmod -R 777 ~/.local/share/flatpak/app/com.github.Matoking.protontricks/current/active/files/bin/
+sudo chmod -R 700 ~/.local/share/flatpak/app/com.github.Matoking.protontricks/current/active/files/bin/
 cd ~
 echo "Creating temporary directory..."
 mkdir refined_temp
