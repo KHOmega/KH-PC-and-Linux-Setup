@@ -101,9 +101,9 @@ In this section, we will be downloading the necessary patches to properly run Re
    - If you have already done this in the past, you do not need to do this again.
 
 - Step 2: Run the following code in `Terminal` or `Konsole` depending on your distro:
-   - SteamOS/Bazzite `wget https://raw.githubusercontent.com/KHOmega/KH-PC-and-Linux-Setup/refs/heads/main/refined_specific/ReFinedPreReq.sh -O - | sh`
-   - Nobara: `wget https://raw.githubusercontent.com/KHOmega/KH-PC-and-Linux-Setup/refs/heads/main/refined_specific/nobara.sh -O - | sh`
-   - ChimeraOS: `wget https://raw.githubusercontent.com/KHOmega/KH-PC-and-Linux-Setup/refs/heads/main/refined_specific/ReFinedChimeraOS.sh -O - | sh`
+   - ***SteamOS/Bazzite:*** `wget https://raw.githubusercontent.com/KHOmega/KH-PC-and-Linux-Setup/refs/heads/main/refined_specific/ReFinedPreReq.sh -O - | sh`
+   - ***Nobara:*** `wget https://raw.githubusercontent.com/KHOmega/KH-PC-and-Linux-Setup/refs/heads/main/refined_specific/nobara.sh -O - | sh`
+   - ***ChimeraOS:*** `wget https://raw.githubusercontent.com/KHOmega/KH-PC-and-Linux-Setup/refs/heads/main/refined_specific/ReFinedChimeraOS.sh -O - | sh`
 
 - You will now be prompted to type in the password you made in Step 1. Enter your password and then click enter, and the installer will do all the work for you.
    - If Konsole asks you to overwrite any files, follow the steps on screen and overwrite.
