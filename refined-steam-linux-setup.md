@@ -94,10 +94,7 @@ In this section, we will be downloading the necessary patches to properly run Re
 
 # Downloading and Installing Re:Fined Dependencies Script:
 
-- Step 1: Open Konsole, enter `passwd`, and create a password to use in Konsole.
-   - If you have already done this in the past, you do not need to do this again.
-
-- Step 2: Run the following code in `Terminal / Konsole` depending on your distro:
+- Step 1: Run the following code in `Terminal / Konsole` depending on your distro:
   - `wget https://raw.githubusercontent.com/KHOmega/KH-PC-and-Linux-Setup/refs/heads/main/refined_specific/dependencysetup.sh -O - | sh`
 
 # Launching Re:Fined.
