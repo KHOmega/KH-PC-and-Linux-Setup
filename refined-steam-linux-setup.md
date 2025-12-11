@@ -1,7 +1,7 @@
 # Installation
 
 > [!IMPORTANT]
->    - ****If you are updating from a working installation onto v5.00, open Terminal/Konsole and run this command:****
+>    - ****If you are updating from a working installation onto the newest release open Terminal/Konsole and run this command:****
 >        - `flatpak run com.github.Matoking.protontricks 2552430 -q -f dotnet8 dotnetdesktop8 ucrtbase2019`
 > - This guide assumes you are installing this on Steam Deck! For other OS's, please adjust accordingly. 
 >   - If you are using a different Linux distro, please proceed to [Non-SteamOS Linux Script Workaround](https://github.com/KHOmega/KH-PC-and-Linux-Setup/blob/main/refined-steam-linux-setup.md#non-steamos-linux-script-workaround).
