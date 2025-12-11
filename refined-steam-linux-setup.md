@@ -111,20 +111,23 @@ In this section, we will be downloading the necessary patches to properly run Re
 
 Congratulations! You are very close into launching Re:Fined!
 
-- Step 1: Right click `KINGDOM HEARTS -HD 1.5+2.5 HD ReMIX-` and then `Properties...`
-  - Please enter the following under `Launch Options`:
-    - `WINEDLLOVERRIDES="version=n,b" %command%`
-
-- If you wish to also have Discord RPC (via [EnderIce2's rpc-bridge](https://github.com/EnderIce2/rpc-bridge)), and LuaBackend as well, use:
-    - `WINEDLLOVERRIDES="version,discord_game_sdk,LuaBackend=n,b" %command%`
-        
-<img width="698" height="131" alt="image" src="https://github.com/user-attachments/assets/df2c3649-f01c-47a0-9933-d1d2d59bc786" />
-
-- Step 2: Click play on `KINGDOM HEARTS -HD 1.5+2.5 HD ReMIX-` and select `KINGDOM HEARTS II FINAL MIX`.
+- Step 1: Click play on `KINGDOM HEARTS -HD 1.5+2.5 HD ReMIX-` and select `KINGDOM HEARTS II FINAL MIX`.
 
 And there you go! Kingdom Hearts II Final Mix - Re:Fined has been successfully installed! You will know it has worked when you see `Re:Fined by TopazTK` on the title screen.
 
 ![title screen](https://github.com/user-attachments/assets/b34ee907-0247-4c0b-94d0-fd76385fb3a4)
+
+----
+
+### Optional:
+
+If you wish to also have Discord RPC (via [EnderIce2's rpc-bridge](https://github.com/EnderIce2/rpc-bridge)), and LuaBackend as well:
+- Step 1: Right click `KINGDOM HEARTS -HD 1.5+2.5 HD ReMIX-` and then `Properties...`
+   - `WINEDLLOVERRIDES="discord_game_sdk,LuaBackend=n,b" %command%`
+
+<img width="616" height="130" alt="image" src="https://github.com/user-attachments/assets/11bd2988-5813-4ded-b08c-65c075789261" />
+
+----
 
 # Working Screenshots
 <p align="center">
@@ -137,26 +140,20 @@ And there you go! Kingdom Hearts II Final Mix - Re:Fined has been successfully i
 - *Note*, if controller inputs are not working, simply either tap your screen, or hold down the `STEAM` button and click down the right touch pad.
 
 # Updating Re:Fined
-- Step 1: Check if the updated .exe version contains a note like this:
 
-![image](https://github.com/KHOmega/KH-SteamDeck-Setup/assets/93887977/2704921c-14c5-47a2-bb69-062f1a6624b3)
-
-- Step 2:
-- If the note *does exist*, open OpenKH, update the necessary patches (you can see them by looking for the `Update available` note) and [build the patch as you did previously](#downloading-and-patching-in-refined-files-using-openkh). 
+- Step 1:
+   - Open OpenKH Mods Manager, and if there is an update available, download the update (you can see them by looking for the `Update available` note) and [build the patch as you did previously](#downloading-and-patching-in-refined-files-using-openkh). 
 
 ![image](https://github.com/KHOmega/KH-Linux-Setup/assets/93887977/10045628-4da7-4b4a-a86f-d619a30155f1)
 
 # Non-SteamOS Linux Script Workaround
 
-> [!WARNING]
-> - This is untested!
-
 - Please enter the following commands in Terminal:
-
-    - `sudo chmod -R 700 ~/var/lib/flatpak/app/com.github.Matoking.protontricks/current/active/files/bin/`
-    - `wget https://raw.githubusercontent.com/Winetricks/winetricks/refs/heads/master/src/winetricks`
-    - `cp ~/winetricks ~/var/lib/flatpak/app/com.github.Matoking.protontricks/current/active/files/bin/`
-    - `flatpak run com.github.Matoking.protontricks 2552430 -q -f dotnet8 dotnetdesktop8 ucrtbase2019 vcrun6 xaudio29 win11`
+   - `cd ~`
+   - `wget https://raw.githubusercontent.com/KHOmega/KH-PC-and-Linux-Setup/refs/heads/main/refined_specific/add_registry.bat`
+   - `flatpak run com.github.Matoking.protontricks 2552430 -q -f dotnet8 dotnetdesktop8 ucrtbase2019 vcrun6 xaudio29`
+   - `flatpak run --command=protontricks-launch com.github.Matoking.protontricks --appid 2552430 /home/$USER/Desktop/add_registry.bat`
+   - `rm add_registry.bat`
     
 Please also enter this into the game's properties in Steam:
-- `WINEDLLOVERRIDES="version=n,b" SteamDeck=1 %command%`
+- `SteamDeck=1 %command%`
