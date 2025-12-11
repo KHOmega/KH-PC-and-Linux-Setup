@@ -25,9 +25,6 @@ To get started you need to download and install the following:
 - **Protontricks (Flatpak)**
    - Download from Discover and run once.
 
-- Password set in Konsole
-   - Enter `passwd` in Konsole to setup a password if you haven't already.
-
 # Setting Up OpenKH's Prefix
 
 - Step 1: In Konsole, enter and run the following code:
