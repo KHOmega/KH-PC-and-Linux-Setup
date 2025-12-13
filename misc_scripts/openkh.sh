@@ -1,13 +1,12 @@
 #!/bin/bash
-echo "Updating OpenKH..."
+echo "Updating OpenKH Mods Manager..."
 cd
-mkdir temp
-cd temp
-wget https://github.com/OpenKH/OpenKh/releases/download/latest/openkh.zip
-unzip openkh.zip
-mv openkh OpenKH
-cp ~/temp/OpenKH -rf ~/Documents
+mkdir OpenKHTemp
+cd OpenKHTemp
+wget https://github.com/OpenKH/OpenKh/releases/latest/download/openkh.zip
+unzip -o ~/OpenKHTemp/openkh.zip -d ~/OpenKHTemp/
+rsync -avh --progress --checksum ~/OpenKHTemp/openkh/ /home/em/Documents/openkh/
 cd
-rm -rf ~/temp
-echo "Done!"
+rm -rf ~/OpenKHTemp
+echo "OpenKH Mod's Manager should now be updated."
 exit
