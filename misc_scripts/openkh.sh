@@ -8,5 +8,5 @@ unzip -o ~/OpenKHTemp/openkh.zip -d ~/OpenKHTemp/
 rsync -avh --progress --checksum ~/OpenKHTemp/openkh/ /home/em/Documents/openkh/
 cd
 rm -rf ~/OpenKHTemp
-echo "OpenKH Mod's Manager should now be updated."
+echo "OpenKH Mods Manager should now be updated."
 exit
