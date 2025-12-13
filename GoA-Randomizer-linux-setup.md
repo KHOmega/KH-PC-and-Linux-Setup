@@ -25,7 +25,7 @@ To get started you will need the following:
 
 - Step 1: Open Konsole and enter and run the following code:
 
-`wget https://raw.githubusercontent.com/KHOmega/KH-PC-and-Linux-Setup/refs/heads/main/misc_scripts/GoASetup.sh -O - | sh`
+`wget https://raw.githubusercontent.com/KHOmega/KH-PC-and-Linux-Setup/refs/heads/main/misc_scripts/GoASetupScript.sh -O - | sh`
 
 # Setting Up OpenKH
 
