@@ -21,11 +21,11 @@ To get started you will need the following:
 > - If you already have OpenKH setup and configured, you can skip below to the [Seed Generator Step](https://github.com/KHOmega/KH-PC-and-Linux-Setup/blob/main/GoA-Randomizer-linux-setup.md#installing-goa-randomizer) after running the script and *continue from there*!
 > - This script will automatically download the latest version of **OpenKH**, **Seed Generator**, and **.NET Desktop Runtime 8.0.20**.
 > - **OpenKH** and **Seed Genearator** will be placed in your `Documents` folder
-> - **.NET Desktop Runtime 8.0.20** will be placed into your `Downloads` folder.
+> - **.NET Desktop Runtime 8.0.22** will be placed into your `Downloads` folder.
 
 - Step 1: Open Konsole and enter and run the following code:
 
-`wget https://raw.githubusercontent.com/KHOmega/KH-PC-and-Linux-Setup/refs/heads/main/GoASetup.sh -O - | sh`
+`wget https://raw.githubusercontent.com/KHOmega/KH-PC-and-Linux-Setup/refs/heads/main/misc_scripts/GoASetup.sh -O - | sh`
 
 # Setting Up OpenKH
 
@@ -39,7 +39,7 @@ To get started you will need the following:
 
 - Step 3: Load up OpenKH. This will generate a prefix and it will error out telling you that **.NET 8** needs to be installed. Close out of this window and proceed to the next step.
 
-- Step 4: Navigate to your `Downloads` folder and open `windowsdesktop-runtime-8.0.20-win-x64.exe`.
+- Step 4: Navigate to your `Downloads` folder and open `windowsdesktop-runtime-8.0.22-win-x64.exe`.
    - Protontricks should now open up. When it does, locate OpenKH on the game selection and select it to install **.NET 8** to it's prefix.
 
 - After a couple minutes, open OpenKH Mods Manager again and proceed with the tutorial.
