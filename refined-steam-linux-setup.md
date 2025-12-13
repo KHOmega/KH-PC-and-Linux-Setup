@@ -1,8 +1,6 @@
 # Installation
 
 > [!IMPORTANT]
->    - ****If you are updating from a working installation onto the newest release open Terminal/Konsole and run this command:****
->        - `flatpak run com.github.Matoking.protontricks 2552430 -q -f dotnet8 dotnetdesktop8 ucrtbase2019`
 > - This guide assumes you are installing this on Steam Deck! For other OS's, please adjust accordingly. 
 >   - If you are using a different Linux distro, please proceed to [Non-SteamOS Linux Script Workaround](https://github.com/KHOmega/KH-PC-and-Linux-Setup/blob/main/refined-steam-linux-setup.md#non-steamos-linux-script-workaround).
 > - This guide also assumes that you have some knowledge in how to navigate Linux based OSs!
@@ -23,7 +21,7 @@ To get started you need to download and install the following:
    - Will be downloaded from the `OpenKHSetup.sh` Script
 
 - **Protontricks (Flatpak)**
-   - Download from Discover and run once.
+   - Download and run once.
 
 # Setting Up OpenKH's Prefix
 
@@ -131,7 +129,11 @@ If you wish to also have Discord RPC (via [EnderIce2's rpc-bridge](https://githu
 
 # Updating Re:Fined
 
-- Step 1:
+- Step 1: Make sure OpenKH Mods Manager is fully updated by running this script:
+   - `wget https://raw.githubusercontent.com/KHOmega/KH-PC-and-Linux-Setup/refs/heads/main/misc_scripts/updateopenkh -O - | sh`
+   - If necessary, please also re-run the wizard [Alt+W] and uninstall and re-install Panacea.
+
+- Step 2:
    - Open OpenKH Mods Manager, and if there is an update available, download the update (you can see them by looking for the `Update available` note) and [build the patch as you did previously](#downloading-and-patching-in-refined-files-using-openkh). 
 
 ![image](https://github.com/KHOmega/KH-Linux-Setup/assets/93887977/10045628-4da7-4b4a-a86f-d619a30155f1)
