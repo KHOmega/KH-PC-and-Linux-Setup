@@ -1,6 +1,8 @@
 #!/bin/bash
 echo "Re:Fined Dependency Installer by KHOmega"
 sleep 3
+cd ~
+sleep 3
 cd Desktop
 wget https://raw.githubusercontent.com/KHOmega/KH-PC-and-Linux-Setup/refs/heads/main/refined_specific/add_registry.bat
 echo "Now installing..."
