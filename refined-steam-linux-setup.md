@@ -102,6 +102,11 @@ In this section, we will be downloading the necessary patches to properly run Re
 
 Congratulations! You are very close into launching Re:Fined!
 
+***STEAM DECK / 16:10 DEVICES ONLY DO NOT SKIP***
+   - add `-noaspect` to your Launch Options in the game properties. (If you are using any other DLL Overrides and/or launching any other commands, please put `-noaspect` ***AFTER*** `%command`
+
+<img width="629" height="163" alt="image" src="https://github.com/user-attachments/assets/fc08a0c5-4360-43c8-9c71-a832c37ccde7" />
+
 - Step 1: Click play on `KINGDOM HEARTS -HD 1.5+2.5 HD ReMIX-` and select `KINGDOM HEARTS II FINAL MIX`.
 
 And there you go! Kingdom Hearts II Final Mix - Re:Fined has been successfully installed! You will know it has worked when you see `Re:Fined by TopazTK` on the title screen.
@@ -116,7 +121,7 @@ If you wish to also have Discord RPC (via [EnderIce2's rpc-bridge](https://githu
 - Step 1: Right click `KINGDOM HEARTS -HD 1.5+2.5 HD ReMIX-` and then `Properties...`
    - `WINEDLLOVERRIDES="discord_game_sdk,LuaBackend=n,b" %command%`
 
-<img width="616" height="130" alt="image" src="https://github.com/user-attachments/assets/11bd2988-5813-4ded-b08c-65c075789261" />
+<img width="622" height="135" alt="image" src="https://github.com/user-attachments/assets/1d21733a-7dae-4650-aa18-ef52727cfcb3" />
 
 ----
 
@@ -150,5 +155,5 @@ If you wish to also have Discord RPC (via [EnderIce2's rpc-bridge](https://githu
    - `flatpak run --command=protontricks-launch com.github.Matoking.protontricks --appid 2552430 /home/$USER/Desktop/add_registry.bat`
    - `rm add_registry.bat`
     
-Please also enter this into the game's properties in Steam:
-- `SteamDeck=1 %command%`
+If necessary, please also enter this into the game's properties in Steam:
+- `WINEDLLOVERRIDES="version=n,b" SteamDeck=1 %command%`
