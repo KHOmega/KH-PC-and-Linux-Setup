@@ -10,18 +10,20 @@
 > - If you are using an ***Epic Games Store*** or an unofficial copy, [please follow this tutorial](https://github.com/KHOmega/KH-PC-and-Linux-Setup/blob/main/refined-egs-linux-setup.md).
 
 ## Prerequisites
-To get started you need to download and install the following:
+To get started, the following will be utilized:
 
 - [**KINGDOM HEARTS -HD 1.5+2.5 ReMIX-**](https://store.steampowered.com/app/2552430/KINGDOM_HEARTS_HD_1525_ReMIX/)
    - This guide assumes you have the game downloaded to your ***Internal Storage***.
-   - If not, please symlink it to your Internal Storage's game directory.
-      - [eg: `path/to/location/in/sdcard/` -> `~/.local/Steam/steamapps/common/KINGDOM HEARTS -HD 1.5+2.5 ReMIX-/`]
 
 - [**OpenKH**](https://github.com/OpenKH/OpenKh/releases)
    - Will be downloaded from the `OpenKHSetup.sh` Script
 
 - **Protontricks (Flatpak)**
    - Download and run once.
+
+- **Flatseal**
+   - Only necessary if you have your game installed on an external storage device.
+      - Please [see here.](https://steamcommunity.com/app/221410/discussions/0/4615641262428372654/#c4615641262428405703)
 
 # Setting Up OpenKH's Prefix
 
