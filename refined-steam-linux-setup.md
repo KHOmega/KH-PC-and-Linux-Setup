@@ -32,13 +32,13 @@ To get started you need to download and install the following:
 
 ![OpenKH Steam Library](https://github.com/user-attachments/assets/6b7af2e3-3d06-4acb-9e02-2c0f1003c58f)
 
-- Step 4: Right Click `OpenKH.Tools.ModsManager.exe` in your Steam Library, and click `Properties`
+- Step 3: Right Click `OpenKH.Tools.ModsManager.exe` in your Steam Library, and click `Properties`
    - Click `Compatibility`, and then select `Force the use of a specific Steam Play compatibility tool`, and select `Proton Experimental`
    - ***Optional:*** Rename `OpenKH.Tools.ModsManager.exe` to something more cleaner such as `OpenKH Mods Manager` in the properties window.
 
-- Step 5: Load up OpenKH. This will generate a prefix and it will error out telling you that **.NET 8** needs to be installed. Select `No` and proceed to the next step.
+- Step 4: Load up OpenKH. This will generate a prefix and it will error out telling you that **.NET 8** needs to be installed. Select `No` and proceed to the next step.
 
-- Step 6: Navigate to your `Downloads` folder and open `windowsdesktop-runtime-8.0.22-win-x64.exe`.
+- Step 5: Navigate to your `Downloads` folder and open `windowsdesktop-runtime-8.0.22-win-x64.exe`.
    - Protontricks should now open up. When it does, locate OpenKH on the game selection and select it to install **.NET 8** to it's prefix.
 
 - After a couple minutes, open OpenKH Mods Manager again and proceed with the tutorial.
@@ -59,7 +59,7 @@ In this section, we will be setting up OpenKH's Mods Manager to patch the necess
 
 - Step 6: OpenKH will ask if you want to install `Lua Backend`. This is *not* necessary for Re:Fined, so feel free to click `Next >` if you do not wish to install it.
 
-- Step 7: - On the next screen, it will ask if you want to `Launch Games Directly (Steam)`. You may skip this, as this method is not reliable on Linux.
+- Step 7: - On the next screen, it will ask if you want to `Launch Games Directly (Steam)`. Skip this, as this method does not work on Linux as it bypasses dll overrides, which will result in mods not loading.
 
 - Step 8: Make sure `KH2-43GB` is checked, and then click `Extract game data`. This may take roughly *thirty* or more minutes.
    - **This step is necessary!**
@@ -94,6 +94,9 @@ In this section, we will be downloading the necessary patches to properly run Re
 
 - Step 1: Run the following code in `Terminal / Konsole` depending on your distro:
   - `wget https://raw.githubusercontent.com/KHOmega/KH-PC-and-Linux-Setup/refs/heads/main/refined_specific/dependencysetup.sh -O - | sh`
+
+- If for some reason `add_registry.bat` fails to install into your prefix, please add the following to your launch options in Steam:
+    - `WINEDLLOVERRIDES="version=n,b" %command%`
 
 # Launching Re:Fined.
 
