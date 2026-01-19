@@ -13,7 +13,10 @@ cleanup() {
 trap cleanup EXIT
 
 PREFIX_NAME="KINGDOM HEARTS III  Re Mind"
-SEARCH_BASE="/home/$USER/Games"
+SEARCH_BASES=(
+    "/home/$USER/Games"
+    "/home/$USER/Heroic/Prefixes/default"
+)
 PREFIX=""
 
 echo "Looking for KINGDOM HEARTS III!"
