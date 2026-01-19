@@ -15,7 +15,7 @@ trap cleanup EXIT
 PREFIX_NAME="KINGDOM HEARTS III  Re Mind"
 SEARCH_BASES=(
     "/home/$USER/Games"
-    "/home/$USER/Heroic/Prefixes/default"
+    "/home/$USER/Games/Heroic/Prefixes/default"
 )
 PREFIX=""
 
