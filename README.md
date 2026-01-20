@@ -21,14 +21,15 @@ A repository that helps users setup the Steam and/or Epic Games Store versions o
     - Follow the guide for **KINGDOM HEARTS 1.5+2.5 HD ReMIX** and use the same prefix for **KINGDOM HEARTS 2.8 Final Chapter Prologue**.
 
 - **Kingdom Hearts III:**
-    - Video tutorial by The DarKris [here](https://www.youtube.com/watch?v=8K3QkvKC0UU)
+    - First boot the game with **Proton - GE-Proton-Latest** selected as your Wine Version and then enter the following in Terminal:
+        - `wget https://raw.githubusercontent.com/KHOmega/KH-PC-and-Linux-Setup/refs/heads/main/misc_scripts/KH3EGSMFInstall.sh -O - | sh`
 
 - **KINGDOM HEARTS Melody of Memory:**
   - Download the game via Heroic and use the latest WINE-GE.
 ----
 
 # Modifications:
-
+## 
 ## Re:Fined
 ### Windows:
 
@@ -41,6 +42,11 @@ A repository that helps users setup the Steam and/or Epic Games Store versions o
 
 - Epic Games Store
     - Click [here](https://github.com/KHOmega/KH-PC-and-Linux-Setup/blob/main/refined-egs-linux-setup.md) for installation steps on how to install ***Re:Fined***.
+    
+### MacOS
+ - TBA
+
+### 
 
 ## GoA Randomizer (Kingdom Hearts II)
 
@@ -48,7 +54,7 @@ A repository that helps users setup the Steam and/or Epic Games Store versions o
 Click [here](https://tommadness.github.io/KH2Randomizer/setup/Panacea-ModLoader/) for official instructions on how to install GoA Randomizer.
 
 ### Linux:
-Click [here](https://github.com/KHOmega/KH-PC-and-Linux-Setup/blob/main/GoA-Randomizer-linux-setup.md) for instructions on how to install GoA Rondomizer by KHOmega.
+Click [here](https://github.com/KHOmega/KH-PC-and-Linux-Setup/blob/main/GoA-Randomizer-linux-setup.md) for instructions on how to install GoA Randomizer by KHOmega.
 
 ----
 
@@ -62,4 +68,4 @@ Click [here](https://github.com/KHOmega/KH-PC-and-Linux-Setup/blob/main/GoA-Rand
 
 geo.stigma for his video tutorial on how to install Re:Fined on Steam OS
 
-The DarKris for his KINGDOM HEARTS III EGS Video Tutorial
+The DarKris for his [KINGDOM HEARTS III EGS Video Tutorial](https://www.youtube.com/watch?v=8K3QkvKC0UU)
