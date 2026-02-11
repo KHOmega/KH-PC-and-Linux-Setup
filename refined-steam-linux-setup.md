@@ -104,12 +104,6 @@ In this section, we will be downloading the necessary patches to properly run Re
 
 Congratulations! You are very close into launching Re:Fined!
 
-***STEAM DECK / 16:10 DEVICES ONLY DO NOT SKIP***
-   - add `-noaspect` to your Launch Options in the game properties.
-       - If you are using any other DLL Overrides and/or launching any other commands, please put `-noaspect` ***AFTER*** `%command%`
-
-<img width="629" height="163" alt="image" src="https://github.com/user-attachments/assets/fc08a0c5-4360-43c8-9c71-a832c37ccde7" />
-
 - Step 1: Click play on `KINGDOM HEARTS -HD 1.5+2.5 HD ReMIX-` and select `KINGDOM HEARTS II FINAL MIX`.
 
 And there you go! Kingdom Hearts II Final Mix - Re:Fined has been successfully installed! You will know it has worked when you see `Re:Fined by TopazTK` on the title screen.
