@@ -100,9 +100,27 @@ In this section, we will be downloading the necessary patches to properly run Re
 - If for some reason `add_registry.bat` fails to install into your prefix, please add the following to your launch options in Steam:
     - `WINEDLLOVERRIDES="version=n,b" %command%`
 
-# Launching Re:Fined.
+# Final Steps
 
 Congratulations! You are very close into launching Re:Fined!
+
+> [!IMPORTANT]
+> If you are playing on a 16:10 Screen (e.g. Steam Deck), please click the drop down menu below for important next steps.
+
+<details>
+<summary>16:10 Extra Steps</summary>‎ 
+   - Add `-noaspect` to your Launch Options in the game properties.
+       - If you are using any other DLL Overrides and/or launching any other commands, please put `-noaspect` ***AFTER*** `%command%`
+
+<img width="629" height="163" alt="image" src="https://github.com/user-attachments/assets/fc08a0c5-4360-43c8-9c71-a832c37ccde7" />
+
+- ***Note:*** There is currently a bug causing the title screen to partially corrupt when using `-noaspect` and a controller. This is purely cosemetic and does not affect any gameplay nor any other menus in-game. (Thank you to iiredx for spotting this)
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/123070c0-7fbb-480d-9589-ef542e3262cd" />
+
+</details>
+
+----
 
 - Step 1: Click play on `KINGDOM HEARTS -HD 1.5+2.5 HD ReMIX-` and select `KINGDOM HEARTS II FINAL MIX`.
 
@@ -123,12 +141,15 @@ If you wish to also have Discord RPC (via [EnderIce2's rpc-bridge](https://githu
 ----
 
 # Working Screenshots
+
+<details><summary>Examples</summary>
 <p align="center">
 <img width="1920" height="1080" alt="Screenshot 2025-09-02 150943" src="https://github.com/user-attachments/assets/d7035075-1f0c-4f2b-b83a-3c76ee68d842" />
 <img width="1920" height="1080" alt="Screenshot 2025-09-02 150911" src="https://github.com/user-attachments/assets/2c70d4d1-d93e-4416-89f8-49f1cd5d03fa" />
 <img width="1920" height="1080" alt="Screenshot 2025-09-02 150847" src="https://github.com/user-attachments/assets/1a0bfa3d-a37e-48de-a32c-a21b88518194" />
 <img width="3440" height="1440" alt="image" src="https://github.com/user-attachments/assets/0f4a1924-762a-4d87-a802-3f778da1a0c4" />
 </p>
+</details>
 
 - *Note*, if controller inputs are not working, simply either tap your screen, or hold down the `STEAM` button and click down the right touch pad.
 
