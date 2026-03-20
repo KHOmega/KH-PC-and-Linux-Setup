@@ -104,24 +104,6 @@ In this section, we will be downloading the necessary patches to properly run Re
 
 Congratulations! You are very close into launching Re:Fined!
 
-> [!IMPORTANT]
-> If you are playing on a 16:10 Screen (e.g. Steam Deck), please click the drop down menu below for important next steps.
-
-<details>
-<summary>16:10 Extra Steps</summary>‎ 
-   - Add `-noaspect` to your Launch Options in the game properties.
-       - If you are using any other DLL Overrides and/or launching any other commands, please put `-noaspect` ***AFTER*** `%command%`
-
-<img width="629" height="163" alt="image" src="https://github.com/user-attachments/assets/fc08a0c5-4360-43c8-9c71-a832c37ccde7" />
-
-- ***Note:*** There is currently a bug causing the title screen to partially corrupt when using `-noaspect` and a controller. This is purely cosemetic and does not affect any gameplay nor any other menus in-game. (Thank you to iiredx for spotting this)
-
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/123070c0-7fbb-480d-9589-ef542e3262cd" />
-
-</details>
-
-----
-
 - Step 1: Click play on `KINGDOM HEARTS -HD 1.5+2.5 HD ReMIX-` and select `KINGDOM HEARTS II FINAL MIX`.
 
 And there you go! Kingdom Hearts II Final Mix - Re:Fined has been successfully installed! You will know it has worked when you see `Re:Fined by TopazTK` on the title screen.
