@@ -8,7 +8,7 @@ To get started you need to download and have the following installed:
 
 - [**OpenKH**](https://github.com/OpenKH/OpenKh/releases)
    - Download `openkh.zip` from the latest numbered release.
-   - OpenKH ***needs*** to be on your C:/ drive, or else mods will not work correctly. 
+   - OpenKH ***needs*** to be on your C: drive, or else mods will not work correctly. 
 - [**Visual C++ Redistributable Runtimes All-in-One**](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/)
    - Download and run `install_all.bat`
 
