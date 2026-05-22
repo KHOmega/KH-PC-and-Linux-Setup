@@ -133,7 +133,7 @@ In this section, we will be downloading the necessary patches to properly run Re
 
 - Step 1: In OpenKH, select the `Mods` button on the top, and then select `Install a new mod`.
    - Under `Add a new mod from GitHub`, we will be pasting in `KH-ReFined/KH2-MAIN`, as seen in the screenshot below, and then will click `Install`.
-   - **Optional**: Additional Re:Fined Mods, such as Voice Packs, Heartless Colors, and Vanilla OST can be found [here](https://github.com/KH-ReFined/KH-ReFined?tab=readme-ov-file#kingdom-hearts-ii-1).
+   - **Optional**: Additional Re:Fined Mods, such as Voice Packs, Heartless Colors, and Vanilla OST can be found [here](https://github.com/KH-ReFined/KH-ReFined#additional-content).
       - *Note*: If you download the additional add-ons, please make sure to place the add-ons ***above*** the main patch!
 
 ![image](https://github.com/KHOmega/KH-Linux-Setup/assets/93887977/f34df394-93a1-4186-a3b4-5d57204bd665)
