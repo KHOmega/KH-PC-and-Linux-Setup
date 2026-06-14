@@ -40,7 +40,7 @@ To get started, the following will be utilized:
 
 - Step 4: Load up OpenKH. This will generate a prefix and it will error out telling you that **.NET 8** needs to be installed. Select `No` and proceed to the next step.
 
-- Step 5: Navigate to your `Downloads` folder and open `windowsdesktop-runtime-8.0.22-win-x64.exe`.
+- Step 5: Navigate to your `Downloads` folder and open `windowsdesktop-runtime-8.0.XX-win-x64.exe`.
    - Protontricks should now open up. When it does, locate OpenKH on the game selection and select it to install **.NET 8** to it's prefix.
 
 - After a couple minutes, open OpenKH Mods Manager again and proceed with the tutorial.
