@@ -102,7 +102,7 @@ In this section, we will be downloading the necessary patches to properly run Re
   - If using Protontricks natively: `wget https://raw.githubusercontent.com/KHOmega/KH-PC-and-Linux-Setup/refs/heads/main/refined_specific/dependencysetupnative.sh -O - | sh`
 
 - If for some reason `add_registry.bat` fails to install into your prefix, please add the following to your launch options in Steam:
-    - `WINEDLLOVERRIDES="version,dinput8,LuaBackend==n,b" %command%`
+    - `WINEDLLOVERRIDES="version,dinput8,LuaBackend=n,b" %command%`
     - This will also enable LuaBackend functionality.
 
 # Final Steps
