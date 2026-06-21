@@ -105,6 +105,6 @@ And there you go! Re:Fined has been successfully installed!
 
 ## Updating Re:Fined:
 - Step 1: If there is an update, OpenKH will alert you.
-    - Click `Download update...`, and then ***rebuild***.
+    - Click `Download updates`, and then ***rebuild***.
 
 ![image](https://github.com/KHOmega/KH-Linux-Setup/assets/93887977/10045628-4da7-4b4a-a86f-d619a30155f1)
