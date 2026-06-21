@@ -18,8 +18,9 @@ To get started, the following will be utilized:
 - [**OpenKH**](https://github.com/OpenKH/OpenKh/releases)
    - Will be downloaded from the `OpenKHSetup.sh` Script
 
-- **Protontricks (Flatpak)**
-   - Download and run once.
+- **Protontricks**
+   - If you are using the ***flatpak*** version, please use the ***flatpak script***.
+   - If you are using the ***native*** version, please use the ***native script***.
 
 - **Flatseal**
    - Only necessary if you have your game installed on an external storage device.
@@ -40,7 +41,7 @@ To get started, the following will be utilized:
 
 - Step 4: Load up OpenKH. This will generate a prefix and it will error out telling you that **.NET 8** needs to be installed. Select `No` and proceed to the next step.
 
-- Step 5: Navigate to your `Downloads` folder and open `windowsdesktop-runtime-8.0.XX-win-x64.exe`.
+- Step 5: Navigate to your `Downloads` folder, right click `windowsdesktop-runtime-8.0.XX-win-x64.exe` -> `Open With` -> `Other Application...`, -> `Protontricks`.
    - Protontricks should now open up. When it does, locate OpenKH on the game selection and select it to install **.NET 8** to it's prefix.
 
 - After a couple minutes, open OpenKH Mods Manager again and proceed with the tutorial.
@@ -60,8 +61,9 @@ In this section, we will be setting up OpenKH's Mods Manager to patch the necess
    - OpenKH Panacea allows you to load your mods without modifying the game files.
 
 - Step 6: OpenKH will ask if you want to install `Lua Backend`. This is *not* necessary for Re:Fined, so feel free to click `Next >` if you do not wish to install it.
+   - `add_registry` will automatically add a DLL Override to your prefix to enable LuaBackend to work.
 
-- Step 7: - On the next screen, it will ask if you want to `Launch Games Directly (Steam)`. Skip this, as this method does not work on Linux as it bypasses dll overrides, which will result in mods not loading.
+- Step 7: - On the next screen, it will ask if you want to `Launch Games Directly (Steam)`. ***Skip this***, as this method does not work on Linux as it bypasses DLL Overrides, which will result in mods not loading.
 
 - Step 8: Make sure `KH2-43GB` is checked, and then click `Extract game data`. This may take roughly *thirty* or more minutes.
    - **This step is necessary!**
@@ -95,10 +97,13 @@ In this section, we will be downloading the necessary patches to properly run Re
 # Downloading and Installing Re:Fined Dependencies Script:
 
 - Step 1: Run the following code in `Terminal / Konsole` depending on your distro:
-  - `wget https://raw.githubusercontent.com/KHOmega/KH-PC-and-Linux-Setup/refs/heads/main/refined_specific/dependencysetup.sh -O - | sh`
+  - If using Protonticks via Flatpak: `wget https://raw.githubusercontent.com/KHOmega/KH-PC-and-Linux-Setup/refs/heads/main/refined_specific/dependencysetup.sh -O - | sh`
+  
+  - If using Protontricks natively: `wget https://raw.githubusercontent.com/KHOmega/KH-PC-and-Linux-Setup/refs/heads/main/refined_specific/dependencysetupnative.sh -O - | sh`
 
 - If for some reason `add_registry.bat` fails to install into your prefix, please add the following to your launch options in Steam:
-    - `WINEDLLOVERRIDES="version=n,b" %command%`
+    - `WINEDLLOVERRIDES="version,dinput8,LuaBackend==n,b" %command%`
+    - This will also enable LuaBackend functionality.
 
 # Final Steps
 
@@ -116,7 +121,7 @@ And there you go! Kingdom Hearts II Final Mix - Re:Fined has been successfully i
 
 If you wish to also have Discord RPC (via [EnderIce2's rpc-bridge](https://github.com/EnderIce2/rpc-bridge)), and LuaBackend as well:
 - Step 1: Right click `KINGDOM HEARTS -HD 1.5+2.5 HD ReMIX-` and then `Properties...`
-   - `WINEDLLOVERRIDES="discord_game_sdk,LuaBackend=n,b" %command%`
+   - `WINEDLLOVERRIDES="discord_game_sdk,dinput8,LuaBackend=n,b" %command%`
 
 <img width="622" height="135" alt="image" src="https://github.com/user-attachments/assets/1d21733a-7dae-4650-aa18-ef52727cfcb3" />
 
@@ -146,14 +151,14 @@ If you wish to also have Discord RPC (via [EnderIce2's rpc-bridge](https://githu
 
 ![image](https://github.com/KHOmega/KH-Linux-Setup/assets/93887977/10045628-4da7-4b4a-a86f-d619a30155f1)
 
-# Non-SteamOS Linux Script Workaround
+# Non-SteamOS Linux Script Workaround (Using Native)
 
 - Please enter the following commands in Terminal:
    - `cd ~`
    - `wget https://raw.githubusercontent.com/KHOmega/KH-PC-and-Linux-Setup/refs/heads/main/refined_specific/add_registry.bat`
-   - `flatpak run com.github.Matoking.protontricks 2552430 -q -f dotnet8 dotnetdesktop8 ucrtbase2019 vcrun6 xaudio29`
-   - `flatpak run --command=protontricks-launch com.github.Matoking.protontricks --appid 2552430 /home/$USER/Desktop/add_registry.bat`
+   - `protontricks 2552430 -q -f dotnet8 dotnetdesktop8 ucrtbase2019 vcrun6 xaudio29`
+   - `protontricks -c '"$WINE" cmd.exe /c Z:$(echo "$HOME/add_registry.bat" | sed "s|/|\\\\|g")' 2552430`
    - `rm add_registry.bat`
     
 If necessary, please also enter this into the game's properties in Steam:
-- `WINEDLLOVERRIDES="version=n,b" SteamDeck=1 %command%`
+- `WINEDLLOVERRIDES="version,dinput8,LuaBackend=n,b" SteamDeck=1 %command%`
