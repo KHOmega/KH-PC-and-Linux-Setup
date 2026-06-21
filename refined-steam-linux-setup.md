@@ -28,8 +28,10 @@ To get started, the following will be utilized:
 
 # Setting Up OpenKH's Prefix
 
-- Step 1: In Konsole, enter and run the following code:
-  - `wget https://raw.githubusercontent.com/KHOmega/KH-PC-and-Linux-Setup/refs/heads/main/refined_specific/OpenKHSetup.sh -O - | sh`
+- Step 1: In Konsole, run the following command:
+```
+wget https://raw.githubusercontent.com/KHOmega/KH-PC-and-Linux-Setup/refs/heads/main/refined_specific/OpenKHSetup.sh -O - | sh
+```
 
 - Step 2: In Steam, click `Add a Game` on the bottom right, select `Add a Non-Steam Game...`, select `Browse`, navigate to `~/Documents/OpenKH`, select `OpenKH.Tools.ModsManager.exe`, and click `Open`. Then click `Add Selected Programs`.
 
@@ -97,13 +99,21 @@ In this section, we will be downloading the necessary patches to properly run Re
 # Downloading and Installing Re:Fined Dependencies Script:
 
 - Step 1: Run the following code in `Terminal / Konsole` depending on your distro:
-  - If using Protonticks via Flatpak: `wget https://raw.githubusercontent.com/KHOmega/KH-PC-and-Linux-Setup/refs/heads/main/refined_specific/dependencysetup.sh -O - | sh`
+  - If using Protonticks via Flatpak:
+  ```
+  wget https://raw.githubusercontent.com/KHOmega/KH-PC-and-Linux-Setup/refs/heads/main/refined_specific/dependencysetup.sh -O - | sh
+  ```
   
-  - If using Protontricks natively: `wget https://raw.githubusercontent.com/KHOmega/KH-PC-and-Linux-Setup/refs/heads/main/refined_specific/dependencysetupnative.sh -O - | sh`
+  - If using Protontricks natively:
+  ```
+  wget https://raw.githubusercontent.com/KHOmega/KH-PC-and-Linux-Setup/refs/heads/main/refined_specific/dependencysetupnative.sh -O - | sh
+  ```
 
 - If for some reason `add_registry.bat` fails to install into your prefix, please add the following to your launch options in Steam:
-    - `WINEDLLOVERRIDES="version,dinput8,LuaBackend=n,b" %command%`
-    - This will also enable LuaBackend functionality.
+```
+WINEDLLOVERRIDES="version,dinput8,LuaBackend=n,b" %command%
+```
+- This will also enable LuaBackend functionality.
 
 # Final Steps
 
@@ -121,7 +131,9 @@ And there you go! Kingdom Hearts II Final Mix - Re:Fined has been successfully i
 
 If you wish to also have Discord RPC (via [EnderIce2's rpc-bridge](https://github.com/EnderIce2/rpc-bridge)), and LuaBackend as well:
 - Step 1: Right click `KINGDOM HEARTS -HD 1.5+2.5 HD ReMIX-` and then `Properties...`
-   - `WINEDLLOVERRIDES="discord_game_sdk,dinput8,LuaBackend=n,b" %command%`
+```
+WINEDLLOVERRIDES="discord_game_sdk,dinput8,LuaBackend=n,b" %command%
+```
 
 <img width="622" height="135" alt="image" src="https://github.com/user-attachments/assets/1d21733a-7dae-4650-aa18-ef52727cfcb3" />
 
@@ -143,7 +155,9 @@ If you wish to also have Discord RPC (via [EnderIce2's rpc-bridge](https://githu
 # Updating Re:Fined
 
 - Step 1: Make sure OpenKH Mods Manager is fully updated by running this script:
-   - `wget https://raw.githubusercontent.com/KHOmega/KH-PC-and-Linux-Setup/refs/heads/main/misc_scripts/updateopenkh -O - | sh`
+```
+wget https://raw.githubusercontent.com/KHOmega/KH-PC-and-Linux-Setup/refs/heads/main/misc_scripts/updateopenkh -O - | sh
+```
    - If necessary, please also re-run the wizard [Alt+W] and uninstall and re-install Panacea.
 
 - Step 2:
@@ -154,11 +168,15 @@ If you wish to also have Discord RPC (via [EnderIce2's rpc-bridge](https://githu
 # Non-SteamOS Linux Script Workaround (Using Native)
 
 - Please enter the following commands in Terminal:
-   - `cd ~`
-   - `wget https://raw.githubusercontent.com/KHOmega/KH-PC-and-Linux-Setup/refs/heads/main/refined_specific/add_registry.bat`
-   - `protontricks 2552430 -q -f dotnet8 dotnetdesktop8 ucrtbase2019 vcrun6 xaudio29`
-   - `protontricks -c '"$WINE" cmd.exe /c Z:$(echo "$HOME/add_registry.bat" | sed "s|/|\\\\|g")' 2552430`
-   - `rm add_registry.bat`
+```
+cd ~
+wget https://raw.githubusercontent.com/KHOmega/KH-PC-and-Linux-Setup/refs/heads/main/refined_specific/add_registry.bat
+protontricks 2552430 -q -f dotnet8 dotnetdesktop8 ucrtbase2019 vcrun6 xaudio29
+protontricks -c '"$WINE" cmd.exe /c Z:$(echo "$HOME/add_registry.bat" | sed "s|/|\\\\|g")' 2552430
+rm add_registry.bat
+```
     
 If necessary, please also enter this into the game's properties in Steam:
-- `WINEDLLOVERRIDES="version,dinput8,LuaBackend=n,b" SteamDeck=1 %command%`
+```
+WINEDLLOVERRIDES="version,dinput8,LuaBackend=n,b" SteamDeck=1 %command%
+```
