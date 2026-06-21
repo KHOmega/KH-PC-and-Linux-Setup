@@ -104,11 +104,7 @@ And there you go! Re:Fined has been successfully installed!
 </p>
 
 ## Updating Re:Fined:
-- Step 1: Check if the updated .exe version contains a note like this:
-
-![image](https://github.com/KHOmega/KH-SteamDeck-Setup/assets/93887977/2704921c-14c5-47a2-bb69-062f1a6624b3)
-
-- Step 2:
-- If the note *does exist*, open OpenKH, update the necessary patches (you can see them by looking for the `Update available` note) and [build the patch as you did previously](#downloading-and-patching-in-refined-v4xxs-files-using-openkh).
+- Step 1: If there is an update, OpenKH will alert you.
+    - Click `Download update...`, and then ***rebuild***.
 
 ![image](https://github.com/KHOmega/KH-Linux-Setup/assets/93887977/10045628-4da7-4b4a-a86f-d619a30155f1)
