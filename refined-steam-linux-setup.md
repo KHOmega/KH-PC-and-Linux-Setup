@@ -23,7 +23,7 @@ To get started, the following will be utilized:
    - If you are using the ***native*** version, please use the ***native script***.
 
 - **Flatseal**
-   - Only necessary if you have your game installed on an external storage device.
+   - Only necessary if you have your game installed on an external storage device while using the Flatpak version of Protontricks.
       - Please [see here.](https://steamcommunity.com/app/221410/discussions/0/4615641262428372654/#c4615641262428405703)
 
 # Setting Up OpenKH's Prefix
