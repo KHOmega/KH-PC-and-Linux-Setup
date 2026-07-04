@@ -11,4 +11,5 @@ sleep 3
 echo "Cleaning up setup files..."
 sleep 3
 rm "add_registry.bat"
+rm -r -f ~/OpenKHSetup
 echo "Complete. You may now close this window."
