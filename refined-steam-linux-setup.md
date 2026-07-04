@@ -43,7 +43,7 @@ wget https://raw.githubusercontent.com/KHOmega/KH-PC-and-Linux-Setup/refs/heads/
 
 - Step 4: Load up OpenKH. This will generate a prefix and it will error out telling you that **.NET 8** needs to be installed. Select `No` and proceed to the next step.
 
-- Step 5: Navigate to your `Downloads` folder, right click `windowsdesktop-runtime-8.0.XX-win-x64.exe` -> `Open With` -> `Other Application...`, -> `Protontricks`.
+- Step 5: Navigate to `~/OpenKHSetup`, right click `windowsdesktop-runtime-8.0.XX-win-x64.exe` -> `Open With` -> `Other Application...`, -> `Protontricks`.
    - Protontricks should now open up. When it does, locate OpenKH on the game selection and select it to install **.NET 8** to it's prefix.
 
 - After a couple minutes, open OpenKH Mods Manager again and proceed with the tutorial.
