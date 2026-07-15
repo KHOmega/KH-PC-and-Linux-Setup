@@ -65,10 +65,13 @@ In this section, we will be setting up OpenKH's Mods Manager to patch the necess
 - Step 6: OpenKH will ask if you want to install `Lua Backend`. This is *not* necessary for Re:Fined, so feel free to click `Next >` if you do not wish to install it.
    - `add_registry` will automatically add a DLL Override to your prefix to enable LuaBackend to work.
 
-- Step 7: - On the next screen, it will ask if you want to `Launch Games Directly (Steam)`. ***Skip this***, as this method does not work on Linux as it bypasses DLL Overrides, which will result in mods not loading.
+- Step 7: - On the next screen, it will ask if you want to `Launch Games Directly (Steam)`. ***Skip this***, as selecting `Build and Run` in OpenKH ***does not work*** on Linux as it bypasses DLL Overrides, which will result in mods not loading.
 
-- Step 8: Make sure `KH2-43GB` is checked, and then click `Extract game data`. This may take roughly *thirty* or more minutes.
+- Step 8: Depending on which version of Re:Fined you are installing, select the corresponding game, and then click `Extract game data`. Depending on your system, this may take between *ten to thirty* or more minutes. If necessary, you can extract this data to a seperate drive.
    - **This step is necessary!**
+   - ***You can not skip this step.***
+   - ***Yes, you need room on your drive to extract the files.***
+   - ***YOU CAN NOT SKIP THIS STEP.***
    - If you encounter any errors extracting the game files, please either try again, or re-download your game!
 
 - Step 9: After extraction, click `Next >` and then click `Finish`
@@ -79,7 +82,7 @@ When you are done, you should be at this screen!
 
 # Downloading and Patching in Re:Fined files using OpenKH:
 
-In this section, we will be downloading the necessary patches to properly run Re:Fined.
+In this section, we will be downloading the necessary patches to properly run Re:Fined. For this guide, we will be using ***Kingdom Hearts II*** as an example. Please adjust for other games.
 
 - Step 1: In OpenKH, select the `Mods` button on the top, and then select `Install a new mod`.
    - Under `Add a new mod from GitHub`, we will be pasting in `KH-ReFined/KH2-MAIN`, and then click `Install`.
@@ -132,7 +135,7 @@ And there you go! Kingdom Hearts II Final Mix - Re:Fined has been successfully i
 If you wish to also have Discord RPC (via [EnderIce2's rpc-bridge](https://github.com/EnderIce2/rpc-bridge)), and LuaBackend as well:
 - Step 1: Right click `KINGDOM HEARTS -HD 1.5+2.5 HD ReMIX-` and then `Properties...`
 ```
-WINEDLLOVERRIDES="discord_game_sdk,dinput8,LuaBackend=n,b" %command%
+WINEDLLOVERRIDES="discord_game_sdk" %command%
 ```
 
 <img width="622" height="135" alt="image" src="https://github.com/user-attachments/assets/1d21733a-7dae-4650-aa18-ef52727cfcb3" />
@@ -149,6 +152,7 @@ WINEDLLOVERRIDES="discord_game_sdk,dinput8,LuaBackend=n,b" %command%
 <img width="3440" height="1440" alt="image" src="https://github.com/user-attachments/assets/0f4a1924-762a-4d87-a802-3f778da1a0c4" />
 </p>
 </details>
+
 
 - *Note*, if controller inputs are not working, simply either tap your screen, or hold down the `STEAM` button and click down the right touch pad.
 
